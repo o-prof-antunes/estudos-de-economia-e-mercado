@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img" aria-labelledby="title-fig06 desc-fig06">
+  <title id="title-fig06">Espectro das Estruturas de Mercado</title>
+  <desc id="desc-fig06">Comparação visual entre concorrência perfeita, concorrência monopolística, oligopólio e monopólio segundo número de empresas, diferenciação e poder de preço.</desc>
+  <rect width="760" height="400" rx="12" fill="#FAF5EA" stroke="#D8C9AA" stroke-width="1.5"/>
+  <rect x="0" y="0" width="760" height="48" rx="12" fill="#3C4459"/>
+  <rect x="0" y="34" width="760" height="14" fill="#3C4459"/>
+  <text x="24" y="30" font-family="Jura, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#F5E6C7">FIGURA 06 · ESPECTRO DAS ESTRUTURAS DE MERCADO E PODER DE PREÇO</text>
+
+  <!-- Arrow continuum -->
+  <rect x="34" y="72" width="692" height="22" rx="11" fill="#E6DEC8"/>
+  <rect x="34" y="72" width="173" height="22" rx="11" fill="#0D91D0" fill-opacity="0.25"/>
+  <rect x="553" y="72" width="173" height="22" rx="11" fill="#9B2C2C" fill-opacity="0.22"/>
+  <text x="48" y="87" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#3C4459">← MAIOR RIVALIDADE / TOMADOR DE PREÇO</text>
+  <text x="712" y="87" text-anchor="end" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#9B2C2C">MAIOR PODER DE MERCADO / FORMADOR DE PREÇO →</text>
+
+  <!-- 4 Cards -->
+  <!-- Card 1 -->
+  <rect x="26" y="114" width="168" height="256" rx="10" fill="#FFFFFF" stroke="#0D91D0" stroke-width="2"/>
+  <rect x="26" y="114" width="168" height="42" rx="10" fill="#0D91D0"/>
+  <rect x="26" y="142" width="168" height="14" fill="#0D91D0"/>
+  <text x="110" y="139" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF">CONCORRÊNCIA PERFEITA</text>
+  <text x="38" y="180" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#3C4459">Empresas:</text>
+  <text x="38" y="196" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Muitíssimas (átomos)</text>
+  <text x="38" y="220" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#3C4459">Produto:</text>
+  <text x="38" y="236" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Homogêneo / idêntico</text>
+  <text x="38" y="260" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#3C4459">Barreiras à entrada:</text>
+  <text x="38" y="276" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Inexistentes / livres</text>
+  <text x="38" y="300" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#8B5E1A">Poder de Preço:</text>
+  <text x="38" y="316" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Nulo (aceita preço)</text>
+  <text x="38" y="343" font-family="Jura, 'Segoe UI', sans-serif" font-size="10.5" fill="#595856">Ex.: Feira livre / hortifrúti</text>
+
+  <!-- Card 2 -->
+  <rect x="206" y="114" width="168" height="256" rx="10" fill="#FFFFFF" stroke="#3C4459" stroke-width="1.8"/>
+  <rect x="206" y="114" width="168" height="42" rx="10" fill="#3C4459"/>
+  <rect x="206" y="142" width="168" height="14" fill="#3C4459"/>
+  <text x="290" y="132" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#F5E6C7">CONCORRÊNCIA</text>
+  <text x="290" y="147" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#F5E6C7">MONOPOLÍSTICA</text>
+  <text x="218" y="180" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#3C4459">Empresas:</text>
+  <text x="218" y="196" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Muitas empresas</text>
+  <text x="218" y="220" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#3C4459">Produto:</text>
+  <text x="218" y="236" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Diferenciado (marca)</text>
+  <text x="218" y="260" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#3C4459">Barreiras à entrada:</text>
+  <text x="218" y="276" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Baixas</text>
+  <text x="218" y="300" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#8B5E1A">Poder de Preço:</text>
+  <text x="218" y="316" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Limitado pelo nicho</text>
+  <text x="218" y="343" font-family="Jura, 'Segoe UI', sans-serif" font-size="10.5" fill="#595856">Ex.: Restaurantes / vestuário</text>
+
+  <!-- Card 3 -->
+  <rect x="386" y="114" width="168" height="256" rx="10" fill="#FFFFFF" stroke="#8B5E1A" stroke-width="1.8"/>
+  <rect x="386" y="114" width="168" height="42" rx="10" fill="#8B5E1A"/>
+  <rect x="386" y="142" width="168" height="14" fill="#8B5E1A"/>
+  <text x="470" y="139" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF">OLIGOPÓLIO</text>
+  <text x="398" y="180" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#3C4459">Empresas:</text>
+  <text x="398" y="196" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Poucas dominantes</text>
+  <text x="398" y="220" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#3C4459">Produto:</text>
+  <text x="398" y="236" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Padronizado ou de marca</text>
+  <text x="398" y="260" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#3C4459">Barreiras à entrada:</text>
+  <text x="398" y="276" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Altas (escala / capital)</text>
+  <text x="398" y="300" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#8B5E1A">Poder de Preço:</text>
+  <text x="398" y="316" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Alto (interdependência)</text>
+  <text x="398" y="343" font-family="Jura, 'Segoe UI', sans-serif" font-size="10.5" fill="#595856">Ex.: Telecom / bebidas / bancos</text>
+
+  <!-- Card 4 -->
+  <rect x="566" y="114" width="168" height="256" rx="10" fill="#FFFFFF" stroke="#9B2C2C" stroke-width="1.8"/>
+  <rect x="566" y="114" width="168" height="42" rx="10" fill="#9B2C2C"/>
+  <rect x="566" y="142" width="168" height="14" fill="#9B2C2C"/>
+  <text x="650" y="139" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF">MONOPÓLIO</text>
+  <text x="578" y="180" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#3C4459">Empresas:</text>
+  <text x="578" y="196" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Único ofertante</text>
+  <text x="578" y="220" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#3C4459">Produto:</text>
+  <text x="578" y="236" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Sem substituto próximo</text>
+  <text x="578" y="260" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#3C4459">Barreiras à entrada:</text>
+  <text x="578" y="276" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Bloqueadas (patente/lei)</text>
+  <text x="578" y="300" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#8B5E1A">Poder de Preço:</text>
+  <text x="578" y="316" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Máximo (sujeito a regulação)</text>
+  <text x="578" y="343" font-family="Jura, 'Segoe UI', sans-serif" font-size="10.5" fill="#595856">Ex.: Distribuição água/energia</text>
+</svg>

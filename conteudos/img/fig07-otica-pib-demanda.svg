@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img" aria-labelledby="title-fig07 desc-fig07">
+  <title id="title-fig07">As Três Óticas do PIB e a Demanda Agregada</title>
+  <desc id="desc-fig07">Identidade contábil nacional mostrando a equivalência entre Produto (Valor Agregado), Renda e Despesa agregada (C + I + G + X - M).</desc>
+  <rect width="760" height="400" rx="12" fill="#FAF5EA" stroke="#D8C9AA" stroke-width="1.5"/>
+  <rect x="0" y="0" width="760" height="48" rx="12" fill="#3C4459"/>
+  <rect x="0" y="34" width="760" height="14" fill="#3C4459"/>
+  <text x="24" y="30" font-family="Jura, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#F5E6C7">FIGURA 07 · CONTABILIDADE NACIONAL: AS TRÊS ÓTICAS DO PIB E Y = C + I + G + (X − M)</text>
+
+  <!-- Central Node -->
+  <rect x="195" y="70" width="370" height="62" rx="10" fill="#252B39"/>
+  <text x="380" y="96" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#E2BB7F">PRODUTO INTERNO BRUTO (PIB)</text>
+  <text x="380" y="116" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11.2" fill="#F5E6C7">Ótica do Produto ≡ Ótica da Renda ≡ Ótica da Despesa</text>
+
+  <!-- Connectors -->
+  <line x1="195" y1="101" x2="145" y2="101" stroke="#3C4459" stroke-width="2"/>
+  <line x1="145" y1="101" x2="145" y2="152" stroke="#3C4459" stroke-width="2"/>
+  <line x1="380" y1="132" x2="380" y2="152" stroke="#3C4459" stroke-width="2"/>
+  <line x1="565" y1="101" x2="615" y2="101" stroke="#3C4459" stroke-width="2"/>
+  <line x1="615" y1="101" x2="615" y2="152" stroke="#3C4459" stroke-width="2"/>
+
+  <!-- 3 Pillars -->
+  <rect x="30" y="154" width="222" height="122" rx="10" fill="#FFFFFF" stroke="#0D91D0" stroke-width="2"/>
+  <text x="141" y="179" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#3C4459">1. ÓTICA DO PRODUTO</text>
+  <text x="44" y="202" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Soma do Valor Agregado (VA)</text>
+  <text x="44" y="219" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">nos três grandes setores:</text>
+  <text x="44" y="238" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#3C4459">• Agropecuária + Indústria</text>
+  <text x="44" y="255" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#3C4459">• Serviços (+ Impostos líq.)</text>
+
+  <rect x="269" y="154" width="222" height="122" rx="10" fill="#FFFFFF" stroke="#8B5E1A" stroke-width="2"/>
+  <text x="380" y="179" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#8B5E1A">2. ÓTICA DA RENDA</text>
+  <text x="283" y="202" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Remuneração recebida por quem</text>
+  <text x="283" y="219" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">participou da produção interna:</text>
+  <text x="283" y="238" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#252B39">• Salários + Juros + Aluguéis</text>
+  <text x="283" y="255" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#252B39">• Lucros (Excedente Operac.)</text>
+
+  <rect x="508" y="154" width="222" height="122" rx="10" fill="#FFFFFF" stroke="#3C4459" stroke-width="2"/>
+  <text x="619" y="179" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#3C4459">3. ÓTICA DA DESPESA</text>
+  <text x="522" y="202" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Gasto total com bens e serviços</text>
+  <text x="522" y="219" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">finais produzidos no território:</text>
+  <text x="522" y="238" font-family="Jura, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#3C4459">Y = C + I + G + (X − M)</text>
+  <text x="522" y="255" font-family="Jura, 'Segoe UI', sans-serif" font-size="10.5" fill="#595856">Base para análise de mercados</text>
+
+  <!-- Aggregate Demand Bar -->
+  <rect x="30" y="295" width="700" height="84" rx="10" fill="#FFFFFF" stroke="#D8C9AA" stroke-width="1.5"/>
+  <text x="46" y="317" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#3C4459">COMPONENTES DA DEMANDA AGREGADA E IMPACTO NAS EMPRESAS:</text>
+
+  <rect x="46" y="330" width="130" height="36" rx="6" fill="#3C4459"/>
+  <text x="111" y="347" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#E2BB7F">C · Consumo</text>
+  <text x="111" y="360" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="9.5" fill="#F5E6C7">Famílias (~60–64%)</text>
+
+  <rect x="184" y="330" width="130" height="36" rx="6" fill="#0D91D0"/>
+  <text x="249" y="347" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF">I · Investimento</text>
+  <text x="249" y="360" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="9.5" fill="#FFFFFF">FBCF + Estoques</text>
+
+  <rect x="322" y="330" width="130" height="36" rx="6" fill="#8B5E1A"/>
+  <text x="387" y="347" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF">G · Governo</text>
+  <text x="387" y="360" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="9.5" fill="#FAF5EA">Compras &amp; Custeio</text>
+
+  <rect x="460" y="330" width="122" height="36" rx="6" fill="#252B39"/>
+  <text x="521" y="347" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#E2BB7F">+ X · Export.</text>
+  <text x="521" y="360" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="9.5" fill="#F5E6C7">Vendas externas</text>
+
+  <rect x="590" y="330" width="124" height="36" rx="6" fill="#9B2C2C"/>
+  <text x="652" y="347" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF">− M · Import.</text>
+  <text x="652" y="360" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="9.5" fill="#FAF5EA">Vazamento externo</text>
+</svg>

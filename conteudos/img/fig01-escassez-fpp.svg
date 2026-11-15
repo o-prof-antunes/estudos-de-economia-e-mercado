@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img" aria-labelledby="title-fig01 desc-fig01">
+  <title id="title-fig01">Fronteira de Possibilidades de Produção (FPP) e Custo de Oportunidade</title>
+  <desc id="desc-fig01">Gráfico vetorial mostrando a curva côncava da FPP com pontos eficientes A e B, ponto D com capacidade ociosa e ponto E inatingível no curto prazo.</desc>
+  <rect width="760" height="400" rx="12" fill="#FAF5EA" stroke="#D8C9AA" stroke-width="1.5"/>
+  <rect x="0" y="0" width="760" height="48" rx="12" fill="#3C4459"/>
+  <rect x="0" y="34" width="760" height="14" fill="#3C4459"/>
+  <text x="24" y="30" font-family="Jura, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#F5E6C7">FIGURA 01 · FRONTEIRA DE POSSIBILIDADES DE PRODUÇÃO (FPP) E CUSTO DE OPORTUNIDADE</text>
+
+  <!-- Grid -->
+  <g stroke="#E6DEC8" stroke-width="1" stroke-dasharray="4 4">
+    <line x1="100" y1="120" x2="470" y2="120"/>
+    <line x1="100" y1="180" x2="470" y2="180"/>
+    <line x1="100" y1="240" x2="470" y2="240"/>
+    <line x1="100" y1="300" x2="470" y2="300"/>
+    <line x1="180" y1="80" x2="180" y2="345"/>
+    <line x1="270" y1="80" x2="270" y2="345"/>
+    <line x1="360" y1="80" x2="360" y2="345"/>
+  </g>
+
+  <!-- Axes -->
+  <line x1="100" y1="345" x2="100" y2="75" stroke="#252B39" stroke-width="2.5"/>
+  <polygon points="100,68 95,80 105,80" fill="#252B39"/>
+  <line x1="100" y1="345" x2="480" y2="345" stroke="#252B39" stroke-width="2.5"/>
+  <polygon points="488,345 476,340 476,350" fill="#252B39"/>
+
+  <text x="26" y="190" transform="rotate(-90 26 190)" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#3C4459">BENS DE CAPITAL (MÁQUINAS)</text>
+  <text x="290" y="378" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#3C4459">BENS DE CONSUMO (UNIDADES / MÊS)</text>
+
+  <!-- Shaded area -->
+  <path d="M 100 105 Q 320 112 435 345 L 100 345 Z" fill="#0D91D0" fill-opacity="0.10"/>
+  <!-- FPP Curve -->
+  <path d="M 100 105 Q 320 112 435 345" fill="none" stroke="#0D91D0" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Opportunity Cost Guides from A(200,127) to B(315,190) -->
+  <line x1="200" y1="127" x2="200" y2="345" stroke="#8B5E1A" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="100" y1="127" x2="200" y2="127" stroke="#8B5E1A" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="315" y1="190" x2="315" y2="345" stroke="#8B5E1A" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="100" y1="190" x2="315" y2="190" stroke="#8B5E1A" stroke-width="1.2" stroke-dasharray="5 4"/>
+
+  <!-- Opportunity cost brackets -->
+  <line x1="118" y1="130" x2="118" y2="186" stroke="#9B2C2C" stroke-width="2"/>
+  <text x="125" y="162" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#9B2C2C">-Δ Capital (Sacrifício)</text>
+  <line x1="204" y1="330" x2="311" y2="330" stroke="#0D91D0" stroke-width="2"/>
+  <text x="258" y="324" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#3C4459">+Δ Consumo</text>
+
+  <!-- Points -->
+  <circle cx="200" cy="127" r="6" fill="#3C4459" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="208" y="116" font-family="Jura, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#252B39">A (Eficiente)</text>
+
+  <circle cx="315" cy="190" r="6" fill="#3C4459" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="326" y="184" font-family="Jura, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#252B39">B (Eficiente)</text>
+
+  <circle cx="220" cy="245" r="6" fill="#8B5E1A" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="230" y="249" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#8B5E1A">D (Ociosidade)</text>
+
+  <circle cx="385" cy="115" r="6" fill="#9B2C2C" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="385" y="100" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#9B2C2C">E (Inatingível hoje)</text>
+
+  <!-- Side Legend Card -->
+  <rect x="515" y="75" width="220" height="275" rx="10" fill="#FFFFFF" stroke="#D8C9AA" stroke-width="1.2"/>
+  <rect x="515" y="75" width="220" height="34" rx="10" fill="#252B39"/>
+  <rect x="515" y="96" width="220" height="13" fill="#252B39"/>
+  <text x="625" y="97" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#E2BB7F">LEITURA GERENCIAL</text>
+
+  <text x="530" y="130" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#3C4459">Pontos A e B (Sobre a Curva):</text>
+  <text x="530" y="147" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Pleno emprego dos recursos.</text>
+  <text x="530" y="162" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Produzir mais consumo exige</text>
+  <text x="530" y="177" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">abrir mão de bens de capital.</text>
+
+  <line x1="530" y1="192" x2="720" y2="192" stroke="#E6DEC8" stroke-width="1"/>
+  <text x="530" y="212" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#8B5E1A">Ponto D (Interior):</text>
+  <text x="530" y="229" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Ineficiência, máquinas paradas</text>
+  <text x="530" y="244" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">ou desemprego involuntário.</text>
+
+  <line x1="530" y1="259" x2="720" y2="259" stroke="#E6DEC8" stroke-width="1"/>
+  <text x="530" y="279" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#9B2C2C">Ponto E (Exterior):</text>
+  <text x="530" y="296" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Só é alcançado no longo prazo</text>
+  <text x="530" y="311" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">com inovação ou mais capital.</text>
+</svg>

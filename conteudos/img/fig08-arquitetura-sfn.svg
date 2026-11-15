@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img" aria-labelledby="title-fig08 desc-fig08">
+  <title id="title-fig08">Arquitetura do Sistema Financeiro Nacional (SFN)</title>
+  <desc id="desc-fig08">Estrutura em três níveis do Sistema Financeiro Nacional: órgãos normativos, entidades supervisoras e operadores financeiros.</desc>
+  <rect width="760" height="400" rx="12" fill="#FAF5EA" stroke="#D8C9AA" stroke-width="1.5"/>
+  <rect x="0" y="0" width="760" height="48" rx="12" fill="#3C4459"/>
+  <rect x="0" y="34" width="760" height="14" fill="#3C4459"/>
+  <text x="24" y="30" font-family="Jura, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#F5E6C7">FIGURA 08 · ARQUITETURA DO SISTEMA FINANCEIRO NACIONAL (SFN)</text>
+
+  <!-- Tier 1: Normativos -->
+  <rect x="28" y="66" width="704" height="74" rx="10" fill="#252B39"/>
+  <text x="46" y="88" font-family="Jura, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#E2BB7F">NÍVEL 1 · ÓRGÃOS NORMATIVOS (DEFINEM REGRAS E METAS DE INFLAÇÃO)</text>
+  <rect x="46" y="98" width="210" height="32" rx="6" fill="#3C4459" stroke="#D9A65B" stroke-width="1.2"/>
+  <text x="151" y="118" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#F5E6C7">CMN (Moeda, Crédito e Câmbio)</text>
+  <rect x="275" y="98" width="210" height="32" rx="6" fill="#3C4459"/>
+  <text x="380" y="118" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#F5E6C7">CNSP (Seguros e Capitalização)</text>
+  <rect x="504" y="98" width="210" height="32" rx="6" fill="#3C4459"/>
+  <text x="609" y="118" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#F5E6C7">CNPC (Previdência Fechada)</text>
+
+  <!-- Tier 2: Supervisores -->
+  <rect x="28" y="156" width="704" height="92" rx="10" fill="#FFFFFF" stroke="#3C4459" stroke-width="1.8"/>
+  <text x="46" y="178" font-family="Jura, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#3C4459">NÍVEL 2 · ENTIDADES SUPERVISORAS (FISCALIZAM E EXECUTAM A POLÍTICA MONETÁRIA)</text>
+  <rect x="46" y="190" width="160" height="46" rx="8" fill="#0D91D0"/>
+  <text x="126" y="210" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Banco Central (BCB)</text>
+  <text x="126" y="226" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="10" fill="#FFFFFF">Copom / Selic / Bancos / Pix</text>
+
+  <rect x="218" y="190" width="160" height="46" rx="8" fill="#3C4459"/>
+  <text x="298" y="210" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#F5E6C7">CVM</text>
+  <text x="298" y="226" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="10" fill="#F5E6C7">Valores Mobiliários / Ações</text>
+
+  <rect x="390" y="190" width="156" height="46" rx="8" fill="#8B5E1A"/>
+  <text x="468" y="210" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">SUSEP</text>
+  <text x="468" y="226" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="10" fill="#FAF5EA">Seguros e Previdência Aberta</text>
+
+  <rect x="558" y="190" width="156" height="46" rx="8" fill="#595856"/>
+  <text x="636" y="210" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">PREVIC</text>
+  <text x="636" y="226" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="10" fill="#FAF5EA">Fundos de Pensão</text>
+
+  <!-- Tier 3: Operadores -->
+  <rect x="28" y="264" width="704" height="114" rx="10" fill="#FFFFFF" stroke="#D8C9AA" stroke-width="1.5"/>
+  <text x="46" y="286" font-family="Jura, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#8B5E1A">NÍVEL 3 · OPERADORES (LIGAM AGENTES SUPERAVITÁRIOS AOS TOMADORES / EMPRESAS)</text>
+
+  <rect x="46" y="298" width="208" height="64" rx="8" fill="#FAF5EA" stroke="#D8C9AA"/>
+  <text x="150" y="319" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#3C4459">Bancos, Cooperativas &amp; Fintechs</text>
+  <text x="150" y="336" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="10.5" fill="#252B39">Captação de depósitos, capital de</text>
+  <text x="150" y="350" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="10.5" fill="#252B39">giro, duplicatas, BNDES</text>
+
+  <rect x="276" y="298" width="208" height="64" rx="8" fill="#FAF5EA" stroke="#D8C9AA"/>
+  <text x="380" y="319" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#3C4459">Bolsas (B3) e Corretoras</text>
+  <text x="380" y="336" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="10.5" fill="#252B39">Ações, debêntures, títulos públicos</text>
+  <text x="380" y="350" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="10.5" fill="#252B39">e fundos de investimento</text>
+
+  <rect x="506" y="298" width="208" height="64" rx="8" fill="#FAF5EA" stroke="#D8C9AA"/>
+  <text x="610" y="319" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#3C4459">Seguradoras e Administradoras</text>
+  <text x="610" y="336" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="10.5" fill="#252B39">Gestão de riscos empresariais,</text>
+  <text x="610" y="350" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="10.5" fill="#252B39">consórcios e meios de pagamento</text>
+</svg>

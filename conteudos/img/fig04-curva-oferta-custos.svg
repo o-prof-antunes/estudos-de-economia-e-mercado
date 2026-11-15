@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img" aria-labelledby="title-fig04 desc-fig04">
+  <title id="title-fig04">Curva de Oferta e Estrutura de Custos da Firma</title>
+  <desc id="desc-fig04">Painel duplo ilustrando os deslocamentos da curva de oferta e a estrutura de custo fixo, custo variável e custo total na firma.</desc>
+  <rect width="760" height="400" rx="12" fill="#FAF5EA" stroke="#D8C9AA" stroke-width="1.5"/>
+  <rect x="0" y="0" width="760" height="48" rx="12" fill="#3C4459"/>
+  <rect x="0" y="34" width="760" height="14" fill="#3C4459"/>
+  <text x="24" y="30" font-family="Jura, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#F5E6C7">FIGURA 04 · TEORIA DA FIRMA: CUSTOS DE PRODUÇÃO E CURVA DE OFERTA</text>
+
+  <!-- Left: Cost Curves -->
+  <rect x="24" y="66" width="346" height="310" rx="10" fill="#FFFFFF" stroke="#D8C9AA" stroke-width="1.2"/>
+  <text x="197" y="92" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="13.5" font-weight="700" fill="#3C4459">A) Custos da Firma (CT = CF + CV)</text>
+  <text x="197" y="109" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#595856">Base técnica para definir capacidade e preço mínimo</text>
+
+  <line x1="72" y1="315" x2="72" y2="128" stroke="#252B39" stroke-width="2"/>
+  <polygon points="72,122 68,132 76,132" fill="#252B39"/>
+  <line x1="72" y1="315" x2="335" y2="315" stroke="#252B39" stroke-width="2"/>
+  <polygon points="342,315 332,311 332,319" fill="#252B39"/>
+  <text x="64" y="135" text-anchor="end" font-family="Jura, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#252B39">R$</text>
+  <text x="334" y="334" font-family="Jura, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#252B39">Q</text>
+
+  <!-- CF horizontal -->
+  <line x1="72" y1="265" x2="315" y2="265" stroke="#8B5E1A" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <text x="318" y="269" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#8B5E1A">CF</text>
+  <!-- CV curve -->
+  <path d="M 72 315 Q 190 285 315 190" fill="none" stroke="#0D91D0" stroke-width="2.8"/>
+  <text x="318" y="194" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#0D91D0">CV</text>
+  <!-- CT curve -->
+  <path d="M 72 265 Q 190 235 315 140" fill="none" stroke="#3C4459" stroke-width="3.5"/>
+  <text x="318" y="144" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#3C4459">CT</text>
+
+  <text x="197" y="358" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Custo Marginal (CMg) = ΔCT / ΔQ orienta até onde ofertar</text>
+
+  <!-- Right: Supply Shifts -->
+  <rect x="390" y="66" width="346" height="310" rx="10" fill="#FFFFFF" stroke="#D8C9AA" stroke-width="1.2"/>
+  <text x="563" y="92" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="13.5" font-weight="700" fill="#3C4459">B) Curva de Oferta (S) e Deslocamentos</text>
+  <text x="563" y="109" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#595856">Preço alto estimula quantidade ofertada (inclinação positiva)</text>
+
+  <line x1="438" y1="315" x2="438" y2="128" stroke="#252B39" stroke-width="2"/>
+  <polygon points="438,122 434,132 442,132" fill="#252B39"/>
+  <line x1="438" y1="315" x2="705" y2="315" stroke="#252B39" stroke-width="2"/>
+  <polygon points="712,315 702,311 702,319" fill="#252B39"/>
+  <text x="424" y="135" font-family="Jura, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#252B39">P</text>
+  <text x="702" y="334" font-family="Jura, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#252B39">Qo</text>
+
+  <!-- S2 left (negative supply shock) -->
+  <line x1="460" y1="275" x2="590" y2="145" stroke="#9B2C2C" stroke-width="2.6" stroke-dasharray="6 4"/>
+  <text x="594" y="146" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#9B2C2C">S₂</text>
+  <!-- S0 base -->
+  <line x1="500" y1="290" x2="640" y2="150" stroke="#3C4459" stroke-width="3"/>
+  <text x="644" y="151" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#3C4459">S₀</text>
+  <!-- S1 right (productivity / cost reduction) -->
+  <line x1="548" y1="295" x2="688" y2="155" stroke="#0D91D0" stroke-width="3.5"/>
+  <text x="692" y="156" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#0D91D0">S₁</text>
+
+  <!-- Shift arrows -->
+  <line x1="585" y1="215" x2="623" y2="215" stroke="#0D91D0" stroke-width="2.2"/>
+  <polygon points="630,215 620,211 620,219" fill="#0D91D0"/>
+  <line x1="555" y1="225" x2="520" y2="225" stroke="#9B2C2C" stroke-width="2.2"/>
+  <polygon points="513,225 523,221 523,229" fill="#9B2C2C"/>
+
+  <text x="563" y="358" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#252B39">S₀ → S₁ Tecnologia/Menor Custo · S₀ → S₂ Alta de Insumo/Clima</text>
+</svg>

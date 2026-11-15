@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img" aria-labelledby="title-fig02 desc-fig02">
+  <title id="title-fig02">Fluxo Circular da Renda e da Atividade Econômica</title>
+  <desc id="desc-fig02">Diagrama do fluxo real de bens e fatores de produção e do fluxo monetário de rendas e despesas entre Famílias e Empresas.</desc>
+  <rect width="760" height="400" rx="12" fill="#FAF5EA" stroke="#D8C9AA" stroke-width="1.5"/>
+  <rect x="0" y="0" width="760" height="48" rx="12" fill="#3C4459"/>
+  <rect x="0" y="34" width="760" height="14" fill="#3C4459"/>
+  <text x="24" y="30" font-family="Jura, 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#F5E6C7">FIGURA 02 · FLUXO CIRCULAR DA RENDA: FLUXO REAL × FLUXO MONETÁRIO</text>
+
+  <!-- Outer arrows: FLUXO REAL (Blue #0D91D0) -->
+  <path d="M 120 155 L 120 88 L 232 88" fill="none" stroke="#0D91D0" stroke-width="3.2"/>
+  <polygon points="240,88 228,83 228,93" fill="#0D91D0"/>
+  <path d="M 520 88 L 640 88 L 640 150" fill="none" stroke="#0D91D0" stroke-width="3.2"/>
+  <polygon points="640,158 635,146 645,146" fill="#0D91D0"/>
+
+  <path d="M 640 250 L 640 318 L 528 318" fill="none" stroke="#0D91D0" stroke-width="3.2"/>
+  <polygon points="520,318 532,313 532,323" fill="#0D91D0"/>
+  <path d="M 240 318 L 120 318 L 120 255" fill="none" stroke="#0D91D0" stroke-width="3.2"/>
+  <polygon points="120,247 115,259 125,259" fill="#0D91D0"/>
+
+  <!-- Inner arrows: FLUXO MONETÁRIO (Amber #8B5E1A) -->
+  <path d="M 240 120 L 165 120 L 165 155" fill="none" stroke="#8B5E1A" stroke-width="3" stroke-dasharray="6 3"/>
+  <polygon points="165,162 160,151 170,151" fill="#8B5E1A"/>
+  <path d="M 595 155 L 595 120 L 528 120" fill="none" stroke="#8B5E1A" stroke-width="3" stroke-dasharray="6 3"/>
+  <polygon points="520,120 532,115 532,125" fill="#8B5E1A"/>
+
+  <path d="M 165 250 L 165 285 L 232 285" fill="none" stroke="#8B5E1A" stroke-width="3" stroke-dasharray="6 3"/>
+  <polygon points="240,285 228,280 228,290" fill="#8B5E1A"/>
+  <path d="M 520 285 L 595 285 L 595 255" fill="none" stroke="#8B5E1A" stroke-width="3" stroke-dasharray="6 3"/>
+  <polygon points="595,247 590,259 600,259" fill="#8B5E1A"/>
+
+  <!-- Top Box: Mercado de Bens e Serviços -->
+  <rect x="242" y="68" width="276" height="68" rx="10" fill="#FFFFFF" stroke="#3C4459" stroke-width="2"/>
+  <text x="380" y="95" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#3C4459">MERCADO DE BENS E SERVIÇOS</text>
+  <text x="380" y="114" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Empresas ofertam produtos · Famílias demandam</text>
+  <text x="380" y="129" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#8B5E1A">Gastos de Consumo → Receita das Empresas</text>
+
+  <!-- Bottom Box: Mercado de Fatores -->
+  <rect x="242" y="272" width="276" height="68" rx="10" fill="#FFFFFF" stroke="#3C4459" stroke-width="2"/>
+  <text x="380" y="299" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#3C4459">MERCADO DE FATORES DE PRODUÇÃO</text>
+  <text x="380" y="318" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#252B39">Famílias ofertam Trabalho, Terra, Capital e Gestão</text>
+  <text x="380" y="333" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#8B5E1A">Salários, Aluguéis, Juros e Lucros (Renda)</text>
+
+  <!-- Left Entity: EMPRESAS -->
+  <rect x="36" y="160" width="194" height="86" rx="10" fill="#3C4459"/>
+  <text x="133" y="191" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#E2BB7F">EMPRESAS</text>
+  <text x="133" y="211" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#F5E6C7">Produzem bens e serviços</text>
+  <text x="133" y="227" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#F5E6C7">e remuneram fatores</text>
+
+  <!-- Right Entity: FAMÍLIAS -->
+  <rect x="530" y="160" width="194" height="86" rx="10" fill="#3C4459"/>
+  <text x="627" y="191" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#E2BB7F">FAMÍLIAS</text>
+  <text x="627" y="211" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#F5E6C7">Detêm fatores produtivos</text>
+  <text x="627" y="227" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="11" fill="#F5E6C7">e consomem bens finais</text>
+
+  <!-- Center Badge: Governo e Sistema Financeiro -->
+  <rect x="275" y="170" width="210" height="66" rx="8" fill="#F5E6C7" stroke="#D9A65B" stroke-width="1.5"/>
+  <text x="380" y="193" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#3C4459">GOVERNO &amp; SFN</text>
+  <text x="380" y="210" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="10.5" fill="#252B39">Tributos (-) · Gastos Públicos (+)</text>
+  <text x="380" y="225" text-anchor="middle" font-family="Jura, 'Segoe UI', sans-serif" font-size="10.5" fill="#252B39">Poupança (-) · Investimento (+)</text>
+
+  <!-- Legend -->
+  <line x1="175" y1="373" x2="215" y2="373" stroke="#0D91D0" stroke-width="3.5"/>
+  <text x="223" y="377" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#3C4459">Fluxo Real (Bens, Serviços e Fatores)</text>
+  <line x1="465" y1="373" x2="505" y2="373" stroke="#8B5E1A" stroke-width="3" stroke-dasharray="6 3"/>
+  <text x="513" y="377" font-family="Jura, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#8B5E1A">Fluxo Monetário (Moeda / Pagamentos)</text>
+</svg>
