@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 13 · Evolução da Moeda, Agregados (M1–M4) e Multiplicador Bancário · Estudos de Economia e Mercado</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-lesson-id="aula-13">
+  <header class="topbar">
+    <div class="topbar-brand">
+      <a href="index.html" title="Voltar ao Hub de 20 Aulas">
+        <img src="assets/img/logo-academy-dark.svg" alt="O Prof. Antunes Academy" class="topbar-logo">
+      </a>
+      <div class="topbar-titles">
+        <div class="topbar-kicker">Aula 13 / 20 · Cap. 07 · Moeda e Multiplicador Bancário · Duração: 2h30 (150 min)</div>
+        <div class="topbar-title">Evolução da Moeda, Agregados (M1–M4) e Multiplicador Bancário</div>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <div class="timer-box" title="Cronômetro da aula presencial de 150 minutos">
+        <span class="timer-display" id="timer-display">02:30:00</span>
+        <button id="timer-toggle" class="timer-mini-btn" type="button" aria-label="Iniciar ou pausar cronômetro">▶</button>
+        <button id="timer-reset" class="timer-mini-btn" type="button" aria-label="Reiniciar cronômetro">↺</button>
+      </div>
+      <a class="btn" href="index.html">Hub</a>
+      <a class="btn" href="aula-12.html">← 12</a>
+      <a class="btn" href="aula-14.html">14 →</a>
+      <button id="btn-focus-sim" class="btn" type="button" aria-pressed="false">Expandir Simulador</button>
+      <button id="btn-modo-docente" class="btn" type="button" aria-pressed="false">Modo Docente</button>
+      <button id="btn-done-lesson" class="btn btn-gold" type="button" aria-pressed="false">Marcar Concluída</button>
+    </div>
+  </header>
+
+  <main class="workspace-shell">
+    <div class="workspace-grid">
+      <section class="lesson-pane" aria-label="Roteiro Guiado da Aula">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Roteiro de Sala (5 Blocos · 150 min)</h2>
+            <span class="badge badge-navy">Trilha Modular 19–21</span>
+          </div>
+
+          <div class="callout" style="margin-top:0;">
+            <strong>Desafio do Pedro Júnior:</strong> Pedro compreende por que o aperto no recolhimento compulsório pelo Banco Central encolhe a oferta de empréstimos dos bancos.
+          </div>
+
+          <div class="step-tabs" role="tablist">
+            <button class="step-tab active" type="button">1. Aquecimento<span>(0–20')</span></button>
+            <button class="step-tab" type="button">2. Conceitos<span>(20–60')</span></button>
+            <button class="step-tab" type="button">3. Simulação<span>(60–100')</span></button>
+            <button class="step-tab" type="button">4. Oficina<span>(100–135')</span></button>
+            <button class="step-tab" type="button">5. Síntese<span>(135–150')</span></button>
+          </div>
+
+          <div class="step-panel active"><h3>Só a Casa da Moeda cria dinheiro na economia?</h3><p>Mostre por que 1 depósito de R$ 1.000 em conta corrente multiplica-se em saldos bancários sucessivos sem imprimir uma única cédula nova.</p></div>
+          <div class="step-panel"><h3>Moeda Fiduciária, M1–M4 e Multiplicador (`m = 1 ÷ r`)</h3><ul><li><strong>3 Funções:</strong> Meio de Troca, Unidade de Conta, Reserva de Valor (corroída pela inflação).</li><li><strong>Agregados:</strong> <code>M1</code> (papel-moeda + à vista) → <code>M2</code> → <code>M3</code> → <code>M4</code>.</li><li><strong>Criação Escritural:</strong> bancos emprestam a fração `(1 − r)` e multiplicam meios de pagamento por <code>m = 1 ÷ r</code>.</li></ul></div>
+          <div class="step-panel"><h3>Simulador de Rodadas Bancárias ao Vivo</h3><p>Ajuste o depósito inicial e aumente o compulsório (`r`) de 20% para 25% ou adicione vazamento em espécie no bolso do público para ver a tabela das rodadas encolher imediatamente!</p></div>
+          <div class="step-panel"><h3>Lista L07 · Questões Q01, Q03, Q04 e Q05</h3><p>Desenhem no caderno as 3 primeiras rodadas bancárias com depósito de R$ 5.000 e compulsório passando de 20% para 25%.</p></div>
+          <div class="step-panel"><h3>Conexão com o SFN</h3><p>Na Aula 14 vamos abrir o balcão do banco para entender CMN, Banco Central, CVM e o peso do *spread* bancário no crédito das empresas.</p></div>
+
+          <div class="step-nav-footer">
+            <button id="btn-step-prev" class="btn btn-light" type="button">← Bloco Anterior</button>
+            <span style="font-size:0.78rem;color:var(--text-muted);">Dica: use as setas <strong>←</strong> / <strong>→</strong> do teclado</span>
+            <button id="btn-step-next" class="btn btn-primary" type="button">Próximo Bloco →</button>
+          </div>
+        </div>
+
+        <aside class="docente-panel" aria-label="Orientações Orais do Professor">
+          <h4>Guia Oral do Docente · Aula 13 (Uso em Projetor)</h4>
+          <ul>
+            <li>Desenhe o fluxograma 'Banco 1 → Fornecedor → Banco 2 → Lojista → Banco 3' para que visualizem que o dinheiro emprestado não evapora: volta como novo depósito!</li><li>Pergunte à turma por que o Pix reduziu a necessidade de andar com cédulas físicas sem eliminar depósitos à vista (M1).</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="sim-pane" aria-label="Laboratório Interativo">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Simulador de Multiplicador Bancário & Rodadas de Crédito</h2>
+            <span class="badge badge-gold">Criação Monetária</span>
+          </div>
+          
+          <div class="preset-bar">
+            <button type="button" class="btn btn-light" id="p13-pedro">Apostila (R$ 1.000 | 20%)</button>
+            <button type="button" class="btn btn-light" id="p13-l07">Lista L07 (R$ 5.000 | 20%)</button>
+            <button type="button" class="btn btn-light" id="p13-aperto">Aperto BCB (25%)</button>
+          </div>
+          <div class="controls-grid">
+            <div class="control-group"><label for="a13-dep">Depósito Inicial (Base) <span class="control-val" id="v13-dep">R$ 1.000</span></label><input id="a13-dep" type="number" min="100" step="500" value="1000"></div>
+            <div class="control-group"><label for="a13-r">Recolhimento Compulsório (r %) <span class="control-val" id="v13-r">20%</span></label><input id="a13-r" type="range" min="5" max="50" step="1" value="20"></div>
+            <div class="control-group"><label for="a13-v">Reserva Voluntária/Espécie (%) <span class="control-val" id="v13-v">0%</span></label><input id="a13-v" type="range" min="0" max="30" step="1" value="0"></div>
+          </div>
+          <div class="kpi-grid">
+            <div class="kpi-box"><div class="kpi-label">Multiplicador Efetivo (m)</div><div class="kpi-num" id="k13-m">—</div><div class="kpi-sub">m = 1 ÷ (r + ret.)</div></div>
+            <div class="kpi-box ok"><div class="kpi-label">Saldo Final Total de Moeda</div><div class="kpi-num" id="k13-tot">—</div><div class="kpi-sub">Base + Escritural</div></div>
+            <div class="kpi-box gold"><div class="kpi-label">Moeda Escritural Criada</div><div class="kpi-num" id="k13-cri">—</div><div class="kpi-sub">Gerada pelos empréstimos</div></div>
+          </div>
+          <div class="svg-stage" id="c13-stack"></div>
+          <div class="data-table-wrap"><table class="data-table"><thead><tr><th>Rodada Bancária</th><th>Depósito Recebido</th><th>Reserva Retida</th><th>Novo Empréstimo</th></tr></thead><tbody id="t13-body"></tbody></table></div>
+        
+        </div>
+      </section>
+    </div>
+
+    <footer class="hub-footer">
+      <div>
+        <strong>Autoria:</strong> Prof. Marcos Antunes (<code>@oprofantunes</code>) · Curso Técnico em Administração · Uso 100% Offline
+      </div>
+      <div style="display:flex;align-items:center;gap:0.6rem;">
+        <img src="assets/img/cc-by-nc-sa.svg" alt="Creative Commons CC BY-NC-SA 4.0" style="height:26px;width:auto;">
+        <span>CC BY-NC-SA 4.0 · Material Didático Técnico Modular</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/charts.js"></script>
+  <script src="assets/engine.js"></script>
+  <script>
+    window.initLessonSim = function () {
+      
+          const E = window.EcoEngine;
+          function calc() {
+            const dep = Math.max(100, E.safeNum(E.$('#a13-dep').value, 1000));
+            const r = E.safeNum(E.$('#a13-r').value, 20) / 100;
+            const v = E.safeNum(E.$('#a13-v').value, 0) / 100;
+            const retTotal = Math.min(0.95, Math.max(0.05, r + v));
+            E.$('#v13-dep').textContent = E.fmtBRL(dep);
+            E.$('#v13-r').textContent = E.fmtPct(r * 100, 0);
+            E.$('#v13-v').textContent = E.fmtPct(v * 100, 0);
+            const m = E.safeDiv(1, retTotal, 1);
+            const total = dep * m;
+            const criada = Math.max(0, total - dep);
+            E.$('#k13-m').textContent = E.fmtNum(m, 2) + 'x';
+            E.$('#k13-tot').textContent = E.fmtBRL(total);
+            E.$('#k13-cri').textContent = E.fmtBRL(criada);
+            window.EcoCharts.renderStackedBar(E.$('#c13-stack'), [
+              { label: 'Base Monetária Inicial', value: dep, short: E.fmtBRL(dep), color: window.EcoCharts.C.navy },
+              { label: 'Moeda Escritural Criada por Crédito', value: criada, short: E.fmtBRL(criada), color: window.EcoCharts.C.teal }
+            ], `Multiplicação Monetária Total: ${E.fmtBRL(total)}`);
+            let rows = '', cur = dep;
+            for (let i = 1; i <= 5; i++) {
+              const res = cur * retTotal;
+              const emp = cur - res;
+              rows += `<tr><td>Banco ${i}</td><td>${E.fmtBRL(cur)}</td><td>${E.fmtBRL(res)}</td><td><strong>${E.fmtBRL(emp)}</strong></td></tr>`;
+              cur = emp;
+            }
+            E.$('#t13-body').innerHTML = rows;
+          }
+          E.$('#p13-pedro').addEventListener('click', () => { E.$('#a13-dep').value=1000; E.$('#a13-r').value=20; E.$('#a13-v').value=0; calc(); });
+          E.$('#p13-l07').addEventListener('click', () => { E.$('#a13-dep').value=5000; E.$('#a13-r').value=20; E.$('#a13-v').value=0; calc(); });
+          E.$('#p13-aperto').addEventListener('click', () => { E.$('#a13-r').value=25; calc(); });
+          E.bindInputs(['a13-dep','a13-r','a13-v'], calc);
+        
+    };
+  </script>
+</body>
+</html>

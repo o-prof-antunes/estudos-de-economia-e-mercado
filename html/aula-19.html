@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 19 · Coleta e Auditoria Metodológica de Dados Econômicos Oficiais · Estudos de Economia e Mercado</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-lesson-id="aula-19">
+  <header class="topbar">
+    <div class="topbar-brand">
+      <a href="index.html" title="Voltar ao Hub de 20 Aulas">
+        <img src="assets/img/logo-academy-dark.svg" alt="O Prof. Antunes Academy" class="topbar-logo">
+      </a>
+      <div class="topbar-titles">
+        <div class="topbar-kicker">Aula 19 / 20 · Cap. 10 · Fontes Primárias · Duração: 2h30 (150 min)</div>
+        <div class="topbar-title">Coleta e Auditoria Metodológica de Dados Econômicos Oficiais</div>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <div class="timer-box" title="Cronômetro da aula presencial de 150 minutos">
+        <span class="timer-display" id="timer-display">02:30:00</span>
+        <button id="timer-toggle" class="timer-mini-btn" type="button" aria-label="Iniciar ou pausar cronômetro">▶</button>
+        <button id="timer-reset" class="timer-mini-btn" type="button" aria-label="Reiniciar cronômetro">↺</button>
+      </div>
+      <a class="btn" href="index.html">Hub</a>
+      <a class="btn" href="aula-18.html">← 18</a>
+      <a class="btn" href="aula-20.html">20 →</a>
+      <button id="btn-focus-sim" class="btn" type="button" aria-pressed="false">Expandir Simulador</button>
+      <button id="btn-modo-docente" class="btn" type="button" aria-pressed="false">Modo Docente</button>
+      <button id="btn-done-lesson" class="btn btn-gold" type="button" aria-pressed="false">Marcar Concluída</button>
+    </div>
+  </header>
+
+  <main class="workspace-shell">
+    <div class="workspace-grid">
+      <section class="lesson-pane" aria-label="Roteiro Guiado da Aula">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Roteiro de Sala (5 Blocos · 150 min)</h2>
+            <span class="badge badge-navy">Trilha Modular 19–21</span>
+          </div>
+
+          <div class="callout" style="margin-top:0;">
+            <strong>Desafio do Pedro Júnior:</strong> Pedro substitui palpites sem fonte por coleta auditada no SIDRA/IBGE, SGS/Focus (BCB), Novo CAGED, Ipeadata e FGV IBRE.
+          </div>
+
+          <div class="step-tabs" role="tablist">
+            <button class="step-tab active" type="button">1. Aquecimento<span>(0–20')</span></button>
+            <button class="step-tab" type="button">2. Conceitos<span>(20–60')</span></button>
+            <button class="step-tab" type="button">3. Simulação<span>(60–100')</span></button>
+            <button class="step-tab" type="button">4. Oficina<span>(100–135')</span></button>
+            <button class="step-tab" type="button">5. Síntese<span>(135–150')</span></button>
+          </div>
+
+          <div class="step-panel active"><h3>Você confiaria o orçamento de uma empresa a um gráfico de rede social sem data nem unidade?</h3><p>Mostre como confundir taxa mensal com acumulada de 12 meses ou expectativa Focus com PIB realizado arruína decisões empresariais.</p></div>
+          <div class="step-panel"><h3>Os 5 Portais Primários e o Protocolo em 4 Checagens</h3><ul><li><strong>IBGE/SIDRA:</strong> PIB, IPCA, INPC, PMC, PMS, PNAD Contínua.</li><li><strong>BCB (SGS & Relatório Focus):</strong> Selic, PTAX, endividamento e medianas semanais de mercado.</li><li><strong>Ipeadata (IPEA) | Novo CAGED (MTE) | Sondagens FGV IBRE (IGP-M/ICC).</strong></li><li><strong>4 Checagens:</strong> (1) Unidade/Base, (2) Abrangência, (3) Ajuste Sazonal e (4) Rastreabilidade ABNT.</li></ul></div>
+          <div class="step-panel"><h3>Auditoria Interativa de 6 Erros Metodológicos Reais</h3><p>Inspecione os 6 casos reais simulados no painel à direita, selecione o diagnóstico metodológico correto e veja imediatamente o motivo técnico e a correção oficial!</p></div>
+          <div class="step-panel"><h3>Lista L10 · Questões Q01, Q02, Q03 e Q07</h3><p>Mapeiem o portal exato de coleta para os indicadores da empresa do Projeto Integrador Final e completem as questões conceituais de L10.</p></div>
+          <div class="step-panel"><h3>Preparação do Seminário Final (Aula 20)</h3><p>Organizem os dados coletados para construir a Matriz de Cenários e defender na Aula 20 o plano econômico do Projeto Integrador.</p></div>
+
+          <div class="step-nav-footer">
+            <button id="btn-step-prev" class="btn btn-light" type="button">← Bloco Anterior</button>
+            <span style="font-size:0.78rem;color:var(--text-muted);">Dica: use as setas <strong>←</strong> / <strong>→</strong> do teclado</span>
+            <button id="btn-step-next" class="btn btn-primary" type="button">Próximo Bloco →</button>
+          </div>
+        </div>
+
+        <aside class="docente-panel" aria-label="Orientações Orais do Professor">
+          <h4>Guia Oral do Docente · Aula 19 (Uso em Projetor)</h4>
+          <ul>
+            <li>Rode os 6 casos diagnósticos em plenária com a sala votando antes de clicar em 'Validar Auditoria'.</li><li>Relembre a regra de citação ABNT dos sites institucionais (órgão em caixa alta, título da página, URL exata e data de acesso).</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="sim-pane" aria-label="Laboratório Interativo">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Laboratório de Auditoria de Séries & Fontes Primárias</h2>
+            <span class="badge badge-gold">Metodologia de Dados</span>
+          </div>
+          
+          <div class="controls-grid">
+            <div class="control-group"><label for="a19-case">Selecione o Caso de Auditoria</label>
+              <select id="a19-case">
+                <option value="0">Caso 1: Dezembro vs. Novembro no Varejo sem ajuste</option>
+                <option value="1">Caso 2: Aplicar IPCA 12 meses como taxa mensal</option>
+                <option value="2">Caso 3: Tratar Mediana Focus como dado histórico fechado</option>
+                <option value="3">Caso 4: Usar IPC-FIPE para orçamento nacional multiestados</option>
+                <option value="4">Caso 5: Fonte ideal para expectativa da Selic fim do ano</option>
+                <option value="5">Caso 6: Fonte ideal para saldo formal de contratações municipais</option>
+              </select>
+            </div>
+            <div class="control-group"><label for="a19-diag">Qual Diagnóstico / Fonte Você Indica?</label>
+              <select id="a19-diag">
+                <option value="sazonal">Erro de Ajuste Sazonal (efeito calendário de Natal)</option>
+                <option value="unidade">Erro de Unidade/Base (misturou 12 meses com mensal)</option>
+                <option value="focus_hist">Confusão Dado Realizado (IBGE) × Expectativa (Focus)</option>
+                <option value="abrangencia">Erro de Abrangência (IPC-FIPE cobre só município SP)</option>
+                <option value="bcb_focus">Consultar BCB — Relatório Focus semanal</option>
+                <option value="caged">Consultar MTE — Novo CAGED</option>
+              </select>
+            </div>
+          </div>
+          <div class="callout gold" id="k19-enunc">Carregando cenário de auditoria...</div>
+          <div style="margin:0.75rem 0;">
+            <button type="button" class="btn btn-primary" id="btn19-check">Validar Auditoria Metodológica</button>
+          </div>
+          <div class="callout" id="k19-res">Selecione sua resposta acima e clique em Validar Auditoria Metodológica.</div>
+          <div class="data-table-wrap">
+            <table class="data-table"><thead><tr><th>Portal Oficial</th><th>Órgão</th><th>Séries-Chave</th><th>Uso Empresarial</th></tr></thead>
+            <tbody>
+              <tr><td><strong>SIDRA / Agência</strong></td><td>IBGE</td><td>PIB, IPCA, INPC, PMC, PMS, PNAD</td><td>Metas reais de demanda e reajustes</td></tr>
+              <tr><td><strong>SGS / Relatório Focus</strong></td><td>Banco Central</td><td>Selic, PTAX, Medianas Focus</td><td>Custo do dinheiro, giro e projeções</td></tr>
+              <tr><td><strong>Novo CAGED</strong></td><td>MTE</td><td>Admissões/desligamentos formais</td><td>Termômetro local de mão de obra e renda</td></tr>
+              <tr><td><strong>Sondagens / IGP-M</strong></td><td>FGV IBRE</td><td>IGP-M, ICC, NUCI</td><td>Contratos de locação e confiança</td></tr>
+            </tbody></table>
+          </div>
+        
+        </div>
+      </section>
+    </div>
+
+    <footer class="hub-footer">
+      <div>
+        <strong>Autoria:</strong> Prof. Marcos Antunes (<code>@oprofantunes</code>) · Curso Técnico em Administração · Uso 100% Offline
+      </div>
+      <div style="display:flex;align-items:center;gap:0.6rem;">
+        <img src="assets/img/cc-by-nc-sa.svg" alt="Creative Commons CC BY-NC-SA 4.0" style="height:26px;width:auto;">
+        <span>CC BY-NC-SA 4.0 · Material Didático Técnico Modular</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/charts.js"></script>
+  <script src="assets/engine.js"></script>
+  <script>
+    window.initLessonSim = function () {
+      
+          const E = window.EcoEngine;
+          const CASES = [
+            { q: 'Relatório comercial diz: "Vendas cresceram +35% em dezembro ante novembro — nossa demanda disparou estruturalmente para o resto do ano!"', ans: 'sazonal', ok: 'Exato! Dezembro sempre inclui 13º salário e Natal. Comparações sequenciais exigem série com Ajuste Sazonal (IBGE PMC dessazonalizada) ou comparação contra dezembro do ano anterior.' },
+            { q: 'Analista multiplicou o orçamento mensal de fevereiro por 4,26% porque "foi o IPCA publicado na notícia anual".', ans: 'unidade', ok: 'Exato! 4,26% foi o acumulado em 12 meses (2025). Aplicá-lo em um único mês superestima a inflação mensal em mais de 10 vezes!' },
+            { q: 'Planilha afirma que "segundo o IBGE, o PIB de 2027 já cresceu 2,0%", citando uma tabela do boletim semanal de segunda-feira do BCB.', ans: 'focus_hist', ok: 'Exato! Expectativas futuras vêm das medianas do Relatório Focus (BCB), não de contas nacionais já fechadas pelo IBGE.' },
+            { q: 'Rede varejista com lojas em MG, PR, BA e SP usou exclusivamente o IPC-FIPE como padrão único de custo de vida regional.', ans: 'abrangencia', ok: 'Exato! O IPC-FIPE restringe-se ao município de São Paulo; para abrangência nacional em capitais/regiões usa-se IPCA/INPC do IBGE.' },
+            { q: 'Diretoria pergunta antes do orçamento: "Qual a mediana das expectativas do mercado para a Selic ao final do próximo exercício?"', ans: 'bcb_focus', ok: 'Exato! O Relatório Focus (BCB) consolida semanalmente as medianas de mercado para Selic, IPCA, PIB e Câmbio.' },
+            { q: 'RH quer saber se o setor comercial da cidade teve saldo líquido positivo ou negativo de empregos com carteira assinada no trimestre.', ans: 'caged', ok: 'Exato! O Novo CAGED (MTE) detalha contratações e desligamentos formais por município e atividade econômica (CNAE).' }
+          ];
+          function loadCase() {
+            const idx = Number(E.$('#a19-case').value) || 0;
+            E.$('#k19-enunc').innerHTML = '<strong>Situação em Auditoria:</strong> ' + CASES[idx].q;
+            E.$('#k19-res').className = 'callout';
+            E.$('#k19-res').textContent = 'Escolha o diagnóstico correspondente e clique em Validar Auditoria Metodológica.';
+          }
+          E.$('#a19-case').addEventListener('change', loadCase);
+          E.$('#btn19-check').addEventListener('click', () => {
+            const idx = Number(E.$('#a19-case').value) || 0;
+            const pick = E.$('#a19-diag').value;
+            const res = E.$('#k19-res');
+            if (pick === CASES[idx].ans) {
+              res.className = 'callout teal';
+              res.innerHTML = '<strong>Auditoria Aprovada:</strong> ' + CASES[idx].ok;
+            } else {
+              res.className = 'callout warn';
+              res.innerHTML = '<strong>Revisar Critério:</strong> Leia novamente a falha apontada no enunciado (confira unidade, sazonalidade, abrangência ou órgão oficial) e tente outro diagnóstico!';
+            }
+          });
+          loadCase();
+        
+    };
+  </script>
+</body>
+</html>

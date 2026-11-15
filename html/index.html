@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hub de Aulas Interativas · Estudos de Economia e Mercado</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-brand">
+      <img src="assets/img/logo-academy-dark.svg" alt="O Prof. Antunes Academy" class="topbar-logo">
+      <div class="topbar-titles">
+        <div class="topbar-kicker">Técnico em Administração · Modalidade Modular (19–21 anos)</div>
+        <div class="topbar-title">Estudos de Economia e Mercado · Suíte de 20 Aulas Interativas Offline</div>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <img src="assets/img/logo-adm-horizontal.png" alt="Técnico em Administração" style="height:34px;width:auto;border-radius:4px;background:#fff;padding:2px 6px;">
+      <button id="btn-modo-docente" class="btn" type="button" aria-pressed="false">Modo Docente</button>
+    </div>
+  </header>
+
+  <main class="workspace-shell">
+    <section class="hub-hero">
+      <div style="flex:1 1 520px;min-width:0;">
+        <span class="badge badge-gold">50 Horas-Aula · 20 Encontros de 2h30 · 100% Offline</span>
+        <h1>Sala de Aula Interativa de Economia e Mercado</h1>
+        <p style="margin:0;color:#e2e8f0;max-width:740px;">
+          Laboratórios econômicos vetoriais, calculadoras executivas e roteiros guiados com o assistente <strong>Pedro Júnior</strong>.
+          Baixe a pasta completa <code>html/</code> para projetar em sala mesmo sem acesso à internet.
+        </p>
+      </div>
+      <div class="card" style="background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.2);color:#fff;min-width:250px;">
+        <div style="font-size:0.78rem;text-transform:uppercase;color:var(--gold-bright);font-weight:700;">Progresso da Turma</div>
+        <div id="hub-progress-text" style="font-size:1.55rem;font-weight:700;margin:0.2rem 0;">0 / 20 Aulas</div>
+        <div style="height:8px;background:rgba(255,255,255,0.18);border-radius:999px;overflow:hidden;">
+          <div id="hub-progress-bar" style="height:100%;width:0%;background:var(--gold-accent);transition:width 0.3s ease;"></div>
+        </div>
+        <div style="font-size:0.76rem;color:#cbd5e1;margin-top:0.4rem;">Salvo localmente neste navegador</div>
+      </div>
+    </section>
+
+    <div class="docente-panel" style="margin-bottom:1.1rem;">
+      <h4>Painel Docente Ativo — Regra de Segurança Didática</h4>
+      <p style="margin:0;font-size:0.88rem;">
+        O <strong>Modo Docente</strong> exibe exclusivamente roteiros orais de sala, temporização e perguntas disparadoras para dinamizar o projetor.
+        Nenhum gabarito oficial de <code>exercícios/</code> ou <code>estudo-de-caso/</code> fica exposto nos arquivos HTML, garantindo distribuição livre aos alunos.
+      </p>
+    </div>
+
+    <div class="hub-filters">
+      <div style="display:flex;flex-wrap:wrap;gap:0.45rem;" role="group" aria-label="Filtrar aulas por eixo">
+        <button class="btn btn-primary filter-btn" data-filter="all" type="button">Todas as Aulas (20)</button>
+        <button class="btn btn-light filter-btn" data-filter="micro" type="button">Eixo I · Fundamentos &amp; Micro (01–10)</button>
+        <button class="btn btn-light filter-btn" data-filter="macro" type="button">Eixo II · Macro, Crédito &amp; Estratégia (11–20)</button>
+        <button class="btn btn-light filter-btn" data-filter="caso" type="button">Com Estudo de Caso Real (EC01–05)</button>
+      </div>
+      <div style="display:flex;gap:0.5rem;align-items:center;">
+        <input id="hub-search" type="text" placeholder="Buscar assunto, simulador ou capítulo..." style="padding:0.45rem 0.75rem;border:1px solid #b8c6d8;border-radius:6px;min-width:250px;font-family:inherit;">
+      </div>
+    </div>
+
+    <section id="hub-cards" class="hub-grid" aria-live="polite"></section>
+
+    <footer class="hub-footer">
+      <div>
+        <strong>Autoria:</strong> Prof. Marcos Antunes (<code>@oprofantunes</code>) · Curso Técnico em Administração (Trilha Modular 19–21 anos)
+      </div>
+      <div style="display:flex;align-items:center;gap:0.6rem;">
+        <img src="assets/img/cc-by-nc-sa.svg" alt="Licença Creative Commons CC BY-NC-SA 4.0" style="height:28px;width:auto;">
+        <span>Licença CC BY-NC-SA 4.0 · Uso exclusivo offline e em sala de aula</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/engine.js"></script>
+  <script>
+    (function () {
+      const LESSONS = [
+        { id: "aula-01", num: "01", axis: "micro", cap: "Cap. 01", ec: "", title: "Escassez, Fatores Produtivos e FPP", sim: "Simulador de Custo de Oportunidade & Fronteira de Possibilidades de Produção", desc: "Aloque horas produtivas entre bens alternativos e visualize eficiência, ociosidade e deslocamento tecnológico." },
+        { id: "aula-02", num: "02", axis: "micro", cap: "Cap. 01", ec: "EC01", title: "Sistemas Econômicos e Fluxo Circular da Renda", sim: "Simulador de Fluxo Circular da Renda & Decisão MPE (EC01)", desc: "Equilibre fatores produtivos, massa salarial, consumo e reserva líquida nas micro e pequenas empresas." },
+        { id: "aula-03", num: "03", axis: "micro", cap: "Cap. 02", ec: "", title: "Teoria do Consumidor e Restrição Orçamentária", sim: "Calculadora de Reta Orçamentária (R = P₁·Q₁ + P₂·Q₂)", desc: "Compare rotação de preços versus expansão de renda sobre a cesta máxima acessível ao consumidor." },
+        { id: "aula-04", num: "04", axis: "micro", cap: "Cap. 02", ec: "", title: "Determinantes e Deslocamentos da Curva de Demanda", sim: "Laboratório D₀ → D₁ / D₂ (Renda, Substitutos e Complementares)", desc: "Separe movimento sobre a curva (preço próprio) de deslocamentos exógenos na gôndola varejista." },
+        { id: "aula-05", num: "05", axis: "micro", cap: "Cap. 03", ec: "", title: "Teoria da Firma, Custos e Decisão Marginal", sim: "Simulador CF / CV / CMe / CMg & Parecer de Lote Adicional", desc: "Comprove matematicamente por que aceitar pedidos abaixo do Custo Médio pode aumentar o lucro." },
+        { id: "aula-06", num: "06", axis: "micro", cap: "Cap. 03", ec: "", title: "Lei da Oferta e Choques Produtivos", sim: "Laboratório Gráfico de Oferta (S₀ → S₁ / S₂)", desc: "Simule choques de diesel, energia elétrica, tecnologia de produção e clima sobre a oferta setorial." },
+        { id: "aula-07", num: "07", axis: "micro", cap: "Cap. 04", ec: "", title: "Equilíbrio de Mercado, Superávit e Escassez", sim: "Simulador Dinâmico Demanda × Oferta com Faixa de Desequilíbrio", desc: "Resolva Pe/Qe ao vivo, teste preços fora do equilíbrio e analise controles artificiais de teto/piso." },
+        { id: "aula-08", num: "08", axis: "micro", cap: "Cap. 04", ec: "EC02", title: "Elasticidade-Preço e Impacto na Receita Total", sim: "Calculadora |Ep| (Simples e Arco) + Termômetro de Receita (EC02)", desc: "Descubra quando um desconto promocional amplia faturamento e quando destrói margem (Café vs. Energia)." },
+        { id: "aula-09", num: "09", axis: "micro", cap: "Cap. 05", ec: "EC03", title: "Estruturas de Mercado, HHI e Defesa da Concorrência", sim: "Simulador de Concentração HHI & Fusões Antitruste (EC03)", desc: "Calcule HHI antes e depois de aquisições e avalie alertas de oligopólio sob regras do CADE." },
+        { id: "aula-10", num: "10", axis: "micro", cap: "Cap. 05", ec: "", title: "Falhas de Mercado: Externalidades e Assimetria", sim: "Laboratório Custo Privado (CPMg) × Custo Social (CSMg)", desc: "Mensure externalidades ambientais, peso morto e soluções privadas de logística reversa e certificação." },
+        { id: "aula-11", num: "11", axis: "macro", cap: "Cap. 06", ec: "", title: "Contabilidade Nacional, Valor Agregado e PIB Real", sim: "Eliminador de Dupla Contagem & Deflator Nominal → Real", desc: "Apure o Valor Agregado em 4 elos industriais e elimine a ilusão inflacionária no faturamento." },
+        { id: "aula-12", num: "12", axis: "macro", cap: "Cap. 06", ec: "EC04", title: "Demanda Agregada (C+I+G+X−M) e Efeito Multiplicador", sim: "Painel Keynesiano Y = C + I + G + (X − M) & Ciclo Brasil (EC04)", desc: "Analise desaceleração do consumo sob juros altos e calcule o multiplicador de novos gastos." },
+        { id: "aula-13", num: "13", axis: "macro", cap: "Cap. 07", ec: "", title: "Moeda, Agregados (M1–M4) e Multiplicador Bancário", sim: "Simulador de Rodadas Bancárias e Compulsório (m = 1 ÷ r)", desc: "Visualize a criação de moeda escritural rodada a rodada e o aperto monetário via compulsório." },
+        { id: "aula-14", num: "14", axis: "macro", cap: "Cap. 07", ec: "", title: "Sistema Financeiro Nacional (SFN) e Spread Bancário", sim: "Mapa Hierárquico SFN + Decompositor de Spread & Parcela Price", desc: "Decomponha a diferença entre Selic e taxa do balcão bancário em 4 blocos gerenciais." },
+        { id: "aula-15", num: "15", axis: "macro", cap: "Cap. 08", ec: "", title: "Inflação, Cesta IPCA/INPC/IGP-M e Taxa Composta", sim: "Calculadora de Inflação Composta & Ponderador IPCA 2024–2025", desc: "Prove por que taxas mensais não se somam e compare reajuste de aluguel IGP-M versus IPCA." },
+        { id: "aula-16", num: "16", axis: "macro", cap: "Cap. 08", ec: "EC05", title: "Taxa Selic, Copom e Equação Exata de Fisher", sim: "Calculadora de Juro Real Fisher & Capital de Giro (EC05)", desc: "Teste caixa próprio no CDI versus capital de giro bancário diante de Selic a 15,00% e IPCA a 4,26%." },
+        { id: "aula-17", num: "17", axis: "macro", cap: "Cap. 09", ec: "", title: "Política Fiscal e Política Monetária (Mix Econômico)", sim: "Simulador Integrado Fazenda (Fiscal) × Copom (Monetária)", desc: "Combine decisões fiscais e monetárias para antecipar juros de equilíbrio e impacto sobre o caixa." },
+        { id: "aula-18", num: "18", axis: "macro", cap: "Cap. 09", ec: "", title: "Setor Externo, Balanço de Pagamentos e Câmbio PTAX", sim: "Conversor Tesoura Cambial: Importadora × Exportadora", desc: "Mova a PTAX em tempo real para ver margens opostas e calcule saldos do Balanço de Pagamentos." },
+        { id: "aula-19", num: "19", axis: "macro", cap: "Cap. 10", ec: "", title: "Coleta e Auditoria de Fontes Econômicas Primárias", sim: "Auditoria Interativa de Séries (SIDRA/IBGE, SGS/Focus, CAGED)", desc: "Inspecione armadilhas reais de base temporal, abrangência, ajuste sazonal e rigor ABNT." },
+        { id: "aula-20", num: "20", axis: "macro", cap: "Cap. 10", ec: "", title: "Matriz de Cenários, E(LAIR) e Seminário Integrador", sim: "Construtor Executivo de Cenários (Otimista / Base / Estresse)", desc: "Projete DRE em 3 cenários macroeconômicos, apure Valor Esperado e ative gatilho de dívida." }
+      ];
+
+      let activeFilter = "all";
+      const grid = document.getElementById("hub-cards");
+      const searchEl = document.getElementById("hub-search");
+      const filterBtns = Array.from(document.querySelectorAll(".filter-btn"));
+
+      function updateProgress(doneSet) {
+        const count = LESSONS.filter((l) => doneSet.has(l.id)).length;
+        const pct = Math.round((count / LESSONS.length) * 100);
+        document.getElementById("hub-progress-text").textContent = `${count} / 20 Aulas (${pct}%)`;
+        document.getElementById("hub-progress-bar").style.width = `${pct}%`;
+      }
+
+      function render() {
+        const doneSet = window.EcoEngine.getDoneSet();
+        updateProgress(doneSet);
+        const q = (searchEl.value || "").trim().toLowerCase();
+
+        const filtered = LESSONS.filter((l) => {
+          if (activeFilter === "micro" && l.axis !== "micro") return false;
+          if (activeFilter === "macro" && l.axis !== "macro") return false;
+          if (activeFilter === "caso" && !l.ec) return false;
+          if (q) {
+            const hay = `${l.num} ${l.cap} ${l.title} ${l.sim} ${l.desc} ${l.ec}`.toLowerCase();
+            if (!hay.includes(q)) return false;
+          }
+          return true;
+        });
+
+        grid.innerHTML = filtered.map((l) => {
+          const isDone = doneSet.has(l.id);
+          return `
+            <article class="lesson-card ${isDone ? "done" : ""}">
+              <div>
+                <div style="display:flex;justify-content:space-between;align-items:center;gap:0.4rem;flex-wrap:wrap;">
+                  <span class="badge badge-navy">Aula ${l.num} · ${l.cap} · 2h30</span>
+                  <div style="display:flex;gap:0.35rem;">
+                    ${l.ec ? `<span class="badge badge-gold">${l.ec}</span>` : ""}
+                    ${isDone ? `<span class="badge badge-ok">Concluída ✓</span>` : ""}
+                  </div>
+                </div>
+                <h3>${l.title}</h3>
+                <p style="font-weight:700;color:var(--navy-brand);margin-bottom:0.3rem;font-size:0.83rem;">⚙ ${l.sim}</p>
+                <p>${l.desc}</p>
+              </div>
+              <div style="display:flex;justify-content:space-between;align-items:center;padding-top:0.45rem;border-top:1px solid var(--border-light);">
+                <span style="font-size:0.78rem;color:var(--text-muted);">${l.axis === "micro" ? "Eixo Microeconomia" : "Eixo Macro & Estratégia"}</span>
+                <a class="btn btn-primary" href="${l.id}.html">Abrir Aula Interativa →</a>
+              </div>
+            </article>
+          `;
+        }).join("") || `<div class="card"><p style="margin:0;">Nenhuma aula encontrada para o filtro digitado.</p></div>`;
+      }
+
+      filterBtns.forEach((btn) => {
+        btn.addEventListener("click", function () {
+          activeFilter = btn.getAttribute("data-filter") || "all";
+          filterBtns.forEach((b) => {
+            b.classList.toggle("btn-primary", b === btn);
+            b.classList.toggle("btn-light", b !== btn);
+          });
+          render();
+        });
+      });
+
+      searchEl.addEventListener("input", render);
+      window.addEventListener("focus", render);
+      render();
+    })();
+  </script>
+</body>
+</html>

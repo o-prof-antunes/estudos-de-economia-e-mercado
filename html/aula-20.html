@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 20 · Construção de Cenários (Otimista/Base/Estresse), E(LAIR) e Seminário · Estudos de Economia e Mercado</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-lesson-id="aula-20">
+  <header class="topbar">
+    <div class="topbar-brand">
+      <a href="index.html" title="Voltar ao Hub de 20 Aulas">
+        <img src="assets/img/logo-academy-dark.svg" alt="O Prof. Antunes Academy" class="topbar-logo">
+      </a>
+      <div class="topbar-titles">
+        <div class="topbar-kicker">Aula 20 / 20 · Cap. 10 · Matriz de Cenários & Seminário · Duração: 2h30 (150 min)</div>
+        <div class="topbar-title">Construção de Cenários (Otimista/Base/Estresse), E(LAIR) e Seminário</div>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <div class="timer-box" title="Cronômetro da aula presencial de 150 minutos">
+        <span class="timer-display" id="timer-display">02:30:00</span>
+        <button id="timer-toggle" class="timer-mini-btn" type="button" aria-label="Iniciar ou pausar cronômetro">▶</button>
+        <button id="timer-reset" class="timer-mini-btn" type="button" aria-label="Reiniciar cronômetro">↺</button>
+      </div>
+      <a class="btn" href="index.html">Hub</a>
+      <a class="btn" href="aula-19.html">← 19</a>
+      
+      <button id="btn-focus-sim" class="btn" type="button" aria-pressed="false">Expandir Simulador</button>
+      <button id="btn-modo-docente" class="btn" type="button" aria-pressed="false">Modo Docente</button>
+      <button id="btn-done-lesson" class="btn btn-gold" type="button" aria-pressed="false">Marcar Concluída</button>
+    </div>
+  </header>
+
+  <main class="workspace-shell">
+    <div class="workspace-grid">
+      <section class="lesson-pane" aria-label="Roteiro Guiado da Aula">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Roteiro de Sala (5 Blocos · 150 min)</h2>
+            <span class="badge badge-navy">Trilha Modular 19–21</span>
+          </div>
+
+          <div class="callout" style="margin-top:0;">
+            <strong>Desafio do Pedro Júnior:</strong> Pedro apresenta o Relatório Executivo final provando como amortizar dívida no CDI protege o lucro mesmo no Cenário Estresse.
+          </div>
+
+          <div class="step-tabs" role="tablist">
+            <button class="step-tab active" type="button">1. Aquecimento<span>(0–20')</span></button>
+            <button class="step-tab" type="button">2. Conceitos<span>(20–60')</span></button>
+            <button class="step-tab" type="button">3. Simulação<span>(60–100')</span></button>
+            <button class="step-tab" type="button">4. Oficina<span>(100–135')</span></button>
+            <button class="step-tab" type="button">5. Síntese<span>(135–150')</span></button>
+          </div>
+
+          <div class="step-panel active"><h3>Planejar um único número futuro é aposta; planejar 3 cenários é gestão!</h3><p>Abra o encontro final conectando todos os conceitos das 19 aulas anteriores dentro da DRE Orçamentária.</p></div>
+          <div class="step-panel"><h3>Cenários Coerentes, Valor Esperado e 5 Blocos Executivos</h3><ul><li><strong>3 Cenários:</strong> Otimista (Expansão), Base (Âncora Focus/IBGE) e Estresse (Contingência).</li><li><strong>Valor Esperado (`E[LAIR]`):</strong> média ponderada pelas probabilidades atribuídas.</li><li><strong>Gatilhos de Contingência:</strong> regras prévias de corte de estoque e amortização de dívida pós-fixada.</li><li><strong>Relatório Executivo em 5 Blocos:</strong> Sumário → Macro Auditado → Efeito Micro → Matriz → Gatilhos.</li></ul></div>
+          <div class="step-panel"><h3>Construtor Executivo de Cenários & Teste de Amortização</h3><p>Carregue os casos do Pedro ou da Lista L10-Q04/Q05 e ative a opção de <strong>Amortizar Dívida no CDI</strong> para ver a recuperação direta do LAIR no Cenário Estresse!</p></div>
+          <div class="step-panel"><h3>Lista L10 (Q04–Q06, Q08) & Defesas do Seminário Integrador</h3><p>Grupos apresentam em até 5 minutos suas matrizes de cenários reais (Projeto Integrador) diante do Conselho Diretor formado pela turma.</p></div>
+          <div class="step-panel"><h3>Encerramento da Disciplina (50 Horas-Aula)</h3><p>Parabéns pela conclusão! Agora você domina desde escassez, demanda, custos marginais, elasticidade e HHI até PIB real, Fisher, câmbio e cenários executivos.</p></div>
+
+          <div class="step-nav-footer">
+            <button id="btn-step-prev" class="btn btn-light" type="button">← Bloco Anterior</button>
+            <span style="font-size:0.78rem;color:var(--text-muted);">Dica: use as setas <strong>←</strong> / <strong>→</strong> do teclado</span>
+            <button id="btn-step-next" class="btn btn-primary" type="button">Próximo Bloco →</button>
+          </div>
+        </div>
+
+        <aside class="docente-panel" aria-label="Orientações Orais do Professor">
+          <h4>Guia Oral do Docente · Aula 20 (Uso em Projetor)</h4>
+          <ul>
+            <li>Cronometre rigorosamente 5 min por apresentação no Seminário Final para dar tempo a perguntas críticas dos colegas.</li><li>Cobre que todo grupo apresente fontes ABNT reais datadas e pelo menos 1 gatilho quantitativo de contingência.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="sim-pane" aria-label="Laboratório Interativo">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Construtor Executivo de Matriz de Cenários & E(LAIR)</h2>
+            <span class="badge badge-gold">Projeto Integrador</span>
+          </div>
+          
+          <div class="preset-bar">
+            <button type="button" class="btn btn-light" id="p20-pedro">Caso Pedro (Rec R$ 2,0 mi | Dívida R$ 400k)</button>
+            <button type="button" class="btn btn-light" id="p20-l10">Lista L10-Q04/Q05 (Dívida R$ 200k)</button>
+            <button type="button" class="btn btn-light" id="p20-amort">Ativar Amortização 50% Dívida</button>
+          </div>
+          <div class="controls-grid">
+            <div class="control-group"><label for="a20-div">Dívida Pós-Fixada CDI (R$) <span class="control-val" id="v20-div">R$ 200.000</span></label><input id="a20-div" type="number" min="0" step="25000" value="200000"></div>
+            <div class="control-group"><label for="a20-amort">Amortização Preventiva (R$) <span class="control-val" id="v20-amort">R$ 0</span></label><input id="a20-amort" type="range" min="0" max="400000" step="25000" value="0"></div>
+            <div class="control-group"><label for="a20-p1">Prob. Otimista / Base / Estresse <span class="control-val" id="v20-probs">20 / 50 / 30%</span></label><div style="display:flex;gap:0.25rem;"><input id="a20-pr1" type="number" value="20"><input id="a20-pr2" type="number" value="50"><input id="a20-pr3" type="number" value="30"></div></div>
+          </div>
+          <div class="data-table-wrap" style="margin-bottom:0.85rem;">
+            <table class="data-table">
+              <thead><tr><th>Premissa</th><th>Otimista</th><th>Base (Focus)</th><th>Estresse</th></tr></thead>
+              <tbody>
+                <tr><td>Receita (R$ mil)</td><td><input id="a20-r1" type="number" value="1500" style="width:90px"></td><td><input id="a20-r2" type="number" value="1350" style="width:90px"></td><td><input id="a20-r3" type="number" value="1150" style="width:90px"></td></tr>
+                <tr><td>Margem Contrib. (%)</td><td><input id="a20-m1" type="number" value="42" style="width:70px"></td><td><input id="a20-m2" type="number" value="40" style="width:70px"></td><td><input id="a20-m3" type="number" value="36" style="width:70px"></td></tr>
+                <tr><td>Custos Fixos (R$ mil)</td><td><input id="a20-f1" type="number" value="420" style="width:90px"></td><td><input id="a20-f2" type="number" value="430" style="width:90px"></td><td><input id="a20-f3" type="number" value="440" style="width:90px"></td></tr>
+                <tr><td>Selic Média (% a.a.)</td><td><input id="a20-s1" type="number" step="0.5" value="10" style="width:70px"></td><td><input id="a20-s2" type="number" step="0.5" value="14" style="width:70px"></td><td><input id="a20-s3" type="number" step="0.5" value="17" style="width:70px"></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="kpi-grid">
+            <div class="kpi-box"><div class="kpi-label">LAIR Otimista / Base</div><div class="kpi-num" id="k20-ob">—</div><div class="kpi-sub">em R$ mil</div></div>
+            <div class="kpi-box" id="k20-ebox"><div class="kpi-label">LAIR Cenário Estresse</div><div class="kpi-num" id="k20-es">—</div><div class="kpi-sub" id="k20-eco">Economia juros estresse: —</div></div>
+            <div class="kpi-box gold"><div class="kpi-label">Valor Esperado E(LAIR)</div><div class="kpi-num" id="k20-el">—</div><div class="kpi-sub" id="k20-sum">Soma probabilidades: 100%</div></div>
+          </div>
+          <div class="svg-stage" id="c20-bars"></div>
+        
+        </div>
+      </section>
+    </div>
+
+    <footer class="hub-footer">
+      <div>
+        <strong>Autoria:</strong> Prof. Marcos Antunes (<code>@oprofantunes</code>) · Curso Técnico em Administração · Uso 100% Offline
+      </div>
+      <div style="display:flex;align-items:center;gap:0.6rem;">
+        <img src="assets/img/cc-by-nc-sa.svg" alt="Creative Commons CC BY-NC-SA 4.0" style="height:26px;width:auto;">
+        <span>CC BY-NC-SA 4.0 · Material Didático Técnico Modular</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/charts.js"></script>
+  <script src="assets/engine.js"></script>
+  <script>
+    window.initLessonSim = function () {
+      
+          const E = window.EcoEngine;
+          function calc() {
+            const divK = Math.max(0, E.safeNum(E.$('#a20-div').value, 200000)) / 1000;
+            const amortK = Math.min(divK, Math.max(0, E.safeNum(E.$('#a20-amort').value, 0)) / 1000);
+            const divLiqK = Math.max(0, divK - amortK);
+            E.$('#v20-div').textContent = E.fmtBRL(divK * 1000);
+            E.$('#v20-amort').textContent = E.fmtBRL(amortK * 1000);
+            const pr = [1,2,3].map(i => Math.max(0, E.safeNum(E.$('#a20-pr'+i).value, 0)));
+            E.$('#v20-probs').textContent = pr.join(' / ') + '%';
+            const sumPr = pr[0] + pr[1] + pr[2];
+            const lairs = [1,2,3].map(i => {
+              const r = E.safeNum(E.$('#a20-r'+i).value, 0);
+              const mc = E.safeNum(E.$('#a20-m'+i).value, 0) / 100;
+              const fix = E.safeNum(E.$('#a20-f'+i).value, 0);
+              const sel = E.safeNum(E.$('#a20-s'+i).value, 0) / 100;
+              return (r * mc) - fix - (divLiqK * sel);
+            });
+            const selEst = E.safeNum(E.$('#a20-s3').value, 17) / 100;
+            const ecoEstK = amortK * selEst;
+            const elairK = (pr[0]/100)*lairs[0] + (pr[1]/100)*lairs[1] + (pr[2]/100)*lairs[2];
+            E.$('#k20-ob').textContent = `${E.fmtNum(lairs[0],1)}k / ${E.fmtNum(lairs[1],1)}k`;
+            E.$('#k20-es').textContent = `${E.fmtNum(lairs[2],1)} mil`;
+            E.$('#k20-eco').textContent = `Economia no Estresse: +${E.fmtBRL(ecoEstK*1000)}`;
+            E.$('#k20-el').textContent = E.fmtBRL(elairK * 1000);
+            E.$('#k20-sum').textContent = `Soma probabilidades: ${sumPr}% ${Math.abs(sumPr-100)>0.1 ? '(ajuste para 100%!)' : '(OK)'}`;
+            E.$('#k20-ebox').className = 'kpi-box ' + (lairs[2] >= 0 ? 'ok' : 'warn');
+            window.EcoCharts.renderBars(E.$('#c20-bars'), [
+              { label: 'LAIR Otimista', value: lairs[0], display: E.fmtBRL(lairs[0]*1000), color: window.EcoCharts.C.teal },
+              { label: 'LAIR Base (Focus)', value: lairs[1], display: E.fmtBRL(lairs[1]*1000), color: window.EcoCharts.C.brand },
+              { label: 'Valor Esperado E(LAIR)', value: elairK, display: E.fmtBRL(elairK*1000), color: window.EcoCharts.C.gold },
+              { label: 'LAIR Estresse', value: lairs[2], display: E.fmtBRL(lairs[2]*1000), color: lairs[2] >= 0 ? window.EcoCharts.C.slate : window.EcoCharts.C.crimson }
+            ], { labelWidth: 185 });
+          }
+          E.$('#p20-pedro').addEventListener('click', () => {
+            E.$('#a20-div').value=400000; E.$('#a20-amort').value=0;
+            E.$('#a20-pr1').value=25; E.$('#a20-pr2').value=55; E.$('#a20-pr3').value=20;
+            E.$('#a20-r1').value=2240; E.$('#a20-r2').value=2120; E.$('#a20-r3').value=1960;
+            E.$('#a20-m1').value=41; E.$('#a20-m2').value=40; E.$('#a20-m3').value=37;
+            E.$('#a20-f1').value=570.9; E.$('#a20-f2').value=573.65; E.$('#a20-f3').value=583;
+            E.$('#a20-s1').value=11; E.$('#a20-s2').value=14.5; E.$('#a20-s3').value=16.5; calc();
+          });
+          E.$('#p20-l10').addEventListener('click', () => {
+            E.$('#a20-div').value=200000; E.$('#a20-amort').value=0;
+            E.$('#a20-pr1').value=20; E.$('#a20-pr2').value=50; E.$('#a20-pr3').value=30;
+            E.$('#a20-r1').value=1500; E.$('#a20-r2').value=1350; E.$('#a20-r3').value=1150;
+            E.$('#a20-m1').value=42; E.$('#a20-m2').value=40; E.$('#a20-m3').value=36;
+            E.$('#a20-f1').value=420; E.$('#a20-f2').value=430; E.$('#a20-f3').value=440;
+            E.$('#a20-s1').value=10; E.$('#a20-s2').value=14; E.$('#a20-s3').value=17; calc();
+          });
+          E.$('#p20-amort').addEventListener('click', () => {
+            const d = E.safeNum(E.$('#a20-div').value, 200000);
+            E.$('#a20-amort').value = Math.round(d / 2);
+            calc();
+          });
+          E.bindInputs(['a20-div','a20-amort','a20-pr1','a20-pr2','a20-pr3','a20-r1','a20-r2','a20-r3','a20-m1','a20-m2','a20-m3','a20-f1','a20-f2','a20-f3','a20-s1','a20-s2','a20-s3'], calc);
+        
+    };
+  </script>
+</body>
+</html>

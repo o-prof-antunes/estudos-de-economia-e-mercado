@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 02 · Sistemas Econômicos, Fluxo Circular da Renda e Caso EC01 · Estudos de Economia e Mercado</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-lesson-id="aula-02">
+  <header class="topbar">
+    <div class="topbar-brand">
+      <a href="index.html" title="Voltar ao Hub de 20 Aulas">
+        <img src="assets/img/logo-academy-dark.svg" alt="O Prof. Antunes Academy" class="topbar-logo">
+      </a>
+      <div class="topbar-titles">
+        <div class="topbar-kicker">Aula 02 / 20 · Cap. 01 · Sistemas e Fluxo Circular · Duração: 2h30 (150 min)</div>
+        <div class="topbar-title">Sistemas Econômicos, Fluxo Circular da Renda e Caso EC01</div>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <div class="timer-box" title="Cronômetro da aula presencial de 150 minutos">
+        <span class="timer-display" id="timer-display">02:30:00</span>
+        <button id="timer-toggle" class="timer-mini-btn" type="button" aria-label="Iniciar ou pausar cronômetro">▶</button>
+        <button id="timer-reset" class="timer-mini-btn" type="button" aria-label="Reiniciar cronômetro">↺</button>
+      </div>
+      <a class="btn" href="index.html">Hub</a>
+      <a class="btn" href="aula-01.html">← 01</a>
+      <a class="btn" href="aula-03.html">03 →</a>
+      <button id="btn-focus-sim" class="btn" type="button" aria-pressed="false">Expandir Simulador</button>
+      <button id="btn-modo-docente" class="btn" type="button" aria-pressed="false">Modo Docente</button>
+      <button id="btn-done-lesson" class="btn btn-gold" type="button" aria-pressed="false">Marcar Concluída</button>
+    </div>
+  </header>
+
+  <main class="workspace-shell">
+    <div class="workspace-grid">
+      <section class="lesson-pane" aria-label="Roteiro Guiado da Aula">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Roteiro de Sala (5 Blocos · 150 min)</h2>
+            <span class="badge badge-navy">Trilha Modular 19–21</span>
+          </div>
+
+          <div class="callout" style="margin-top:0;">
+            <strong>Desafio do Pedro Júnior:</strong> Pedro avalia como salários, aluguéis, lucros e capital de giro giram entre empresas e famílias na economia local.
+          </div>
+
+          <div class="step-tabs" role="tablist">
+            <button class="step-tab active" type="button">1. Aquecimento<span>(0–20')</span></button>
+            <button class="step-tab" type="button">2. Conceitos<span>(20–60')</span></button>
+            <button class="step-tab" type="button">3. Simulação<span>(60–100')</span></button>
+            <button class="step-tab" type="button">4. Oficina<span>(100–135')</span></button>
+            <button class="step-tab" type="button">5. Síntese<span>(135–150')</span></button>
+          </div>
+
+          <div class="step-panel active"><h3>De onde vem o faturamento da empresa onde você atua?</h3><p>Toda folha de pagamento paga pelas empresas no dia 5 retorna poucos dias depois ao comércio e prestadores de serviços na forma de vendas. Esse movimento contínuo chama-se <strong>Fluxo Circular da Renda</strong>.</p></div>
+          <div class="step-panel"><h3>Os 3 Problemas Econômicos e os Sistemas</h3><ul><li><strong>O Quê, Como e Para Quem Produzir:</strong> perguntas universais que mudam de resposta conforme o sistema econômico.</li><li><strong>Economia de Mercado vs. Planificada vs. Mista:</strong> como o Brasil combina iniciativa privada, sistema de preços e regulação/serviços estatais.</li><li><strong>Fluxo Real e Fluxo Monetário:</strong> fatores de produção → renda paga → bens/serviços → consumo recebido, com vazamentos (poupança/tributos/importação) e injeções (crédito/investimento).</li></ul></div>
+          <div class="step-panel"><h3>Equilíbrio do Fluxo e Decisão Financeira de MPE</h3><p>No simulador ao lado, distribua os quatro rendimentos dos fatores (Salários, Aluguéis, Juros e Lucros) e teste o impacto quando as famílias aumentam a <strong>Taxa de Poupança/Retenção</strong> ou quando empresas sofrem choque no capital de giro.</p></div>
+          <div class="step-panel"><h3>Debate do Estudo de Caso Real EC01 (Sebrae · MPEs)</h3><p>Em equipes, analisem os dados do caso <strong>EC01 (`estudo-de-caso/EC01-escassez-e-planejamento-produtivo.md`)</strong>: com as MPEs gerando 80,5% das vagas formais (2025) mas enfrentando 41% de demanda de crédito para capital de giro e apenas 48% de aprovação, o que recomendar à MetalLeve?</p></div>
+          <div class="step-panel"><h3>Síntese do Capítulo 01</h3><p>Conclua os itens finais da <strong>Lista L01 (`L01-Q06` a `L01-Q08`)</strong> e entregue o primeiro quadro de portfólio diferenciando decisão de compra fixa à vista vs. preservação de liquidez de giro.</p></div>
+
+          <div class="step-nav-footer">
+            <button id="btn-step-prev" class="btn btn-light" type="button">← Bloco Anterior</button>
+            <span style="font-size:0.78rem;color:var(--text-muted);">Dica: use as setas <strong>←</strong> / <strong>→</strong> do teclado</span>
+            <button id="btn-step-next" class="btn btn-primary" type="button">Próximo Bloco →</button>
+          </div>
+        </div>
+
+        <aside class="docente-panel" aria-label="Orientações Orais do Professor">
+          <h4>Guia Oral do Docente · Aula 02 (Uso em Projetor)</h4>
+          <ul>
+            <li>Conecte o Fluxo Circular à rotina real dos alunos: quando uma fábrica regional demite ou corta horas extras, as padarias e comércios do bairro sentem em duas semanas.</li><li>No debate do EC01, provoque a turma perguntando: 'Ter R$ 48 mil na conta significa ausência de escassez?' Deixe que defendam o porquê da reserva mínima de giro.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="sim-pane" aria-label="Laboratório Interativo">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Simulador de Fluxo Circular da Renda & Capital de Giro</h2>
+            <span class="badge badge-gold">Renda & Consumo</span>
+          </div>
+          
+          <div class="preset-bar">
+            <button type="button" class="btn btn-light" id="p02-base">Polo Comercial Base</button>
+            <button type="button" class="btn btn-light" id="p02-exp">Expansão com Crédito</button>
+            <button type="button" class="btn btn-light" id="p02-retr">Retração / Alta Poupança</button>
+          </div>
+          <div class="controls-grid">
+            <div class="control-group"><label for="a02-sal">Salários (Trabalho) <span class="control-val" id="v02-sal">R$ 42.000</span></label><input id="a02-sal" type="range" min="10000" max="100000" step="2000" value="42000"></div>
+            <div class="control-group"><label for="a02-alu">Aluguéis (Recursos/Imóveis) <span class="control-val" id="v02-alu">R$ 8.000</span></label><input id="a02-alu" type="range" min="2000" max="30000" step="1000" value="8000"></div>
+            <div class="control-group"><label for="a02-jur">Juros (Capital) <span class="control-val" id="v02-jur">R$ 3.000</span></label><input id="a02-jur" type="range" min="1000" max="25000" step="500" value="3000"></div>
+            <div class="control-group"><label for="a02-luc">Lucros (Gestão/Risco) <span class="control-val" id="v02-luc">R$ 12.000</span></label><input id="a02-luc" type="range" min="2000" max="40000" step="1000" value="12000"></div>
+            <div class="control-group"><label for="a02-poup">Vazamento (Poupança/Imp. %) <span class="control-val" id="v02-poup">18%</span></label><input id="a02-poup" type="range" min="5" max="45" step="1" value="18"></div>
+            <div class="control-group"><label for="a02-inj">Injeção (Invest./Crédito Giro) <span class="control-val" id="v02-inj">R$ 11.700</span></label><input id="a02-inj" type="range" min="0" max="45000" step="500" value="11700"></div>
+          </div>
+          <div class="kpi-grid">
+            <div class="kpi-box"><div class="kpi-label">Renda Total das Famílias</div><div class="kpi-num" id="k02-renda">—</div><div class="kpi-sub">Mercado de Fatores</div></div>
+            <div class="kpi-box ok"><div class="kpi-label">Demanda no Comércio (Consumo + Inj.)</div><div class="kpi-num" id="k02-dem">—</div><div class="kpi-sub" id="k02-saldo">Equilíbrio do Fluxo</div></div>
+            <div class="kpi-box gold"><div class="kpi-label">Vazamentos Retidos</div><div class="kpi-num" id="k02-vaz">—</div><div class="kpi-sub">Poupança / Tributos</div></div>
+          </div>
+          <div class="svg-stage" id="c02-bars"></div>
+        
+        </div>
+      </section>
+    </div>
+
+    <footer class="hub-footer">
+      <div>
+        <strong>Autoria:</strong> Prof. Marcos Antunes (<code>@oprofantunes</code>) · Curso Técnico em Administração · Uso 100% Offline
+      </div>
+      <div style="display:flex;align-items:center;gap:0.6rem;">
+        <img src="assets/img/cc-by-nc-sa.svg" alt="Creative Commons CC BY-NC-SA 4.0" style="height:26px;width:auto;">
+        <span>CC BY-NC-SA 4.0 · Material Didático Técnico Modular</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/charts.js"></script>
+  <script src="assets/engine.js"></script>
+  <script>
+    window.initLessonSim = function () {
+      
+          const E = window.EcoEngine;
+          function calc() {
+            const sal = E.safeNum(E.$('#a02-sal').value);
+            const alu = E.safeNum(E.$('#a02-alu').value);
+            const jur = E.safeNum(E.$('#a02-jur').value);
+            const luc = E.safeNum(E.$('#a02-luc').value);
+            const poupPct = E.safeNum(E.$('#a02-poup').value) / 100;
+            const inj = E.safeNum(E.$('#a02-inj').value);
+            E.$('#v02-sal').textContent = E.fmtBRL(sal);
+            E.$('#v02-alu').textContent = E.fmtBRL(alu);
+            E.$('#v02-jur').textContent = E.fmtBRL(jur);
+            E.$('#v02-luc').textContent = E.fmtBRL(luc);
+            E.$('#v02-poup').textContent = E.fmtPct(poupPct * 100, 0);
+            E.$('#v02-inj').textContent = E.fmtBRL(inj);
+            const renda = sal + alu + jur + luc;
+            const vaz = renda * poupPct;
+            const consumo = renda - vaz;
+            const demandaTotal = consumo + inj;
+            const diff = inj - vaz;
+            E.$('#k02-renda').textContent = E.fmtBRL(renda);
+            E.$('#k02-dem').textContent = E.fmtBRL(demandaTotal);
+            E.$('#k02-vaz').textContent = E.fmtBRL(vaz);
+            E.$('#k02-saldo').textContent = Math.abs(diff) < 300 ? 'Fluxo Estacionário (Injeção ≈ Vazamento)' : (diff > 0 ? 'Expansão Líquida: +' + E.fmtBRL(diff) : 'Contração Líquida: ' + E.fmtBRL(diff));
+            window.EcoCharts.renderBars(E.$('#c02-bars'), [
+              { label: 'Renda Gerada (Fatores)', value: renda, display: E.fmtBRL(renda), color: window.EcoCharts.C.navy },
+              { label: 'Consumo Direto Famílias', value: consumo, display: E.fmtBRL(consumo), color: window.EcoCharts.C.brand },
+              { label: 'Vazamento (Poupança/Imp.)', value: vaz, display: E.fmtBRL(vaz), color: window.EcoCharts.C.gold },
+              { label: 'Injeção (Crédito/Inv.)', value: inj, display: E.fmtBRL(inj), color: window.EcoCharts.C.teal },
+              { label: 'Fluxo Recebido Empresas', value: demandaTotal, display: E.fmtBRL(demandaTotal), color: diff >= 0 ? window.EcoCharts.C.teal : window.EcoCharts.C.crimson }
+            ], { labelWidth: 190 });
+          }
+          E.$('#p02-base').addEventListener('click', () => { E.$('#a02-sal').value=42000; E.$('#a02-alu').value=8000; E.$('#a02-jur').value=3000; E.$('#a02-luc').value=12000; E.$('#a02-poup').value=18; E.$('#a02-inj').value=11700; calc(); });
+          E.$('#p02-exp').addEventListener('click', () => { E.$('#a02-poup').value=15; E.$('#a02-inj').value=24000; calc(); });
+          E.$('#p02-retr').addEventListener('click', () => { E.$('#a02-poup').value=30; E.$('#a02-inj').value=6000; calc(); });
+          E.bindInputs(['a02-sal','a02-alu','a02-jur','a02-luc','a02-poup','a02-inj'], calc);
+        
+    };
+  </script>
+</body>
+</html>

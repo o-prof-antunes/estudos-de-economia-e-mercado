@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 08 · Elasticidade-Preço (Ep), Receita Total e Caso Real EC02 · Estudos de Economia e Mercado</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-lesson-id="aula-08">
+  <header class="topbar">
+    <div class="topbar-brand">
+      <a href="index.html" title="Voltar ao Hub de 20 Aulas">
+        <img src="assets/img/logo-academy-dark.svg" alt="O Prof. Antunes Academy" class="topbar-logo">
+      </a>
+      <div class="topbar-titles">
+        <div class="topbar-kicker">Aula 08 / 20 · Cap. 04 · Elasticidade e Caso EC02 · Duração: 2h30 (150 min)</div>
+        <div class="topbar-title">Elasticidade-Preço (Ep), Receita Total e Caso Real EC02</div>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <div class="timer-box" title="Cronômetro da aula presencial de 150 minutos">
+        <span class="timer-display" id="timer-display">02:30:00</span>
+        <button id="timer-toggle" class="timer-mini-btn" type="button" aria-label="Iniciar ou pausar cronômetro">▶</button>
+        <button id="timer-reset" class="timer-mini-btn" type="button" aria-label="Reiniciar cronômetro">↺</button>
+      </div>
+      <a class="btn" href="index.html">Hub</a>
+      <a class="btn" href="aula-07.html">← 07</a>
+      <a class="btn" href="aula-09.html">09 →</a>
+      <button id="btn-focus-sim" class="btn" type="button" aria-pressed="false">Expandir Simulador</button>
+      <button id="btn-modo-docente" class="btn" type="button" aria-pressed="false">Modo Docente</button>
+      <button id="btn-done-lesson" class="btn btn-gold" type="button" aria-pressed="false">Marcar Concluída</button>
+    </div>
+  </header>
+
+  <main class="workspace-shell">
+    <div class="workspace-grid">
+      <section class="lesson-pane" aria-label="Roteiro Guiado da Aula">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Roteiro de Sala (5 Blocos · 150 min)</h2>
+            <span class="badge badge-navy">Trilha Modular 19–21</span>
+          </div>
+
+          <div class="callout" style="margin-top:0;">
+            <strong>Desafio do Pedro Júnior:</strong> Pedro barra uma promoção linear de -20% em todo o catálogo ao provar que ela destrói faturamento na linha EPI inelástica.
+          </div>
+
+          <div class="step-tabs" role="tablist">
+            <button class="step-tab active" type="button">1. Aquecimento<span>(0–20')</span></button>
+            <button class="step-tab" type="button">2. Conceitos<span>(20–60')</span></button>
+            <button class="step-tab" type="button">3. Simulação<span>(60–100')</span></button>
+            <button class="step-tab" type="button">4. Oficina<span>(100–135')</span></button>
+            <button class="step-tab" type="button">5. Síntese<span>(135–150')</span></button>
+          </div>
+
+          <div class="step-panel active"><h3>Dar desconto de 20% sempre faz a empresa faturar mais?</h3><p>Faça o contraponto entre moda casual de shopping e energia elétrica residencial ou medicamentos obrigatórios. Quem ganha e quem perde dinheiro quando baixa o preço em 20%?</p></div>
+          <div class="step-panel"><h3>Elasticidade Simples, Ponto Médio e Regra da Receita Total</h3><ul><li><code>|Ep| > 1</code> (<strong>Elástica</strong>): corte de preço aumenta <code>RT = P × Q</code>.</li><li><code>|Ep| < 1</code> (<strong>Inelástica</strong>): corte de preço <strong>derruba</strong> a receita; reajuste aumenta receita.</li><li><code>|Ep| = 1</code>: elasticidade unitária (receita máxima no ponto).</li><li><strong>Elasticidade-Renda e Cruzada:</strong> sinais positivos vs. negativos.</li></ul></div>
+          <div class="step-panel"><h3>Comparando Casual × EPI × EC02 (Café vs. Energia IBGE)</h3><p>Use os presets no simulador ao lado para conferir imediatamente `|Ep|` simples, `|Ep|` no ponto médio e o gráfico comparativo `Receita Antes × Receita Depois`.</p></div>
+          <div class="step-panel"><h3>Debate EC02 (IBGE 2024 vs. 2025) + Lista L04 (Q02, Q05, Q06, Q08)</h3><p>Analisem os dados oficiais do <strong>EC02 (`estudo-de-caso/EC02-oferta-demanda-e-dinamica-de-precos.md`)</strong>: por que o café (+39,60% em 2024) empurrou substitutos e derrubou filtros, enquanto a energia elétrica (+12,31% em 2025) comprimiu margem sem reduzir muito os kWh?</p></div>
+          <div class="step-panel"><h3>Portfólio Cap. 04</h3><p>Recapitule os dois critérios: precifique diferente conforme a elasticidade de cada linha no catálogo da sua empresa.</p></div>
+
+          <div class="step-nav-footer">
+            <button id="btn-step-prev" class="btn btn-light" type="button">← Bloco Anterior</button>
+            <span style="font-size:0.78rem;color:var(--text-muted);">Dica: use as setas <strong>←</strong> / <strong>→</strong> do teclado</span>
+            <button id="btn-step-next" class="btn btn-primary" type="button">Próximo Bloco →</button>
+          </div>
+        </div>
+
+        <aside class="docente-panel" aria-label="Orientações Orais do Professor">
+          <h4>Guia Oral do Docente · Aula 08 (Uso em Projetor)</h4>
+          <ul>
+            <li>Ao clicar nos presets Casual vs. EPI, peça que reparem na cor da barra de Receita Depois: verde (+R$ 6.000) contra vermelha (-R$ 7.600) usando EXATAMENTE o mesmo desconto!</li><li>Diferencie na lousa Receita Total Máxima (|Ep| = 1) de Lucro Máximo (que depende de custos do Cap. 03).</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="sim-pane" aria-label="Laboratório Interativo">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Calculadora |Ep| (Simples & Arco) + Impacto na Receita Total</h2>
+            <span class="badge badge-gold">Precificação</span>
+          </div>
+          
+          <div class="preset-bar">
+            <button type="button" class="btn btn-light" id="p08-cas">Pedro: Casual Elástica</button>
+            <button type="button" class="btn btn-light" id="p08-epi">Pedro: EPI Inelástico</button>
+            <button type="button" class="btn btn-light" id="p08-cafe">EC02: Café 2024</button>
+            <button type="button" class="btn btn-light" id="p08-ener">EC02: Energia 2025</button>
+          </div>
+          <div class="controls-grid">
+            <div class="control-group"><label for="a08-p1">Preço Inicial (P₁) <span class="control-val" id="v08-p1">R$ 100,00</span></label><input id="a08-p1" type="number" min="0.5" step="1" value="100"></div>
+            <div class="control-group"><label for="a08-p2">Preço Novo (P₂) <span class="control-val" id="v08-p2">R$ 80,00</span></label><input id="a08-p2" type="number" min="0.5" step="1" value="80"></div>
+            <div class="control-group"><label for="a08-q1">Quantidade Inicial (Q₁) <span class="control-val" id="v08-q1">500</span></label><input id="a08-q1" type="number" min="1" step="10" value="500"></div>
+            <div class="control-group"><label for="a08-q2">Quantidade Nova (Q₂) <span class="control-val" id="v08-q2">700</span></label><input id="a08-q2" type="number" min="0" step="10" value="700"></div>
+          </div>
+          <div class="kpi-grid">
+            <div class="kpi-box"><div class="kpi-label">|Ep| Simples / Arco</div><div class="kpi-num" id="k08-ep">—</div><div class="kpi-sub" id="k08-vars">—</div></div>
+            <div class="kpi-box gold"><div class="kpi-label">Classificação</div><div class="kpi-num" id="k08-cls">—</div><div class="kpi-sub">Regra da sensibilidade</div></div>
+            <div class="kpi-box" id="k08-rbox"><div class="kpi-label">Impacto na Receita (P × Q)</div><div class="kpi-num" id="k08-diff">—</div><div class="kpi-sub" id="k08-revs">—</div></div>
+          </div>
+          <div class="svg-stage" id="c08-bars"></div>
+        
+        </div>
+      </section>
+    </div>
+
+    <footer class="hub-footer">
+      <div>
+        <strong>Autoria:</strong> Prof. Marcos Antunes (<code>@oprofantunes</code>) · Curso Técnico em Administração · Uso 100% Offline
+      </div>
+      <div style="display:flex;align-items:center;gap:0.6rem;">
+        <img src="assets/img/cc-by-nc-sa.svg" alt="Creative Commons CC BY-NC-SA 4.0" style="height:26px;width:auto;">
+        <span>CC BY-NC-SA 4.0 · Material Didático Técnico Modular</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/charts.js"></script>
+  <script src="assets/engine.js"></script>
+  <script>
+    window.initLessonSim = function () {
+      
+          const E = window.EcoEngine;
+          function calc() {
+            const p1 = Math.max(0.01, E.safeNum(E.$('#a08-p1').value, 100));
+            const p2 = Math.max(0.01, E.safeNum(E.$('#a08-p2').value, 80));
+            const q1 = Math.max(0.01, E.safeNum(E.$('#a08-q1').value, 500));
+            const q2 = Math.max(0, E.safeNum(E.$('#a08-q2').value, 700));
+            E.$('#v08-p1').textContent = E.fmtBRL(p1);
+            E.$('#v08-p2').textContent = E.fmtBRL(p2);
+            E.$('#v08-q1').textContent = q1;
+            E.$('#v08-q2').textContent = q2;
+            const dP = E.safeDiv(p2 - p1, p1);
+            const dQ = E.safeDiv(q2 - q1, q1);
+            const epSimples = Math.abs(dP) > 1e-6 ? Math.abs(dQ / dP) : 0;
+            const midP = (p1 + p2) / 2, midQ = (q1 + q2) / 2;
+            const epArco = Math.abs(p2 - p1) > 1e-6 && midQ > 0 ? Math.abs(((q2 - q1) / midQ) / ((p2 - p1) / midP)) : 0;
+            const rt1 = p1 * q1, rt2 = p2 * q2, diff = rt2 - rt1;
+            E.$('#k08-ep').textContent = E.fmtNum(epSimples, 2) + ' / ' + E.fmtNum(epArco, 2);
+            E.$('#k08-vars').textContent = `ΔP: ${E.fmtPct(dP*100,1)} | ΔQ: ${E.fmtPct(dQ*100,1)}`;
+            E.$('#k08-cls').textContent = Math.abs(epSimples - 1) < 0.05 ? 'Unitária (≈1)' : (epSimples > 1 ? 'Elástica (|Ep|>1)' : 'Inelástica (|Ep|<1)');
+            const rb = E.$('#k08-rbox');
+            rb.className = 'kpi-box ' + (diff >= 0 ? 'ok' : 'warn');
+            E.$('#k08-diff').textContent = (diff >= 0 ? '+' : '') + E.fmtBRL(diff);
+            E.$('#k08-revs').textContent = `${E.fmtBRL(rt1)} → ${E.fmtBRL(rt2)}`;
+            window.EcoCharts.renderBars(E.$('#c08-bars'), [
+              { label: 'Receita Antes (P₁×Q₁)', value: rt1, display: E.fmtBRL(rt1), color: window.EcoCharts.C.slate },
+              { label: 'Receita Depois (P₂×Q₂)', value: rt2, display: E.fmtBRL(rt2), color: diff >= 0 ? window.EcoCharts.C.teal : window.EcoCharts.C.crimson }
+            ], { labelWidth: 185 });
+          }
+          E.$('#p08-cas').addEventListener('click', () => { E.$('#a08-p1').value=100; E.$('#a08-p2').value=80; E.$('#a08-q1').value=500; E.$('#a08-q2').value=700; calc(); });
+          E.$('#p08-epi').addEventListener('click', () => { E.$('#a08-p1').value=100; E.$('#a08-p2').value=80; E.$('#a08-q1').value=500; E.$('#a08-q2').value=530; calc(); });
+          E.$('#p08-cafe').addEventListener('click', () => { E.$('#a08-p1').value=16; E.$('#a08-p2').value=22.4; E.$('#a08-q1').value=2000; E.$('#a08-q2').value=1480; calc(); });
+          E.$('#p08-ener').addEventListener('click', () => { E.$('#a08-p1').value=0.70; E.$('#a08-p2').value=0.791; E.$('#a08-q1').value=20000; E.$('#a08-q2').value=19600; calc(); });
+          E.bindInputs(['a08-p1','a08-p2','a08-q1','a08-q2'], calc);
+        
+    };
+  </script>
+</body>
+</html>

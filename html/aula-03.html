@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 03 · Microeconomia, Ceteris Paribus e Restrição Orçamentária · Estudos de Economia e Mercado</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-lesson-id="aula-03">
+  <header class="topbar">
+    <div class="topbar-brand">
+      <a href="index.html" title="Voltar ao Hub de 20 Aulas">
+        <img src="assets/img/logo-academy-dark.svg" alt="O Prof. Antunes Academy" class="topbar-logo">
+      </a>
+      <div class="topbar-titles">
+        <div class="topbar-kicker">Aula 03 / 20 · Cap. 02 · Consumidor e Demanda · Duração: 2h30 (150 min)</div>
+        <div class="topbar-title">Microeconomia, Ceteris Paribus e Restrição Orçamentária</div>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <div class="timer-box" title="Cronômetro da aula presencial de 150 minutos">
+        <span class="timer-display" id="timer-display">02:30:00</span>
+        <button id="timer-toggle" class="timer-mini-btn" type="button" aria-label="Iniciar ou pausar cronômetro">▶</button>
+        <button id="timer-reset" class="timer-mini-btn" type="button" aria-label="Reiniciar cronômetro">↺</button>
+      </div>
+      <a class="btn" href="index.html">Hub</a>
+      <a class="btn" href="aula-02.html">← 02</a>
+      <a class="btn" href="aula-04.html">04 →</a>
+      <button id="btn-focus-sim" class="btn" type="button" aria-pressed="false">Expandir Simulador</button>
+      <button id="btn-modo-docente" class="btn" type="button" aria-pressed="false">Modo Docente</button>
+      <button id="btn-done-lesson" class="btn btn-gold" type="button" aria-pressed="false">Marcar Concluída</button>
+    </div>
+  </header>
+
+  <main class="workspace-shell">
+    <div class="workspace-grid">
+      <section class="lesson-pane" aria-label="Roteiro Guiado da Aula">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Roteiro de Sala (5 Blocos · 150 min)</h2>
+            <span class="badge badge-navy">Trilha Modular 19–21</span>
+          </div>
+
+          <div class="callout" style="margin-top:0;">
+            <strong>Desafio do Pedro Júnior:</strong> Pedro analisa como o limite do orçamento mensal determina quantas cestas distintas o cliente consegue pagar nas lojas.
+          </div>
+
+          <div class="step-tabs" role="tablist">
+            <button class="step-tab active" type="button">1. Aquecimento<span>(0–20')</span></button>
+            <button class="step-tab" type="button">2. Conceitos<span>(20–60')</span></button>
+            <button class="step-tab" type="button">3. Simulação<span>(60–100')</span></button>
+            <button class="step-tab" type="button">4. Oficina<span>(100–135')</span></button>
+            <button class="step-tab" type="button">5. Síntese<span>(135–150')</span></button>
+          </div>
+
+          <div class="step-panel active"><h3>Desejo é o mesmo que Demanda Efetiva?</h3><p>Muitos desejam comprar carros novos ou itens de luxo, mas sem capacidade de pagamento disponível isso não altera pedidos reais na fábrica. Comece perguntando: como sua própria cesta mensal de compras muda quando o preço de um item essencial cai 25%?</p></div>
+          <div class="step-panel"><h3>Escolha do Consumidor e Lei da Demanda</h3><ul><li><strong>Microeconomia (Teoria dos Preços):</strong> estuda mercados individuais sob a cláusula <em>ceteris paribus</em> (tudo mais constante).</li><li><strong>Utilidade Marginal Decrescente:</strong> cada unidade extra consumida entrega menor acréscimo de satisfação.</li><li><strong>Restrição Orçamentária (`R = P₁·Q₁ + P₂·Q₂`):</strong> mostra o limite físico de combinações acessíveis.</li><li><strong>Lei Geral da Demanda:</strong> relação inversa entre preço e quantidade procurada por <em>Efeito Substituição</em> + <em>Efeito Renda</em>.</li></ul></div>
+          <div class="step-panel"><h3>Rotação vs. Translação na Reta Orçamentária</h3><p>Altere o Orçamento `R` (vendo a reta inteira deslocar paralelamente) versus alterar apenas `P₁` (vendo a reta girar ao redor do intercepto de Q₂) e teste combinações inviáveis versus equilibradas.</p></div>
+          <div class="step-panel"><h3>Cálculo Aplicado (Lista L02 · Q01, Q04 e Q05)</h3><p>Calcule os interceptos e combinações acessíveis da <strong>Lista L02</strong>, comprovando numericamente a diferença entre variar o preço próprio e ampliar a verba do consumidor.</p></div>
+          <div class="step-panel"><h3>Revisão Crítica</h3><p>Lembre-se do alerta vermelho da apostila: alterar o preço próprio move o consumidor sobre a mesma curva; só fatores externos deslocam a curva inteira (tema da Aula 04).</p></div>
+
+          <div class="step-nav-footer">
+            <button id="btn-step-prev" class="btn btn-light" type="button">← Bloco Anterior</button>
+            <span style="font-size:0.78rem;color:var(--text-muted);">Dica: use as setas <strong>←</strong> / <strong>→</strong> do teclado</span>
+            <button id="btn-step-next" class="btn btn-primary" type="button">Próximo Bloco →</button>
+          </div>
+        </div>
+
+        <aside class="docente-panel" aria-label="Orientações Orais do Professor">
+          <h4>Guia Oral do Docente · Aula 03 (Uso em Projetor)</h4>
+          <ul>
+            <li>Destaque visualmente no gráfico ao lado: cair P₁ de R$ 20 para R$ 15 gira a linha azul sem mexer no teto máximo do Bem 2 — prova de ganho real de poder de compra!</li><li>Peça exemplos do salário do mês dos alunos dividindo transporte/alimentação/lazer.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="sim-pane" aria-label="Laboratório Interativo">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Calculadora de Restrição Orçamentária (R = P₁·Q₁ + P₂·Q₂)</h2>
+            <span class="badge badge-gold">Escolha do Consumidor</span>
+          </div>
+          
+          <div class="preset-bar">
+            <button type="button" class="btn btn-light" id="p03-base">Exemplo Apostila (R$ 600)</button>
+            <button type="button" class="btn btn-light" id="p03-promo">Promoção Café (P₁ = R$ 15)</button>
+            <button type="button" class="btn btn-light" id="p03-l02">Cenário Marmita/Kit (R$ 900)</button>
+          </div>
+          <div class="controls-grid">
+            <div class="control-group"><label for="a03-r">Orçamento Mensal (R) <span class="control-val" id="v03-r">R$ 600</span></label><input id="a03-r" type="range" min="200" max="1500" step="50" value="600"></div>
+            <div class="control-group"><label for="a03-p1">Preço Item 1 (P₁) <span class="control-val" id="v03-p1">R$ 20</span></label><input id="a03-p1" type="range" min="5" max="80" step="1" value="20"></div>
+            <div class="control-group"><label for="a03-p2">Preço Item 2 (P₂) <span class="control-val" id="v03-p2">R$ 30</span></label><input id="a03-p2" type="range" min="5" max="100" step="1" value="30"></div>
+            <div class="control-group"><label for="a03-q1">Cesta Testada: Q₁ <span class="control-val" id="v03-q1">15 un.</span></label><input id="a03-q1" type="range" min="0" max="60" step="1" value="15"></div>
+            <div class="control-group"><label for="a03-q2">Cesta Testada: Q₂ <span class="control-val" id="v03-q2">10 un.</span></label><input id="a03-q2" type="range" min="0" max="50" step="1" value="10"></div>
+          </div>
+          <div class="kpi-grid">
+            <div class="kpi-box"><div class="kpi-label">Máximo Exclusivo Q₁ / Q₂</div><div class="kpi-num" id="k03-max">—</div><div class="kpi-sub">Interceptos da reta orçamentária</div></div>
+            <div class="kpi-box ok" id="k03-statusbox"><div class="kpi-label">Gasto da Cesta Testada</div><div class="kpi-num" id="k03-gasto">—</div><div class="kpi-sub" id="k03-saldo">—</div></div>
+            <div class="kpi-box gold"><div class="kpi-label">Taxa de Troca (P₁ ÷ P₂)</div><div class="kpi-num" id="k03-ratio">—</div><div class="kpi-sub">custo de oportunidade de 1 Q₁ em Q₂</div></div>
+          </div>
+          <div class="svg-stage" id="c03-graph"></div>
+        
+        </div>
+      </section>
+    </div>
+
+    <footer class="hub-footer">
+      <div>
+        <strong>Autoria:</strong> Prof. Marcos Antunes (<code>@oprofantunes</code>) · Curso Técnico em Administração · Uso 100% Offline
+      </div>
+      <div style="display:flex;align-items:center;gap:0.6rem;">
+        <img src="assets/img/cc-by-nc-sa.svg" alt="Creative Commons CC BY-NC-SA 4.0" style="height:26px;width:auto;">
+        <span>CC BY-NC-SA 4.0 · Material Didático Técnico Modular</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/charts.js"></script>
+  <script src="assets/engine.js"></script>
+  <script>
+    window.initLessonSim = function () {
+      
+          const E = window.EcoEngine;
+          function calc() {
+            const R = E.safeNum(E.$('#a03-r').value, 600);
+            const P1 = Math.max(1, E.safeNum(E.$('#a03-p1').value, 20));
+            const P2 = Math.max(1, E.safeNum(E.$('#a03-p2').value, 30));
+            const Q1 = E.safeNum(E.$('#a03-q1').value, 15);
+            const Q2 = E.safeNum(E.$('#a03-q2').value, 10);
+            E.$('#v03-r').textContent = E.fmtBRL(R);
+            E.$('#v03-p1').textContent = E.fmtBRL(P1);
+            E.$('#v03-p2').textContent = E.fmtBRL(P2);
+            E.$('#v03-q1').textContent = Q1 + ' un.';
+            E.$('#v03-q2').textContent = Q2 + ' un.';
+            const maxQ1 = R / P1;
+            const maxQ2 = R / P2;
+            const gasto = P1 * Q1 + P2 * Q2;
+            const sobra = R - gasto;
+            E.$('#k03-max').textContent = E.fmtNum(maxQ1, 1) + ' Q₁ / ' + E.fmtNum(maxQ2, 1) + ' Q₂';
+            E.$('#k03-gasto').textContent = E.fmtBRL(gasto);
+            E.$('#k03-ratio').textContent = E.fmtNum(P1 / P2, 2) + ' Q₂';
+            const box = E.$('#k03-statusbox');
+            box.className = 'kpi-box ' + (sobra < -0.01 ? 'warn' : (Math.abs(sobra) < 1 ? 'ok' : 'gold'));
+            E.$('#k03-saldo').textContent = sobra < -0.01 ? 'Extrapolou orçamento em ' + E.fmtBRL(Math.abs(sobra)) : (Math.abs(sobra) < 1 ? 'Na fronteira exata do orçamento' : 'Dentro do limite (sobra ' + E.fmtBRL(sobra) + ')');
+            window.EcoCharts.renderMarketGraph(E.$('#c03-graph'), {
+              maxQ: Math.max(40, maxQ1 * 1.15, Q1 * 1.15),
+              maxP: Math.max(30, maxQ2 * 1.15, Q2 * 1.15),
+              xLabel: 'Quantidade Item 1 (Q₁)',
+              yLabel: 'Quantidade Item 2 (Q₂)',
+              curves: [{ p1: maxQ2, q1: 0, p2: 0, q2: maxQ1, color: window.EcoCharts.C.brand, label: 'Reta Orçamentária' }],
+              point: { q: Q1, p: Q2, label: `Cesta (${Q1}; ${Q2})` }
+            });
+          }
+          E.$('#p03-base').addEventListener('click', () => { E.$('#a03-r').value=600; E.$('#a03-p1').value=20; E.$('#a03-p2').value=30; E.$('#a03-q1').value=15; E.$('#a03-q2').value=10; calc(); });
+          E.$('#p03-promo').addEventListener('click', () => { E.$('#a03-r').value=600; E.$('#a03-p1').value=15; E.$('#a03-p2').value=30; E.$('#a03-q1').value=20; E.$('#a03-q2').value=10; calc(); });
+          E.$('#p03-l02').addEventListener('click', () => { E.$('#a03-r').value=900; E.$('#a03-p1').value=30; E.$('#a03-p2').value=45; E.$('#a03-q1').value=15; E.$('#a03-q2').value=10; calc(); });
+          E.bindInputs(['a03-r','a03-p1','a03-p2','a03-q1','a03-q2'], calc);
+        
+    };
+  </script>
+</body>
+</html>

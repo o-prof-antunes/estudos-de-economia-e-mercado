@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 12 · Componentes C + I + G + (X − M), Multiplicador e Caso EC04 · Estudos de Economia e Mercado</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-lesson-id="aula-12">
+  <header class="topbar">
+    <div class="topbar-brand">
+      <a href="index.html" title="Voltar ao Hub de 20 Aulas">
+        <img src="assets/img/logo-academy-dark.svg" alt="O Prof. Antunes Academy" class="topbar-logo">
+      </a>
+      <div class="topbar-titles">
+        <div class="topbar-kicker">Aula 12 / 20 · Cap. 06 · Demanda Agregada (EC04) · Duração: 2h30 (150 min)</div>
+        <div class="topbar-title">Componentes C + I + G + (X − M), Multiplicador e Caso EC04</div>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <div class="timer-box" title="Cronômetro da aula presencial de 150 minutos">
+        <span class="timer-display" id="timer-display">02:30:00</span>
+        <button id="timer-toggle" class="timer-mini-btn" type="button" aria-label="Iniciar ou pausar cronômetro">▶</button>
+        <button id="timer-reset" class="timer-mini-btn" type="button" aria-label="Reiniciar cronômetro">↺</button>
+      </div>
+      <a class="btn" href="index.html">Hub</a>
+      <a class="btn" href="aula-11.html">← 11</a>
+      <a class="btn" href="aula-13.html">13 →</a>
+      <button id="btn-focus-sim" class="btn" type="button" aria-pressed="false">Expandir Simulador</button>
+      <button id="btn-modo-docente" class="btn" type="button" aria-pressed="false">Modo Docente</button>
+      <button id="btn-done-lesson" class="btn btn-gold" type="button" aria-pressed="false">Marcar Concluída</button>
+    </div>
+  </header>
+
+  <main class="workspace-shell">
+    <div class="workspace-grid">
+      <section class="lesson-pane" aria-label="Roteiro Guiado da Aula">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Roteiro de Sala (5 Blocos · 150 min)</h2>
+            <span class="badge badge-navy">Trilha Modular 19–21</span>
+          </div>
+
+          <div class="callout" style="margin-top:0;">
+            <strong>Desafio do Pedro Júnior:</strong> Pedro conecta a desaceleração do Consumo das Famílias no Brasil (5,1% em 2024 → 1,3% em 2025) ao controle de estoques da rede.
+          </div>
+
+          <div class="step-tabs" role="tablist">
+            <button class="step-tab active" type="button">1. Aquecimento<span>(0–20')</span></button>
+            <button class="step-tab" type="button">2. Conceitos<span>(20–60')</span></button>
+            <button class="step-tab" type="button">3. Simulação<span>(60–100')</span></button>
+            <button class="step-tab" type="button">4. Oficina<span>(100–135')</span></button>
+            <button class="step-tab" type="button">5. Síntese<span>(135–150')</span></button>
+          </div>
+
+          <div class="step-panel active"><h3>Por que a queda do Consumo das Famílias trava mais os móveis do que o Agro?</h3><p>Apresente os dados oficiais do IBGE de 2025 (`PIB +2,3%`, `Agro +11,7%`, `Consumo +1,3%`) e discuta por que cada empresa depende de um motor distinto de demanda.</p></div>
+          <div class="step-panel"><h3>Demanda Agregada e Multiplicador Keynesiano</h3><ul><li><strong>`C` (~60–64% do PIB):</strong> massa salarial, emprego e crédito.</li><li><strong>`I` (FBCF + Estoques):</strong> investimento físico produtivo (distinto de aplicação financeira).</li><li><strong>`G` e `(X − M)`:</strong> compras governamentais e saldo externo líquido.</li><li><strong>Multiplicador `k = 1 ÷ (1 − c)`:</strong> quanto mais alta a propensão marginal a consumir (`c`), maior o giro multiplicador de um novo gasto autônomo.</li></ul></div>
+          <div class="step-panel"><h3>Painel Macroeconômico e Multiplicador do Gasto</h3><p>Altere os blocos `C, I, G, X, M`, ajuste a Propensão Marginal a Consumir (`c`) e dispare um choque de Investimento/Gasto (`ΔI`) vendo o impacto expandido em ondas no PIB!</p></div>
+          <div class="step-panel"><h3>Debate EC04 (IBGE Contas Nacionais) + Lista L06 (Q03, Q06 a Q08)</h3><p>Resolvam as questões estratégicas do caso <strong>EC04 (`estudo-de-caso/EC04-pib-consumo-e-ciclo-economico-brasil.md`)</strong> diferenciando decisões para a Unidade Urbana vs. Unidade Agro-Serviços.</p></div>
+          <div class="step-panel"><h3>Fechamento Cap. 06</h3><p>Próxima etapa: entrar no sistema financeiro e descobrir como os bancos multiplicam dinheiro e formam taxas de crédito (Aula 13).</p></div>
+
+          <div class="step-nav-footer">
+            <button id="btn-step-prev" class="btn btn-light" type="button">← Bloco Anterior</button>
+            <span style="font-size:0.78rem;color:var(--text-muted);">Dica: use as setas <strong>←</strong> / <strong>→</strong> do teclado</span>
+            <button id="btn-step-next" class="btn btn-primary" type="button">Próximo Bloco →</button>
+          </div>
+        </div>
+
+        <aside class="docente-panel" aria-label="Orientações Orais do Professor">
+          <h4>Guia Oral do Docente · Aula 12 (Uso em Projetor)</h4>
+          <ul>
+            <li>Frise para a turma: 'aplicar em ações ou CDB' NÃO entra em `I` no PIB — apenas fábrica, máquina, galpão, software produtivo e obra física!</li><li>No EC04, peça que comparem a cidade agrícola com a periferia urbana dependente de carnê de 12 meses.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="sim-pane" aria-label="Laboratório Interativo">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Painel Demanda Agregada Y = C + I + G + (X − M) & Multiplicador</h2>
+            <span class="badge badge-gold">Macroeconomia</span>
+          </div>
+          
+          <div class="preset-bar">
+            <button type="button" class="btn btn-light" id="p12-l06">Cenário Lista L06-Q06</button>
+            <button type="button" class="btn btn-light" id="p12-choque">Choque Investimento (+R$ 20 bi)</button>
+            <button type="button" class="btn btn-light" id="p12-imp">Vazamento por Importação</button>
+          </div>
+          <div class="controls-grid">
+            <div class="control-group"><label for="a12-c">Consumo Famílias (C, R$ bi) <span class="control-val" id="v12-c">520</span></label><input id="a12-c" type="range" min="300" max="800" step="10" value="520"></div>
+            <div class="control-group"><label for="a12-i">Investimento Privado (I, R$ bi) <span class="control-val" id="v12-i">160</span></label><input id="a12-i" type="range" min="50" max="350" step="10" value="160"></div>
+            <div class="control-group"><label for="a12-g">Gastos do Governo (G, R$ bi) <span class="control-val" id="v12-g">140</span></label><input id="a12-g" type="range" min="50" max="300" step="10" value="140"></div>
+            <div class="control-group"><label for="a12-x">Exportações (X, R$ bi) <span class="control-val" id="v12-x">130</span></label><input id="a12-x" type="range" min="40" max="300" step="10" value="130"></div>
+            <div class="control-group"><label for="a12-m">Importações (M, R$ bi) <span class="control-val" id="v12-m">110</span></label><input id="a12-m" type="range" min="40" max="300" step="10" value="110"></div>
+            <div class="control-group"><label for="a12-pmc">PMC (c) / Injeção Extra (Δ) <span class="control-val" id="v12-pmc">0,80 | +0</span></label><input id="a12-pmc" type="range" min="0.4" max="0.85" step="0.05" value="0.80"><input id="a12-inj" type="range" min="0" max="50" step="5" value="0" style="margin-top:0.35rem;"></div>
+          </div>
+          <div class="kpi-grid">
+            <div class="kpi-box"><div class="kpi-label">PIB Base (Y)</div><div class="kpi-num" id="k12-y">—</div><div class="kpi-sub" id="k12-nx">Saldo Externo (X − M): —</div></div>
+            <div class="kpi-box gold"><div class="kpi-label">Multiplicador (k)</div><div class="kpi-num" id="k12-k">—</div><div class="kpi-sub">k = 1 ÷ (1 − c)</div></div>
+            <div class="kpi-box ok"><div class="kpi-label">PIB Pós-Efeito Multiplicador</div><div class="kpi-num" id="k12-yf">—</div><div class="kpi-sub" id="k12-dy">Expansão total: —</div></div>
+          </div>
+          <div class="svg-stage" id="c12-bars"></div>
+        
+        </div>
+      </section>
+    </div>
+
+    <footer class="hub-footer">
+      <div>
+        <strong>Autoria:</strong> Prof. Marcos Antunes (<code>@oprofantunes</code>) · Curso Técnico em Administração · Uso 100% Offline
+      </div>
+      <div style="display:flex;align-items:center;gap:0.6rem;">
+        <img src="assets/img/cc-by-nc-sa.svg" alt="Creative Commons CC BY-NC-SA 4.0" style="height:26px;width:auto;">
+        <span>CC BY-NC-SA 4.0 · Material Didático Técnico Modular</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/charts.js"></script>
+  <script src="assets/engine.js"></script>
+  <script>
+    window.initLessonSim = function () {
+      
+          const E = window.EcoEngine;
+          function calc() {
+            const C = E.safeNum(E.$('#a12-c').value, 520);
+            const I = E.safeNum(E.$('#a12-i').value, 160);
+            const G = E.safeNum(E.$('#a12-g').value, 140);
+            const X = E.safeNum(E.$('#a12-x').value, 130);
+            const M = E.safeNum(E.$('#a12-m').value, 110);
+            const pmc = Math.min(0.95, Math.max(0.1, E.safeNum(E.$('#a12-pmc').value, 0.80)));
+            const inj = E.safeNum(E.$('#a12-inj').value, 0);
+            E.$('#v12-c').textContent = 'R$ ' + C + ' bi';
+            E.$('#v12-i').textContent = 'R$ ' + I + ' bi';
+            E.$('#v12-g').textContent = 'R$ ' + G + ' bi';
+            E.$('#v12-x').textContent = 'R$ ' + X + ' bi';
+            E.$('#v12-m').textContent = 'R$ ' + M + ' bi';
+            E.$('#v12-pmc').textContent = E.fmtNum(pmc, 2) + ' | +' + inj + ' bi';
+            const nx = X - M;
+            const y0 = C + I + G + nx;
+            const k = E.safeDiv(1, 1 - pmc, 1);
+            const dy = inj * k;
+            const yf = y0 + dy;
+            E.$('#k12-y').textContent = 'R$ ' + E.fmtNum(y0, 0) + ' bi';
+            E.$('#k12-nx').textContent = `Saldo Externo (X − M): ${nx >= 0 ? '+' : ''}R$ ${E.fmtNum(nx,0)} bi`;
+            E.$('#k12-k').textContent = E.fmtNum(k, 2) + 'x';
+            E.$('#k12-yf').textContent = 'R$ ' + E.fmtNum(yf, 0) + ' bi';
+            E.$('#k12-dy').textContent = `Impacto líquido +${E.fmtNum(dy, 1)} bi`;
+            window.EcoCharts.renderBars(E.$('#c12-bars'), [
+              { label: 'Consumo (C)', value: C, display: C + ' bi', color: window.EcoCharts.C.navy },
+              { label: 'Investimento (I)', value: I, display: I + ' bi', color: window.EcoCharts.C.brand },
+              { label: 'Gastos Governo (G)', value: G, display: G + ' bi', color: window.EcoCharts.C.slate },
+              { label: 'Saldo Externo (X−M)', value: nx, display: (nx>=0?'+':'') + nx + ' bi', color: nx >= 0 ? window.EcoCharts.C.teal : window.EcoCharts.C.crimson },
+              { label: 'Efeito Multiplicado ΔY', value: dy, display: '+' + E.fmtNum(dy,0) + ' bi', color: window.EcoCharts.C.gold }
+            ], { labelWidth: 185 });
+          }
+          E.$('#p12-l06').addEventListener('click', () => { E.$('#a12-c').value=520; E.$('#a12-i').value=160; E.$('#a12-g').value=140; E.$('#a12-x').value=130; E.$('#a12-m').value=110; E.$('#a12-pmc').value=0.80; E.$('#a12-inj').value=0; calc(); });
+          E.$('#p12-choque').addEventListener('click', () => { E.$('#a12-c').value=520; E.$('#a12-i').value=160; E.$('#a12-g').value=140; E.$('#a12-x').value=130; E.$('#a12-m').value=110; E.$('#a12-pmc').value=0.80; E.$('#a12-inj').value=20; calc(); });
+          E.$('#p12-imp').addEventListener('click', () => { E.$('#a12-x').value=130; E.$('#a12-m').value=170; E.$('#a12-inj').value=0; calc(); });
+          E.bindInputs(['a12-c','a12-i','a12-g','a12-x','a12-m','a12-pmc','a12-inj'], calc);
+        
+    };
+  </script>
+</body>
+</html>

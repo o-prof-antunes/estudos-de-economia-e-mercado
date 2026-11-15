@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 17 · Mix de Política Econômica: Tesouro Nacional vs. Banco Central · Estudos de Economia e Mercado</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-lesson-id="aula-17">
+  <header class="topbar">
+    <div class="topbar-brand">
+      <a href="index.html" title="Voltar ao Hub de 20 Aulas">
+        <img src="assets/img/logo-academy-dark.svg" alt="O Prof. Antunes Academy" class="topbar-logo">
+      </a>
+      <div class="topbar-titles">
+        <div class="topbar-kicker">Aula 17 / 20 · Cap. 09 · Política Fiscal e Monetária · Duração: 2h30 (150 min)</div>
+        <div class="topbar-title">Mix de Política Econômica: Tesouro Nacional vs. Banco Central</div>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <div class="timer-box" title="Cronômetro da aula presencial de 150 minutos">
+        <span class="timer-display" id="timer-display">02:30:00</span>
+        <button id="timer-toggle" class="timer-mini-btn" type="button" aria-label="Iniciar ou pausar cronômetro">▶</button>
+        <button id="timer-reset" class="timer-mini-btn" type="button" aria-label="Reiniciar cronômetro">↺</button>
+      </div>
+      <a class="btn" href="index.html">Hub</a>
+      <a class="btn" href="aula-16.html">← 16</a>
+      <a class="btn" href="aula-18.html">18 →</a>
+      <button id="btn-focus-sim" class="btn" type="button" aria-pressed="false">Expandir Simulador</button>
+      <button id="btn-modo-docente" class="btn" type="button" aria-pressed="false">Modo Docente</button>
+      <button id="btn-done-lesson" class="btn btn-gold" type="button" aria-pressed="false">Marcar Concluída</button>
+    </div>
+  </header>
+
+  <main class="workspace-shell">
+    <div class="workspace-grid">
+      <section class="lesson-pane" aria-label="Roteiro Guiado da Aula">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Roteiro de Sala (5 Blocos · 150 min)</h2>
+            <span class="badge badge-navy">Trilha Modular 19–21</span>
+          </div>
+
+          <div class="callout" style="margin-top:0;">
+            <strong>Desafio do Pedro Júnior:</strong> Pedro entende por que gasto público expansionista em paralelo à tentativa de conter inflação mantém os juros das empresas altos por mais tempo.
+          </div>
+
+          <div class="step-tabs" role="tablist">
+            <button class="step-tab active" type="button">1. Aquecimento<span>(0–20')</span></button>
+            <button class="step-tab" type="button">2. Conceitos<span>(20–60')</span></button>
+            <button class="step-tab" type="button">3. Simulação<span>(60–100')</span></button>
+            <button class="step-tab" type="button">4. Oficina<span>(100–135')</span></button>
+            <button class="step-tab" type="button">5. Síntese<span>(135–150')</span></button>
+          </div>
+
+          <div class="step-panel active"><h3>O que acontece quando o acelerador fiscal e o freio monetário são pisados juntos?</h3><p>Use a metáfora do carro: se o Governo acelera gastos públicos (`Fiscal +`) e o Copom pisa no freio (`Monetária −`), o motor esquenta em juros altos.</p></div>
+          <div class="step-panel"><h3>Alavancas Fiscais e Monetárias + Primário vs. Nominal</h3><ul><li><strong>Política Fiscal (Tesouro):</strong> tributos + gastos (`G`); Resultado Primário (antes dos juros) vs. Nominal (com conta de juros da dívida!).</li><li><strong>Política Monetária (BCB/Copom):</strong> Selic Meta, <em>Open Market</em>, Compulsório e Redesconto.</li><li><strong>Interação (Policy Mix):</strong> harmonioso vs. conflitante sobre PIB e investimento privado (`I`).</li></ul></div>
+          <div class="step-panel"><h3>Painel Fazenda × Copom ao Vivo</h3><p>Combine as posturas Fiscal e Monetária e ajuste o estoque de Dívida Pública para observar o efeito imediato sobre Pressão Inflacionária, Selic de Equilíbrio, Déficit Nominal e Crédito das PMEs.</p></div>
+          <div class="step-panel"><h3>Lista L09 · Questões Q01, Q02, Q07 e Q08</h3><p>Classifiquem os 4 instrumentos de política econômica e analisem o impacto do conflito de *mix* sobre novos investimentos empresariais (`L09-Q07`).</p></div>
+          <div class="step-panel"><h3>Ponte para Setor Externo</h3><p>Na Aula 18 abrimos as fronteiras comerciais: Balanço de Pagamentos e o efeito tesoura do Dólar PTAX!</p></div>
+
+          <div class="step-nav-footer">
+            <button id="btn-step-prev" class="btn btn-light" type="button">← Bloco Anterior</button>
+            <span style="font-size:0.78rem;color:var(--text-muted);">Dica: use as setas <strong>←</strong> / <strong>→</strong> do teclado</span>
+            <button id="btn-step-next" class="btn btn-primary" type="button">Próximo Bloco →</button>
+          </div>
+        </div>
+
+        <aside class="docente-panel" aria-label="Orientações Orais do Professor">
+          <h4>Guia Oral do Docente · Aula 17 (Uso em Projetor)</h4>
+          <ul>
+            <li>Peça exemplos concretos que os alunos veem nos jornais econômicos: corte de IPI, contingenciamento orçamentário, reunião do Copom a cada 45 dias.</li><li>Destaque como a conta de juros da dívida pública dispara o Resultado Nominal mesmo quando o Primário está próximo de zero.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="sim-pane" aria-label="Laboratório Interativo">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Simulador Integrado: Fazenda (Fiscal) × Copom (Monetária)</h2>
+            <span class="badge badge-gold">Policy Mix</span>
+          </div>
+          
+          <div class="preset-bar">
+            <button type="button" class="btn btn-light" id="p17-conflito">Conflito: Fiscal Exp. + Monet. Contr.</button>
+            <button type="button" class="btn btn-light" id="p17-ajuste">Ajuste Coordenado (Consolidação)</button>
+            <button type="button" class="btn btn-light" id="p17-estim">Estímulo Coordenado</button>
+          </div>
+          <div class="controls-grid">
+            <div class="control-group"><label for="a17-fisc">Postura Política Fiscal</label><select id="a17-fisc"><option value="1">Expansionista (+Gastos / −Tributos)</option><option value="0">Neutra (Equilíbrio Primário)</option><option value="-1">Contracionista (Corte Gastos / +Superávit)</option></select></div>
+            <div class="control-group"><label for="a17-mon">Postura Política Monetária (Copom)</label><select id="a17-mon"><option value="-1">Contracionista (Sobe Selic / Vende Títulos)</option><option value="0">Neutra</option><option value="1">Expansionista (Corta Selic / Compra Títulos)</option></select></div>
+            <div class="control-group"><label for="a17-prim">Resultado Primário (% PIB) <span class="control-val" id="v17-prim">-0,5%</span></label><input id="a17-prim" type="range" min="-3" max="3" step="0.25" value="-0.5"></div>
+            <div class="control-group"><label for="a17-div">Dívida Pública (% PIB) <span class="control-val" id="v17-div">76%</span></label><input id="a17-div" type="range" min="40" max="100" step="2" value="76"></div>
+          </div>
+          <div class="kpi-grid">
+            <div class="kpi-box"><div class="kpi-label">Selic de Equilíbrio Estimada</div><div class="kpi-num" id="k17-sel">—</div><div class="kpi-sub" id="k17-mix">Leitura do Mix</div></div>
+            <div class="kpi-box gold"><div class="kpi-label">Conta de Juros + Resultado Nominal</div><div class="kpi-num" id="k17-nom">—</div><div class="kpi-sub" id="k17-jur">Juros sobre dívida: —</div></div>
+            <div class="kpi-box ok" id="k17-ebox"><div class="kpi-label">Efeito para a Empresa</div><div class="kpi-num" id="k17-emp">—</div><div class="kpi-sub" id="k17-capex">—</div></div>
+          </div>
+          <div class="svg-stage" id="c17-bars"></div>
+        
+        </div>
+      </section>
+    </div>
+
+    <footer class="hub-footer">
+      <div>
+        <strong>Autoria:</strong> Prof. Marcos Antunes (<code>@oprofantunes</code>) · Curso Técnico em Administração · Uso 100% Offline
+      </div>
+      <div style="display:flex;align-items:center;gap:0.6rem;">
+        <img src="assets/img/cc-by-nc-sa.svg" alt="Creative Commons CC BY-NC-SA 4.0" style="height:26px;width:auto;">
+        <span>CC BY-NC-SA 4.0 · Material Didático Técnico Modular</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/charts.js"></script>
+  <script src="assets/engine.js"></script>
+  <script>
+    window.initLessonSim = function () {
+      
+          const E = window.EcoEngine;
+          function calc() {
+            const fisc = Number(E.$('#a17-fisc').value);
+            const mon = Number(E.$('#a17-mon').value);
+            const prim = E.safeNum(E.$('#a17-prim').value, -0.5);
+            const div = E.safeNum(E.$('#a17-div').value, 76);
+            E.$('#v17-prim').textContent = (prim>0?'+':'') + E.fmtPct(prim, 2);
+            E.$('#v17-div').textContent = E.fmtPct(div, 0);
+            const selicEq = Math.max(4, Math.min(22, 11.0 + (fisc * 2.5) - (mon * 2.5) + (div - 65) * 0.08));
+            const pibShort = 2.0 + (fisc * 1.1) + (mon * 0.9);
+            const ipcaProj = Math.max(2, 4.2 + (fisc * 1.1) + (mon * 1.0));
+            const jurosPib = (div * (selicEq / 100)) * 0.72; // taxa implicita média ~72% da Selic
+            const resNom = prim - jurosPib;
+            E.$('#k17-sel').textContent = E.fmtPct(selicEq, 2) + ' a.a.';
+            E.$('#k17-nom').textContent = E.fmtPct(resNom, 2) + ' PIB';
+            E.$('#k17-jur').textContent = `Juros implícitos: -${E.fmtPct(jurosPib,2)} do PIB`;
+            let mixMsg = 'Postura mista equilibrada', empTxt = 'Crédito moderado', capex = 'Planejamento cauteloso';
+            const eb = E.$('#k17-ebox');
+            if (fisc === 1 && mon === -1) {
+              mixMsg = 'Conflito clássico: Fiscal acelera vs. BCB freia!';
+              empTxt = 'Juro Caro + Consumo Pontual';
+              capex = 'Evite dívida pós-fixada longa (efeito crowding-out)';
+              eb.className = 'kpi-box warn';
+            } else if (fisc === -1 && mon === 1) {
+              mixMsg = 'Combinação pró-investimento (juros caem sem inflação)';
+              empTxt = 'Alívio no Capital de Giro';
+              capex = 'Janela favorável para investir em máquinas (CAPEX)';
+              eb.className = 'kpi-box ok';
+            } else if (fisc === -1 && mon === -1) {
+              mixMsg = 'Forte contração conjunta para ancorar inflação';
+              empTxt = 'Desaceleração de Vendas';
+              capex = 'Priorize liquidez de caixa e reduza estoques';
+              eb.className = 'kpi-box gold';
+            } else {
+              mixMsg = 'Estímulo coordenado (atenção à pressão inflacionária)';
+              empTxt = 'Demanda Aquecida';
+              capex = 'Monitore capacidade instalada e repasse de custos';
+              eb.className = 'kpi-box gold';
+            }
+            E.$('#k17-mix').textContent = mixMsg;
+            E.$('#k17-emp').textContent = empTxt;
+            E.$('#k17-capex').textContent = capex;
+            window.EcoCharts.renderBars(E.$('#c17-bars'), [
+              { label: 'Selic de Equilíbrio (%)', value: selicEq, display: E.fmtPct(selicEq,2), color: window.EcoCharts.C.navy },
+              { label: 'Inflação Projetada (%)', value: ipcaProj, display: E.fmtPct(ipcaProj,2), color: window.EcoCharts.C.crimson },
+              { label: 'PIB Curto Prazo (%)', value: pibShort, display: (pibShort>=0?'+':'')+E.fmtPct(pibShort,2), color: window.EcoCharts.C.teal },
+              { label: 'Resultado Nominal (% PIB)', value: resNom, display: E.fmtPct(resNom,2), color: resNom >= -3 ? window.EcoCharts.C.gold : window.EcoCharts.C.crimson }
+            ], { labelWidth: 195 });
+          }
+          E.$('#p17-conflito').addEventListener('click', () => { E.$('#a17-fisc').value='1'; E.$('#a17-mon').value='-1'; E.$('#a17-prim').value=-1.0; calc(); });
+          E.$('#p17-ajuste').addEventListener('click', () => { E.$('#a17-fisc').value='-1'; E.$('#a17-mon').value='1'; E.$('#a17-prim').value=1.0; calc(); });
+          E.$('#p17-estim').addEventListener('click', () => { E.$('#a17-fisc').value='1'; E.$('#a17-mon').value='1'; E.$('#a17-prim').value=-1.5; calc(); });
+          E.bindInputs(['a17-fisc','a17-mon','a17-prim','a17-div'], calc);
+        
+    };
+  </script>
+</body>
+</html>

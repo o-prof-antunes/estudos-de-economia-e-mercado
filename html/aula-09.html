@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 09 · Estruturas de Mercado, Índice HHI e Combate a Cartéis · Estudos de Economia e Mercado</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-lesson-id="aula-09">
+  <header class="topbar">
+    <div class="topbar-brand">
+      <a href="index.html" title="Voltar ao Hub de 20 Aulas">
+        <img src="assets/img/logo-academy-dark.svg" alt="O Prof. Antunes Academy" class="topbar-logo">
+      </a>
+      <div class="topbar-titles">
+        <div class="topbar-kicker">Aula 09 / 20 · Cap. 05 · Estruturas e HHI (EC03) · Duração: 2h30 (150 min)</div>
+        <div class="topbar-title">Estruturas de Mercado, Índice HHI e Combate a Cartéis</div>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <div class="timer-box" title="Cronômetro da aula presencial de 150 minutos">
+        <span class="timer-display" id="timer-display">02:30:00</span>
+        <button id="timer-toggle" class="timer-mini-btn" type="button" aria-label="Iniciar ou pausar cronômetro">▶</button>
+        <button id="timer-reset" class="timer-mini-btn" type="button" aria-label="Reiniciar cronômetro">↺</button>
+      </div>
+      <a class="btn" href="index.html">Hub</a>
+      <a class="btn" href="aula-08.html">← 08</a>
+      <a class="btn" href="aula-10.html">10 →</a>
+      <button id="btn-focus-sim" class="btn" type="button" aria-pressed="false">Expandir Simulador</button>
+      <button id="btn-modo-docente" class="btn" type="button" aria-pressed="false">Modo Docente</button>
+      <button id="btn-done-lesson" class="btn btn-gold" type="button" aria-pressed="false">Marcar Concluída</button>
+    </div>
+  </header>
+
+  <main class="workspace-shell">
+    <div class="workspace-grid">
+      <section class="lesson-pane" aria-label="Roteiro Guiado da Aula">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Roteiro de Sala (5 Blocos · 150 min)</h2>
+            <span class="badge badge-navy">Trilha Modular 19–21</span>
+          </div>
+
+          <div class="callout" style="margin-top:0;">
+            <strong>Desafio do Pedro Júnior:</strong> Pedro calcula o HHI do setor regional de distribuição (2.950 pontos) e barra uma proposta ilegal de tabela combinada de preços.
+          </div>
+
+          <div class="step-tabs" role="tablist">
+            <button class="step-tab active" type="button">1. Aquecimento<span>(0–20')</span></button>
+            <button class="step-tab" type="button">2. Conceitos<span>(20–60')</span></button>
+            <button class="step-tab" type="button">3. Simulação<span>(60–100')</span></button>
+            <button class="step-tab" type="button">4. Oficina<span>(100–135')</span></button>
+            <button class="step-tab" type="button">5. Síntese<span>(135–150')</span></button>
+          </div>
+
+          <div class="step-panel active"><h3>Por que alguns setores mudam de preço todo dia na guerra e outros mantêm margens altas?</h3><p>Compare uma feira livre de bairro com operadoras de telefonia ou redes de postos de combustíveis.</p></div>
+          <div class="step-panel"><h3>As 4 Estruturas + Lado Comprador + HHI</h3><ul><li><strong>Concorrência Perfeita (Tomador de Preço) vs. Monopolística (Diferenciação).</strong></li><li><strong>Oligopólio vs. Monopólio (Formador de Preço / Monopólio Natural).</strong></li><li><strong>Oligopsônio e Monopsônio:</strong> poder concentrado do lado comprador.</li><li><strong>Cartel (crime e ilícito pela Lei nº 12.529/2011) vs. Truste vs. Holding.</strong></li><li><strong>Índice HHI (`Σ si²`):</strong> &lt;1.500 (baixo), 1.500–2.500 (moderado), &gt;2.500 (alto).</li></ul></div>
+          <div class="step-panel"><h3>Calculadora Antitruste HHI e Fusões</h3><p>Altere as fatias de 5 competidores (sempre somando 100%) e simule fusões entre duas redes para visualizar o salto do HHI (`ΔHHI`) e o alerta antitruste!</p></div>
+          <div class="step-panel"><h3>Debate EC03 (CADE · Combustíveis) + Lista L05 (Q01, Q04, Q06, Q07)</h3><p>Resolvam o cálculo pré e pós-fusão do caso <strong>EC03 (`32, 28, 20, 12, 8`)</strong> e analisem por que o CADE aplicou mais de R$ 150 milhões em multas no DF.</p></div>
+          <div class="step-panel"><h3>Compliance Concorrencial</h3><p>Reforço ético: acompanhar placa do concorrente é lícito; trocar mensagens combinando preço ou margem destrói a empresa em processos do CADE.</p></div>
+
+          <div class="step-nav-footer">
+            <button id="btn-step-prev" class="btn btn-light" type="button">← Bloco Anterior</button>
+            <span style="font-size:0.78rem;color:var(--text-muted);">Dica: use as setas <strong>←</strong> / <strong>→</strong> do teclado</span>
+            <button id="btn-step-next" class="btn btn-primary" type="button">Próximo Bloco →</button>
+          </div>
+        </div>
+
+        <aside class="docente-panel" aria-label="Orientações Orais do Professor">
+          <h4>Guia Oral do Docente · Aula 09 (Uso em Projetor)</h4>
+          <ul>
+            <li>Chame atenção na matemática do HHI: elevar ao quadrado amplia desproporcionalmente o peso de quem tem 40% (1.600) contra 4% (16)!</li><li>No EC03, peça que os alunos redijam a resposta de recusa ética ao concorrente.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="sim-pane" aria-label="Laboratório Interativo">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Simulador de Concentração de Mercado (HHI) & Fusões</h2>
+            <span class="badge badge-gold">Defesa Concorrência</span>
+          </div>
+          
+          <div class="preset-bar">
+            <button type="button" class="btn btn-light" id="p09-pedro">Pedro: Bebidas (2.950)</button>
+            <button type="button" class="btn btn-light" id="p09-ec03">EC03: Combustíveis (2.416 → 3.088)</button>
+            <button type="button" class="btn btn-light" id="p09-comp">Competitivo (5 × 20%)</button>
+          </div>
+          <div class="controls-grid">
+            <div class="control-group"><label for="a09-s1">Empresa 1 (%) <span class="control-val" id="v09-s1">32%</span></label><input id="a09-s1" type="number" min="0" max="100" value="32"></div>
+            <div class="control-group"><label for="a09-s2">Empresa 2 (%) <span class="control-val" id="v09-s2">28%</span></label><input id="a09-s2" type="number" min="0" max="100" value="28"></div>
+            <div class="control-group"><label for="a09-s3">Empresa 3 (%) <span class="control-val" id="v09-s3">20%</span></label><input id="a09-s3" type="number" min="0" max="100" value="20"></div>
+            <div class="control-group"><label for="a09-s4">Empresa 4 (%) <span class="control-val" id="v09-s4">12%</span></label><input id="a09-s4" type="number" min="0" max="100" value="12"></div>
+            <div class="control-group"><label for="a09-s5">Empresa 5 (%) <span class="control-val" id="v09-s5">8%</span></label><input id="a09-s5" type="number" min="0" max="100" value="8"></div>
+            <div class="control-group"><label for="a09-fuse">Simular Fusão entre</label><select id="a09-fuse"><option value="1-3">Empresa 2 + Empresa 4 (padrão EC03)</option><option value="0-1">Empresa 1 + Empresa 2</option><option value="3-4">Empresa 4 + Empresa 5</option></select></div>
+          </div>
+          <div class="kpi-grid">
+            <div class="kpi-box"><div class="kpi-label">Soma das Fatias</div><div class="kpi-num" id="k09-sum">—</div><div class="kpi-sub">Deve fechar 100%</div></div>
+            <div class="kpi-box gold"><div class="kpi-label">HHI Antes → Depois</div><div class="kpi-num" id="k09-hhi">—</div><div class="kpi-sub" id="k09-delta">—</div></div>
+            <div class="kpi-box" id="k09-cbox"><div class="kpi-label">Classificação Pós-Fusão</div><div class="kpi-num" id="k09-cls">—</div><div class="kpi-sub">Parâmetro antitruste</div></div>
+          </div>
+          <div class="svg-stage" id="c09-bars"></div>
+        
+        </div>
+      </section>
+    </div>
+
+    <footer class="hub-footer">
+      <div>
+        <strong>Autoria:</strong> Prof. Marcos Antunes (<code>@oprofantunes</code>) · Curso Técnico em Administração · Uso 100% Offline
+      </div>
+      <div style="display:flex;align-items:center;gap:0.6rem;">
+        <img src="assets/img/cc-by-nc-sa.svg" alt="Creative Commons CC BY-NC-SA 4.0" style="height:26px;width:auto;">
+        <span>CC BY-NC-SA 4.0 · Material Didático Técnico Modular</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/charts.js"></script>
+  <script src="assets/engine.js"></script>
+  <script>
+    window.initLessonSim = function () {
+      
+          const E = window.EcoEngine;
+          function calc() {
+            const s = ['a09-s1','a09-s2','a09-s3','a09-s4','a09-s5'].map(id => Math.max(0, E.safeNum(E.$('#'+id).value, 0)));
+            s.forEach((val, idx) => E.$('#v09-s'+(idx+1)).textContent = val + '%');
+            const total = s.reduce((a,b) => a+b, 0);
+            const hhiBefore = s.reduce((a,b) => a + b*b, 0);
+            const pair = (E.$('#a09-fuse').value || '1-3').split('-').map(Number);
+            const sAfter = s.slice();
+            sAfter[pair[0]] = s[pair[0]] + s[pair[1]];
+            sAfter[pair[1]] = 0;
+            const hhiAfter = sAfter.reduce((a,b) => a + b*b, 0);
+            const delta = hhiAfter - hhiBefore;
+            E.$('#k09-sum').textContent = E.fmtNum(total, 0) + '%';
+            E.$('#k09-hhi').textContent = `${E.fmtNum(hhiBefore,0)} → ${E.fmtNum(hhiAfter,0)}`;
+            E.$('#k09-delta').textContent = `ΔHHI = +${E.fmtNum(delta,0)} pts ${Math.abs(total-100)>0.1 ? '(ajuste para somar 100%!)' : ''}`;
+            const cb = E.$('#k09-cbox');
+            if (hhiAfter > 2500) { cb.className='kpi-box warn'; E.$('#k09-cls').textContent='Altamente Concentrado'; }
+            else if (hhiAfter >= 1500) { cb.className='kpi-box gold'; E.$('#k09-cls').textContent='Concentração Moderada'; }
+            else { cb.className='kpi-box ok'; E.$('#k09-cls').textContent='Pouco Concentrado'; }
+            window.EcoCharts.renderBars(E.$('#c09-bars'), [
+              { label: 'Referência Baixo (<1.500)', value: 1500, display: '1.500 pts', color: window.EcoCharts.C.teal },
+              { label: 'Referência Alto (>2.500)', value: 2500, display: '2.500 pts', color: window.EcoCharts.C.gold },
+              { label: 'HHI Atual (Antes)', value: hhiBefore, display: E.fmtNum(hhiBefore,0)+' pts', color: window.EcoCharts.C.brand },
+              { label: 'HHI Pós-Fusão', value: hhiAfter, display: E.fmtNum(hhiAfter,0)+' pts', color: hhiAfter > 2500 ? window.EcoCharts.C.crimson : window.EcoCharts.C.navy }
+            ], { labelWidth: 185 });
+          }
+          E.$('#p09-pedro').addEventListener('click', () => { [40,30,20,5,5].forEach((v,i)=>E.$('#a09-s'+(i+1)).value=v); E.$('#a09-fuse').value='3-4'; calc(); });
+          E.$('#p09-ec03').addEventListener('click', () => { [32,28,20,12,8].forEach((v,i)=>E.$('#a09-s'+(i+1)).value=v); E.$('#a09-fuse').value='1-3'; calc(); });
+          E.$('#p09-comp').addEventListener('click', () => { [20,20,20,20,20].forEach((v,i)=>E.$('#a09-s'+(i+1)).value=v); E.$('#a09-fuse').value='3-4'; calc(); });
+          E.bindInputs(['a09-s1','a09-s2','a09-s3','a09-s4','a09-s5','a09-fuse'], calc);
+        
+    };
+  </script>
+</body>
+</html>

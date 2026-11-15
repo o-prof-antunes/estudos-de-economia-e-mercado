@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 14 · Arquitetura do SFN (CMN/BCB/CVM) e Decomposição do Spread · Estudos de Economia e Mercado</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-lesson-id="aula-14">
+  <header class="topbar">
+    <div class="topbar-brand">
+      <a href="index.html" title="Voltar ao Hub de 20 Aulas">
+        <img src="assets/img/logo-academy-dark.svg" alt="O Prof. Antunes Academy" class="topbar-logo">
+      </a>
+      <div class="topbar-titles">
+        <div class="topbar-kicker">Aula 14 / 20 · Cap. 07 · SFN e Spread Bancário · Duração: 2h30 (150 min)</div>
+        <div class="topbar-title">Arquitetura do SFN (CMN/BCB/CVM) e Decomposição do Spread</div>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <div class="timer-box" title="Cronômetro da aula presencial de 150 minutos">
+        <span class="timer-display" id="timer-display">02:30:00</span>
+        <button id="timer-toggle" class="timer-mini-btn" type="button" aria-label="Iniciar ou pausar cronômetro">▶</button>
+        <button id="timer-reset" class="timer-mini-btn" type="button" aria-label="Reiniciar cronômetro">↺</button>
+      </div>
+      <a class="btn" href="index.html">Hub</a>
+      <a class="btn" href="aula-13.html">← 13</a>
+      <a class="btn" href="aula-15.html">15 →</a>
+      <button id="btn-focus-sim" class="btn" type="button" aria-pressed="false">Expandir Simulador</button>
+      <button id="btn-modo-docente" class="btn" type="button" aria-pressed="false">Modo Docente</button>
+      <button id="btn-done-lesson" class="btn btn-gold" type="button" aria-pressed="false">Marcar Concluída</button>
+    </div>
+  </header>
+
+  <main class="workspace-shell">
+    <div class="workspace-grid">
+      <section class="lesson-pane" aria-label="Roteiro Guiado da Aula">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Roteiro de Sala (5 Blocos · 150 min)</h2>
+            <span class="badge badge-navy">Trilha Modular 19–21</span>
+          </div>
+
+          <div class="callout" style="margin-top:0;">
+            <strong>Desafio do Pedro Júnior:</strong> Pedro compara propostas de R$ 200 mil entre banco comercial (28% a.a.) e cooperativa com garantias (21,5% a.a.) e prova de onde vêm os 13 p.p. de spread.
+          </div>
+
+          <div class="step-tabs" role="tablist">
+            <button class="step-tab active" type="button">1. Aquecimento<span>(0–20')</span></button>
+            <button class="step-tab" type="button">2. Conceitos<span>(20–60')</span></button>
+            <button class="step-tab" type="button">3. Simulação<span>(60–100')</span></button>
+            <button class="step-tab" type="button">4. Oficina<span>(100–135')</span></button>
+            <button class="step-tab" type="button">5. Síntese<span>(135–150')</span></button>
+          </div>
+
+          <div class="step-panel active"><h3>Se a Selic está em 15%, por que o banco cobra 28% ou mais no balcão?</h3><p>Explore o erro comum de confundir a taxa básica definida pelo Copom com a taxa efetiva de empréstimo cobrada de micro e pequenas empresas.</p></div>
+          <div class="step-panel"><h3>Os 3 Níveis do SFN e a Anatomia do Spread</h3><ul><li><strong>Nível 1 (Normativo):</strong> CMN (define meta de inflação e normas).</li><li><strong>Nível 2 (Supervisor):</strong> Banco Central (Copom/Selic/Pix/bancos) e CVM (ações/debêntures/fundos).</li><li><strong>Nível 3 (Operadores):</strong> bancos, BNDES, cooperativas, B3 e fintechs.</li><li><strong>Spread = Taxa Final − Custo Captação:</strong> cobre custo adm., FGC, inadimplência e cunha fiscal/margem.</li></ul></div>
+          <div class="step-panel"><h3>Mapa Clicável do SFN + Decompositor de Spread & Price</h3><p>Clique nos cartões institucionais do SFN e ajuste os quatro componentes do *spread* para ver quanto economizar reduzindo risco de inadimplência via garantia/cooperativa!</p></div>
+          <div class="step-panel"><h3>Lista L07 · Questões Q02, Q06, Q07 e Q08</h3><p>Calculem a taxa final e spread de L07-Q06 e diferenciem BCB × CVM na emissão de debêntures.</p></div>
+          <div class="step-panel"><h3>Fechamento Cap. 07</h3><p>Lembre aos alunos dos dados reais do Sebrae 2025: 15% das MPEs buscaram crédito (41% para capital de giro) e organização documental elevou aprovações para 48%.</p></div>
+
+          <div class="step-nav-footer">
+            <button id="btn-step-prev" class="btn btn-light" type="button">← Bloco Anterior</button>
+            <span style="font-size:0.78rem;color:var(--text-muted);">Dica: use as setas <strong>←</strong> / <strong>→</strong> do teclado</span>
+            <button id="btn-step-next" class="btn btn-primary" type="button">Próximo Bloco →</button>
+          </div>
+        </div>
+
+        <aside class="docente-panel" aria-label="Orientações Orais do Professor">
+          <h4>Guia Oral do Docente · Aula 14 (Uso em Projetor)</h4>
+          <ul>
+            <li>Desmistifique no quadro: CMN não atende empresa nem abre conta; CVM não fiscaliza cheque especial; Copom faz parte do Banco Central.</li><li>Chame atenção na simulação para o impacto de baixar apenas a parcela de inadimplência (-4 p.p.) quando a empresa apresenta garantias ou histórico organizado.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="sim-pane" aria-label="Laboratório Interativo">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Mapa Interativo SFN + Decompositor de Spread & Parcela Price</h2>
+            <span class="badge badge-gold">Crédito Empresarial</span>
+          </div>
+          
+          <div class="preset-bar">
+            <button type="button" class="btn btn-light" id="p14-bco">Pedro: Banco (28,0%)</button>
+            <button type="button" class="btn btn-light" id="p14-coop">Pedro: Cooperativa (21,5%)</button>
+            <button type="button" class="btn btn-light" id="p14-l07">Lista L07-Q06 (29,0%)</button>
+          </div>
+          <div class="callout teal" id="s14-sfn-info" style="margin-bottom:0.75rem;"><strong>Clique em um órgão para inspecionar:</strong> CMN · Banco Central (Copom) · CVM · BNDES/Cooperativas</div>
+          <div class="preset-bar">
+            <button type="button" class="btn btn-primary sfn-node" data-msg="CMN (Nível 1 - Normativo): Órgão máximo do SFN. Define regras de moeda, crédito, câmbio e fixa a meta oficial de inflação. Não atende clientes.">CMN (Nível 1)</button>
+            <button type="button" class="btn btn-primary sfn-node" data-msg="Banco Central / Copom (Nível 2 - Supervisor): Executa política monetária, define a Taxa Selic Meta via Copom, gerencia o Pix e fiscaliza bancos e cooperativas.">Banco Central (Nível 2)</button>
+            <button type="button" class="btn btn-primary sfn-node" data-msg="CVM (Nível 2 - Supervisor): Regula e fiscaliza o mercado de capitais (ações na B3, debêntures, fundos de investimento e companhias abertas).">CVM (Nível 2)</button>
+            <button type="button" class="btn btn-primary sfn-node" data-msg="Operadores (Nível 3): Bancos múltiplos, cooperativas de crédito, BNDES, B3 e fintechs — ponta onde a empresa contrata giro, conta PJ ou emite títulos.">Operadores (Nível 3)</button>
+          </div>
+          <div class="controls-grid">
+            <div class="control-group"><label for="a14-cap">Captação Selic/CDI (% a.a.) <span class="control-val" id="v14-cap">15,0%</span></label><input id="a14-cap" type="range" min="6" max="20" step="0.5" value="15"></div>
+            <div class="control-group"><label for="a14-adm">Custo Adm + FGC (p.p.) <span class="control-val" id="v14-adm">4,5 p.p.</span></label><input id="a14-adm" type="range" min="1" max="10" step="0.1" value="4.5"></div>
+            <div class="control-group"><label for="a14-ina">Inadimplência / Risco (p.p.) <span class="control-val" id="v14-ina">5,0 p.p.</span></label><input id="a14-ina" type="range" min="0.5" max="15" step="0.1" value="5.0"></div>
+            <div class="control-group"><label for="a14-trib">Tributos + Margem (p.p.) <span class="control-val" id="v14-trib">3,5 p.p.</span></label><input id="a14-trib" type="range" min="0.5" max="10" step="0.1" value="3.5"></div>
+            <div class="control-group"><label for="a14-pv">Capital de Giro Cotado <span class="control-val" id="v14-pv">R$ 200.000</span></label><input id="a14-pv" type="number" min="1000" step="10000" value="200000"></div>
+          </div>
+          <div class="kpi-grid">
+            <div class="kpi-box"><div class="kpi-label">Taxa Final ao Tomador</div><div class="kpi-num" id="k14-fin">—</div><div class="kpi-sub">Efetiva anual</div></div>
+            <div class="kpi-box gold"><div class="kpi-label">Spread Bancário Bruto</div><div class="kpi-num" id="k14-spr">—</div><div class="kpi-sub">Acima do CDI/Selic</div></div>
+            <div class="kpi-box ok"><div class="kpi-label">Parcela Mensal (12x Price)</div><div class="kpi-num" id="k14-pmt">—</div><div class="kpi-sub" id="k14-jur">Total juros em 12 meses: —</div></div>
+          </div>
+          <div class="svg-stage" id="c14-stack"></div>
+        
+        </div>
+      </section>
+    </div>
+
+    <footer class="hub-footer">
+      <div>
+        <strong>Autoria:</strong> Prof. Marcos Antunes (<code>@oprofantunes</code>) · Curso Técnico em Administração · Uso 100% Offline
+      </div>
+      <div style="display:flex;align-items:center;gap:0.6rem;">
+        <img src="assets/img/cc-by-nc-sa.svg" alt="Creative Commons CC BY-NC-SA 4.0" style="height:26px;width:auto;">
+        <span>CC BY-NC-SA 4.0 · Material Didático Técnico Modular</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/charts.js"></script>
+  <script src="assets/engine.js"></script>
+  <script>
+    window.initLessonSim = function () {
+      
+          const E = window.EcoEngine;
+          document.querySelectorAll('.sfn-node').forEach(b => {
+            b.addEventListener('click', () => { E.$('#s14-sfn-info').innerHTML = '<strong>Órgão Selecionado:</strong> ' + b.getAttribute('data-msg'); });
+          });
+          function calc() {
+            const cap = E.safeNum(E.$('#a14-cap').value, 15);
+            const adm = E.safeNum(E.$('#a14-adm').value, 4.5);
+            const ina = E.safeNum(E.$('#a14-ina').value, 5.0);
+            const trib = E.safeNum(E.$('#a14-trib').value, 3.5);
+            const pv = Math.max(1000, E.safeNum(E.$('#a14-pv').value, 200000));
+            E.$('#v14-cap').textContent = E.fmtPct(cap, 1);
+            E.$('#v14-adm').textContent = E.fmtNum(adm, 1) + ' p.p.';
+            E.$('#v14-ina').textContent = E.fmtNum(ina, 1) + ' p.p.';
+            E.$('#v14-trib').textContent = E.fmtNum(trib, 1) + ' p.p.';
+            E.$('#v14-pv').textContent = E.fmtBRL(pv);
+            const spr = adm + ina + trib;
+            const fin = cap + spr;
+            const im = Math.pow(1 + fin / 100, 1 / 12) - 1;
+            const pmt = im > 1e-6 ? pv * (im / (1 - Math.pow(1 + im, -12))) : pv / 12;
+            const totJur = pmt * 12 - pv;
+            E.$('#k14-fin').textContent = E.fmtPct(fin, 2) + ' a.a.';
+            E.$('#k14-spr').textContent = E.fmtNum(spr, 2) + ' p.p.';
+            E.$('#k14-pmt').textContent = E.fmtBRL(pmt);
+            E.$('#k14-jur').textContent = 'Total de juros pagos em 12 meses: ' + E.fmtBRL(totJur);
+            window.EcoCharts.renderStackedBar(E.$('#c14-stack'), [
+              { label: 'Captação CDI', value: cap, short: E.fmtPct(cap,1), color: window.EcoCharts.C.navy },
+              { label: 'Adm + FGC', value: adm, short: E.fmtNum(adm,1)+'pp', color: window.EcoCharts.C.brand },
+              { label: 'Inadimplência', value: ina, short: E.fmtNum(ina,1)+'pp', color: window.EcoCharts.C.crimson },
+              { label: 'Tributos + Margem', value: trib, short: E.fmtNum(trib,1)+'pp', color: window.EcoCharts.C.gold, textColor: '#0D2436' }
+            ], `Decomposição da Taxa Final (${E.fmtPct(fin, 2)} a.a.)`);
+          }
+          E.$('#p14-bco').addEventListener('click', () => { E.$('#a14-cap').value=15; E.$('#a14-adm').value=4.5; E.$('#a14-ina').value=5.0; E.$('#a14-trib').value=3.5; calc(); });
+          E.$('#p14-coop').addEventListener('click', () => { E.$('#a14-cap').value=15; E.$('#a14-adm').value=2.5; E.$('#a14-ina').value=2.0; E.$('#a14-trib').value=2.0; calc(); });
+          E.$('#p14-l07').addEventListener('click', () => { E.$('#a14-cap').value=14.5; E.$('#a14-adm').value=3.8; E.$('#a14-ina').value=6.2; E.$('#a14-trib').value=4.5; calc(); });
+          E.bindInputs(['a14-cap','a14-adm','a14-ina','a14-trib','a14-pv'], calc);
+        
+    };
+  </script>
+</body>
+</html>

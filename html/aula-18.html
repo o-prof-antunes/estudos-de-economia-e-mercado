@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 18 · Balanço de Pagamentos, Câmbio PTAX e Tesoura Importador × Exportador · Estudos de Economia e Mercado</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-lesson-id="aula-18">
+  <header class="topbar">
+    <div class="topbar-brand">
+      <a href="index.html" title="Voltar ao Hub de 20 Aulas">
+        <img src="assets/img/logo-academy-dark.svg" alt="O Prof. Antunes Academy" class="topbar-logo">
+      </a>
+      <div class="topbar-titles">
+        <div class="topbar-kicker">Aula 18 / 20 · Cap. 09 · Câmbio e Setor Externo · Duração: 2h30 (150 min)</div>
+        <div class="topbar-title">Balanço de Pagamentos, Câmbio PTAX e Tesoura Importador × Exportador</div>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <div class="timer-box" title="Cronômetro da aula presencial de 150 minutos">
+        <span class="timer-display" id="timer-display">02:30:00</span>
+        <button id="timer-toggle" class="timer-mini-btn" type="button" aria-label="Iniciar ou pausar cronômetro">▶</button>
+        <button id="timer-reset" class="timer-mini-btn" type="button" aria-label="Reiniciar cronômetro">↺</button>
+      </div>
+      <a class="btn" href="index.html">Hub</a>
+      <a class="btn" href="aula-17.html">← 17</a>
+      <a class="btn" href="aula-19.html">19 →</a>
+      <button id="btn-focus-sim" class="btn" type="button" aria-pressed="false">Expandir Simulador</button>
+      <button id="btn-modo-docente" class="btn" type="button" aria-pressed="false">Modo Docente</button>
+      <button id="btn-done-lesson" class="btn btn-gold" type="button" aria-pressed="false">Marcar Concluída</button>
+    </div>
+  </header>
+
+  <main class="workspace-shell">
+    <div class="workspace-grid">
+      <section class="lesson-pane" aria-label="Roteiro Guiado da Aula">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Roteiro de Sala (5 Blocos · 150 min)</h2>
+            <span class="badge badge-navy">Trilha Modular 19–21</span>
+          </div>
+
+          <div class="callout" style="margin-top:0;">
+            <strong>Desafio do Pedro Júnior:</strong> Pedro quantifica o efeito tesoura oposto de um choque de +20% no dólar (R$ 5,00 → R$ 6,00) sobre duas linhas da mesma fábrica de autopeças.
+          </div>
+
+          <div class="step-tabs" role="tablist">
+            <button class="step-tab active" type="button">1. Aquecimento<span>(0–20')</span></button>
+            <button class="step-tab" type="button">2. Conceitos<span>(20–60')</span></button>
+            <button class="step-tab" type="button">3. Simulação<span>(60–100')</span></button>
+            <button class="step-tab" type="button">4. Oficina<span>(100–135')</span></button>
+            <button class="step-tab" type="button">5. Síntese<span>(135–150')</span></button>
+          </div>
+
+          <div class="step-panel active"><h3>Quando o Dólar dispara, quem comemora e quem perde margem na mesma cidade?</h3><p>Mostre o caso da autopeças do Capítulo 09: Linha A compra placa em US$ e vende em R$; Linha B gasta em R$ e exporta em US$.</p></div>
+          <div class="step-panel"><h3>Balanço de Pagamentos e Regimes Cambiais</h3><ul><li><strong>Transações Correntes:</strong> Balança Comercial (`X − M`) + Serviços/Rendas + Transferências.</li><li><strong>Conta Capital e Financeira:</strong> IDP (fábricas), carteira e variação de reservas.</li><li><strong>Regimes:</strong> Fixo vs. Flutuante Puro vs. <strong>Flutuação Suja</strong> (padrão brasileiro).</li><li><strong>Impacto Cambial Oposto:</strong> alta do US$ ajuda exportadores e comprime importadores/inflação.</li></ul></div>
+          <div class="step-panel"><h3>Movendo a PTAX ao Vivo (`R$ 4,20` a `R$ 7,00`)</h3><p>Arraste o slider da PTAX e observe o gráfico de barras inverter dramaticamente as margens da Linha A e da Linha B, e teste o impacto sobre o saldo de Transações Correntes.</p></div>
+          <div class="step-panel"><h3>Lista L09 · Questões Q03, Q04, Q05 e Q06</h3><p>Calculem a compressão de margem na fabricante de equipamentos (`L09-Q04`) versus a expansão na exportadora de calçados (`L09-Q05`) e o saldo externo (`L09-Q06`).</p></div>
+          <div class="step-panel"><h3>Hedge Natural e Cláusulas Contratuais</h3><p>Feche discutindo como gatilhos de repasse e *hedge* cambial protegem indústrias nacionais que compram insumos cotados em dólar.</p></div>
+
+          <div class="step-nav-footer">
+            <button id="btn-step-prev" class="btn btn-light" type="button">← Bloco Anterior</button>
+            <span style="font-size:0.78rem;color:var(--text-muted);">Dica: use as setas <strong>←</strong> / <strong>→</strong> do teclado</span>
+            <button id="btn-step-next" class="btn btn-primary" type="button">Próximo Bloco →</button>
+          </div>
+        </div>
+
+        <aside class="docente-panel" aria-label="Orientações Orais do Professor">
+          <h4>Guia Oral do Docente · Aula 18 (Uso em Projetor)</h4>
+          <ul>
+            <li>Deslize a PTAX lentamente de R$ 5,00 para R$ 6,00 no projetor e pergunte: 'Em que cotação exata a Linha A zera o lucro?'</li><li>Relembre que mesmo trigo, soja e combustível nacionais seguem paridade internacional em dólar — impactando o IGP-M e o IPCA.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="sim-pane" aria-label="Laboratório Interativo">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Conversor Tesoura Cambial (PTAX) & Balanço de Pagamentos</h2>
+            <span class="badge badge-gold">Setor Externo</span>
+          </div>
+          
+          <div class="preset-bar">
+            <button type="button" class="btn btn-light" id="p18-base">Pedro Base (PTAX R$ 5,00)</button>
+            <button type="button" class="btn btn-light" id="p18-choque">Choque +20% (PTAX R$ 6,00)</button>
+            <button type="button" class="btn btn-light" id="p18-l09">L09-Q04/Q05 (PTAX R$ 5,75)</button>
+          </div>
+          <div class="controls-grid">
+            <div class="control-group"><label for="a18-ptax">Cotação Dólar PTAX (R$/US$) <span class="control-val" id="v18-ptax">R$ 5,00</span></label><input id="a18-ptax" type="range" min="4.0" max="7.0" step="0.05" value="5.00"></div>
+            <div class="control-group"><label for="a18-impus">Linha A: Insumo Importado (US$) <span class="control-val" id="v18-impus">US$ 20</span></label><input id="a18-impus" type="number" min="0" value="20"></div>
+            <div class="control-group"><label for="a18-abr">Linha A: Custo R$ / Venda Fixa R$ <span class="control-val" id="v18-abr">50 / 190</span></label><div style="display:flex;gap:0.35rem;"><input id="a18-acust" type="number" value="50"><input id="a18-avend" type="number" value="190"></div></div>
+            <div class="control-group"><label for="a18-b">Linha B (Exp.): Custo R$ / Preço US$ <span class="control-val" id="v18-b">210 / 50</span></label><div style="display:flex;gap:0.35rem;"><input id="a18-bcust" type="number" value="210"><input id="a18-bus" type="number" value="50"></div></div>
+            <div class="control-group"><label for="a18-bp">BP (US$ bi): X / M / Serv. <span class="control-val" id="v18-bp">340 / 265 / −92</span></label><div style="display:flex;gap:0.25rem;"><input id="a18-x" type="number" value="340"><input id="a18-m" type="number" value="265"><input id="a18-srv" type="number" value="-92"></div></div>
+          </div>
+          <div class="kpi-grid">
+            <div class="kpi-box" id="k18-abox"><div class="kpi-label">Margem Linha A (Import. Insumo)</div><div class="kpi-num" id="k18-ma">—</div><div class="kpi-sub" id="k18-ca">Custo total: —</div></div>
+            <div class="kpi-box ok"><div class="kpi-label">Margem Linha B (Exportadora)</div><div class="kpi-num" id="k18-mb">—</div><div class="kpi-sub" id="k18-rb">Receita em R$: —</div></div>
+            <div class="kpi-box gold"><div class="kpi-label">Balança Comercial / Trans. Correntes</div><div class="kpi-num" id="k18-tc">—</div><div class="kpi-sub" id="k18-bc">Balança Comercial: — (+3 bi Trf)</div></div>
+          </div>
+          <div class="svg-stage" id="c18-bars"></div>
+        
+        </div>
+      </section>
+    </div>
+
+    <footer class="hub-footer">
+      <div>
+        <strong>Autoria:</strong> Prof. Marcos Antunes (<code>@oprofantunes</code>) · Curso Técnico em Administração · Uso 100% Offline
+      </div>
+      <div style="display:flex;align-items:center;gap:0.6rem;">
+        <img src="assets/img/cc-by-nc-sa.svg" alt="Creative Commons CC BY-NC-SA 4.0" style="height:26px;width:auto;">
+        <span>CC BY-NC-SA 4.0 · Material Didático Técnico Modular</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/charts.js"></script>
+  <script src="assets/engine.js"></script>
+  <script>
+    window.initLessonSim = function () {
+      
+          const E = window.EcoEngine;
+          function calc() {
+            const ptax = Math.max(0.5, E.safeNum(E.$('#a18-ptax').value, 5.0));
+            const impUs = Math.max(0, E.safeNum(E.$('#a18-impus').value, 20));
+            const aCust = Math.max(0, E.safeNum(E.$('#a18-acust').value, 50));
+            const aVend = Math.max(1, E.safeNum(E.$('#a18-avend').value, 190));
+            const bCust = Math.max(0, E.safeNum(E.$('#a18-bcust').value, 210));
+            const bUs = Math.max(0, E.safeNum(E.$('#a18-bus').value, 50));
+            const X = E.safeNum(E.$('#a18-x').value, 340);
+            const M = E.safeNum(E.$('#a18-m').value, 265);
+            const srv = E.safeNum(E.$('#a18-srv').value, -92);
+            E.$('#v18-ptax').textContent = E.fmtBRL(ptax);
+            E.$('#v18-impus').textContent = 'US$ ' + impUs;
+            E.$('#v18-abr').textContent = `${aCust} / ${aVend}`;
+            E.$('#v18-b').textContent = `${bCust} / US$ ${bUs}`;
+            E.$('#v18-bp').textContent = `${X} / ${M} / ${srv}`;
+            const custoA = impUs * ptax + aCust;
+            const margA = aVend - custoA;
+            const pctA = (margA / aVend) * 100;
+            const recB = bUs * ptax;
+            const margB = recB - bCust;
+            const pctB = recB > 0 ? (margB / recB) * 100 : 0;
+            const bc = X - M;
+            const tc = bc + srv + 3;
+            E.$('#k18-abox').className = 'kpi-box ' + (margA <= 20 ? 'warn' : 'gold');
+            E.$('#k18-ma').textContent = `${E.fmtBRL(margA)} (${E.fmtPct(pctA, 1)})`;
+            E.$('#k18-ca').textContent = `Custo total: ${E.fmtBRL(custoA)} | Venda: ${E.fmtBRL(aVend)}`;
+            E.$('#k18-mb').textContent = `${E.fmtBRL(margB)} (${E.fmtPct(pctB, 1)})`;
+            E.$('#k18-rb').textContent = `Receita B: ${E.fmtBRL(recB)} | Custo: ${E.fmtBRL(bCust)}`;
+            E.$('#k18-tc').textContent = (tc>=0?'+':'') + 'US$ ' + tc + ' bi';
+            E.$('#k18-bc').textContent = `Comercial: ${bc>=0?'+':''}US$ ${bc} bi (+3 bi Transf.)`;
+            window.EcoCharts.renderBars(E.$('#c18-bars'), [
+              { label: 'Margem Linha A (Insumo US$)', value: margA, display: E.fmtBRL(margA), color: margA >= 0 ? window.EcoCharts.C.crimson : '#7f1d1d' },
+              { label: 'Margem Linha B (Exportadora)', value: margB, display: E.fmtBRL(margB), color: window.EcoCharts.C.teal }
+            ], { labelWidth: 205 });
+          }
+          E.$('#p18-base').addEventListener('click', () => { E.$('#a18-ptax').value=5.00; E.$('#a18-impus').value=20; E.$('#a18-acust').value=50; E.$('#a18-avend').value=190; E.$('#a18-bcust').value=210; E.$('#a18-bus').value=50; calc(); });
+          E.$('#p18-choque').addEventListener('click', () => { E.$('#a18-ptax').value=6.00; E.$('#a18-impus').value=20; E.$('#a18-acust').value=50; E.$('#a18-avend').value=190; E.$('#a18-bcust').value=210; E.$('#a18-bus').value=50; calc(); });
+          E.$('#p18-l09').addEventListener('click', () => { E.$('#a18-ptax').value=5.75; E.$('#a18-impus').value=40; E.$('#a18-acust').value=80; E.$('#a18-avend').value=340; E.$('#a18-bcust').value=380; E.$('#a18-bus').value=100; calc(); });
+          E.bindInputs(['a18-ptax','a18-impus','a18-acust','a18-avend','a18-bcust','a18-bus','a18-x','a18-m','a18-srv'], calc);
+        
+    };
+  </script>
+</body>
+</html>

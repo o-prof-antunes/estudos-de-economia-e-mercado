@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 15 · Inflação, Cesta IPCA/INPC/IGP-M e Acumulação Composta · Estudos de Economia e Mercado</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-lesson-id="aula-15">
+  <header class="topbar">
+    <div class="topbar-brand">
+      <a href="index.html" title="Voltar ao Hub de 20 Aulas">
+        <img src="assets/img/logo-academy-dark.svg" alt="O Prof. Antunes Academy" class="topbar-logo">
+      </a>
+      <div class="topbar-titles">
+        <div class="topbar-kicker">Aula 15 / 20 · Cap. 08 · Inflação e Índices · Duração: 2h30 (150 min)</div>
+        <div class="topbar-title">Inflação, Cesta IPCA/INPC/IGP-M e Acumulação Composta</div>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <div class="timer-box" title="Cronômetro da aula presencial de 150 minutos">
+        <span class="timer-display" id="timer-display">02:30:00</span>
+        <button id="timer-toggle" class="timer-mini-btn" type="button" aria-label="Iniciar ou pausar cronômetro">▶</button>
+        <button id="timer-reset" class="timer-mini-btn" type="button" aria-label="Reiniciar cronômetro">↺</button>
+      </div>
+      <a class="btn" href="index.html">Hub</a>
+      <a class="btn" href="aula-14.html">← 14</a>
+      <a class="btn" href="aula-16.html">16 →</a>
+      <button id="btn-focus-sim" class="btn" type="button" aria-pressed="false">Expandir Simulador</button>
+      <button id="btn-modo-docente" class="btn" type="button" aria-pressed="false">Modo Docente</button>
+      <button id="btn-done-lesson" class="btn btn-gold" type="button" aria-pressed="false">Marcar Concluída</button>
+    </div>
+  </header>
+
+  <main class="workspace-shell">
+    <div class="workspace-grid">
+      <section class="lesson-pane" aria-label="Roteiro Guiado da Aula">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Roteiro de Sala (5 Blocos · 150 min)</h2>
+            <span class="badge badge-navy">Trilha Modular 19–21</span>
+          </div>
+
+          <div class="callout" style="margin-top:0;">
+            <strong>Desafio do Pedro Júnior:</strong> Pedro corrige o cálculo composto trimestral e economiza R$ 6.648/ano negociando substituição do IGP-M pelo IPCA no aluguel.
+          </div>
+
+          <div class="step-tabs" role="tablist">
+            <button class="step-tab active" type="button">1. Aquecimento<span>(0–20')</span></button>
+            <button class="step-tab" type="button">2. Conceitos<span>(20–60')</span></button>
+            <button class="step-tab" type="button">3. Simulação<span>(60–100')</span></button>
+            <button class="step-tab" type="button">4. Oficina<span>(100–135')</span></button>
+            <button class="step-tab" type="button">5. Síntese<span>(135–150')</span></button>
+          </div>
+
+          <div class="step-panel active"><h3>1,0% ao mês durante 3 meses dá 3,00%?</h3><p>Faça a pergunta rápida e mostre por que a matemática financeira exige juros compostos tanto na poupança quanto na inflação!</p></div>
+          <div class="step-panel"><h3>Causas da Inflação e Principais Índices Brasileiros</h3><ul><li><strong>Inflação vs. Desinflação vs. Deflação vs. Estagflação.</strong></li><li><strong>4 Causas:</strong> Demanda, Custos/Oferta, Inercial e Expectativas.</li><li><strong>IPCA (IBGE — meta oficial) vs. INPC (1–5 SM) vs. IGP-M (FGV: 60% atacado/câmbio!).</strong></li><li><strong>Regra Composta:</strong> <code>[(1+π₁)×(1+π₂)×...×(1+πn)] − 1</code>.</li></ul></div>
+          <div class="step-panel"><h3>Calculadora Composta + Ponderador de Cesta IPCA</h3><p>Simule 3 variações mensais comparando soma simples vs. composta exata, e teste na parte de baixo como pesos diferentes de Alimentação vs. Energia impactam a inflação total do país (IBGE 2024 vs. 2025).</p></div>
+          <div class="step-panel"><h3>Lista L08 · Questões Q01 a Q05 e Q08</h3><p>Calculem a inflação composta trimestral (L08-Q04), o poder de compra salarial (L08-Q05) e o risco de descasamento IGP-M × IPCA (L08-Q08).</p></div>
+          <div class="step-panel"><h3>Preparação para Juro Real (Aula 16)</h3><p>Na próxima aula aplicaremos a inflação composta diretamente na <strong>Equação Exata de Fisher</strong> junto com a Taxa Selic do Copom (`EC05`).</p></div>
+
+          <div class="step-nav-footer">
+            <button id="btn-step-prev" class="btn btn-light" type="button">← Bloco Anterior</button>
+            <span style="font-size:0.78rem;color:var(--text-muted);">Dica: use as setas <strong>←</strong> / <strong>→</strong> do teclado</span>
+            <button id="btn-step-next" class="btn btn-primary" type="button">Próximo Bloco →</button>
+          </div>
+        </div>
+
+        <aside class="docente-panel" aria-label="Orientações Orais do Professor">
+          <h4>Guia Oral do Docente · Aula 15 (Uso em Projetor)</h4>
+          <ul>
+            <li>Mostre por que um aluguel de R$ 10 mil com diferença de 5 p.p. entre IGP-M e IPCA custa mais de R$ 6 mil em 12 meses — dinheiro vivo no caixa da loja.</li><li>Destaque os dados verificados do IBGE: em 2024 Alimentos +7,69%; em 2025 Alimentos recuou para +2,95%, mas Habitação/Energia (+12,31%) segurou o IPCA em 4,26%.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="sim-pane" aria-label="Laboratório Interativo">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Calculadora de Inflação Composta & Cesta Ponderada IPCA</h2>
+            <span class="badge badge-gold">Índices de Preços</span>
+          </div>
+          
+          <div class="preset-bar">
+            <button type="button" class="btn btn-light" id="p15-tri">1% × 3 meses (3,03%)</button>
+            <button type="button" class="btn btn-light" id="p15-l08">L08-Q04 (0,9 / 1,1 / 0,5)</button>
+            <button type="button" class="btn btn-light" id="p15-24">Cesta IPCA 2024 (4,83%)</button>
+            <button type="button" class="btn btn-light" id="p15-25">Cesta IPCA 2025 (4,26%)</button>
+          </div>
+          <div class="controls-grid">
+            <div class="control-group"><label for="a15-m1">Mês 1 (%) <span class="control-val" id="v15-m1">1,00%</span></label><input id="a15-m1" type="number" step="0.1" value="1.0"></div>
+            <div class="control-group"><label for="a15-m2">Mês 2 (%) <span class="control-val" id="v15-m2">1,00%</span></label><input id="a15-m2" type="number" step="0.1" value="1.0"></div>
+            <div class="control-group"><label for="a15-m3">Mês 3 (%) <span class="control-val" id="v15-m3">1,00%</span></label><input id="a15-m3" type="number" step="0.1" value="1.0"></div>
+            <div class="control-group"><label for="a15-ali">Grupo Alimentação (21%) <span class="control-val" id="v15-ali">+2,95%</span></label><input id="a15-ali" type="range" min="-5" max="15" step="0.05" value="2.95"></div>
+            <div class="control-group"><label for="a15-hab">Grupo Habitação/Energia (15%) <span class="control-val" id="v15-hab">+6,79%</span></label><input id="a15-hab" type="range" min="-5" max="15" step="0.05" value="6.79"></div>
+            <div class="control-group"><label for="a15-alu">Aluguel Base R$ (IGP-M vs. IPCA) <span class="control-val" id="v15-alu">R$ 10.000</span></label><input id="a15-alu" type="number" min="1000" step="1000" value="10000"></div>
+          </div>
+          <div class="kpi-grid">
+            <div class="kpi-box ok"><div class="kpi-label">Inflação Composta Trimestral</div><div class="kpi-num" id="k15-comp">—</div><div class="kpi-sub" id="k15-simp">Soma simples seria: —</div></div>
+            <div class="kpi-box"><div class="kpi-label">IPCA Simulado da Cesta</div><div class="kpi-num" id="k15-cesta">—</div><div class="kpi-sub">Alim(21%)+Hab(15%)+Demais(64% a 4,1%)</div></div>
+            <div class="kpi-box gold"><div class="kpi-label">Impacto Anual Troca IGP-M (9,8%) → Cesta</div><div class="kpi-num" id="k15-eco">—</div><div class="kpi-sub">Economia estimada em 12 meses</div></div>
+          </div>
+          <div class="svg-stage" id="c15-bars"></div>
+        
+        </div>
+      </section>
+    </div>
+
+    <footer class="hub-footer">
+      <div>
+        <strong>Autoria:</strong> Prof. Marcos Antunes (<code>@oprofantunes</code>) · Curso Técnico em Administração · Uso 100% Offline
+      </div>
+      <div style="display:flex;align-items:center;gap:0.6rem;">
+        <img src="assets/img/cc-by-nc-sa.svg" alt="Creative Commons CC BY-NC-SA 4.0" style="height:26px;width:auto;">
+        <span>CC BY-NC-SA 4.0 · Material Didático Técnico Modular</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/charts.js"></script>
+  <script src="assets/engine.js"></script>
+  <script>
+    window.initLessonSim = function () {
+      
+          const E = window.EcoEngine;
+          function calc() {
+            const m1 = E.safeNum(E.$('#a15-m1').value, 1) / 100;
+            const m2 = E.safeNum(E.$('#a15-m2').value, 1) / 100;
+            const m3 = E.safeNum(E.$('#a15-m3').value, 1) / 100;
+            const ali = E.safeNum(E.$('#a15-ali').value, 2.95);
+            const hab = E.safeNum(E.$('#a15-hab').value, 6.79);
+            const alu = Math.max(0, E.safeNum(E.$('#a15-alu').value, 10000));
+            E.$('#v15-m1').textContent = E.fmtPct(m1*100, 2);
+            E.$('#v15-m2').textContent = E.fmtPct(m2*100, 2);
+            E.$('#v15-m3').textContent = E.fmtPct(m3*100, 2);
+            E.$('#v15-ali').textContent = (ali>0?'+':'') + E.fmtPct(ali, 2);
+            E.$('#v15-hab').textContent = (hab>0?'+':'') + E.fmtPct(hab, 2);
+            E.$('#v15-alu').textContent = E.fmtBRL(alu);
+            const comp = ((1+m1)*(1+m2)*(1+m3) - 1) * 100;
+            const simp = (m1+m2+m3) * 100;
+            const demais = 4.10;
+            const ipcaSim = (ali * 0.21) + (hab * 0.15) + (demais * 0.64);
+            const igpmRef = 9.80;
+            const ecoAno = alu * ((igpmRef - ipcaSim) / 100) * 12;
+            E.$('#k15-comp').textContent = E.fmtPct(comp, 4);
+            E.$('#k15-simp').textContent = `Soma ingênua daria ${E.fmtPct(simp, 2)} (dif.: ${E.fmtNum(comp-simp, 4)} p.p.)`;
+            E.$('#k15-cesta').textContent = E.fmtPct(ipcaSim, 2);
+            E.$('#k15-eco').textContent = E.fmtBRL(ecoAno);
+            window.EcoCharts.renderBars(E.$('#c15-bars'), [
+              { label: 'Alimentação (Peso 21%)', value: ali, display: E.fmtPct(ali, 2), color: window.EcoCharts.C.teal },
+              { label: 'Habitação/Energia (15%)', value: hab, display: E.fmtPct(hab, 2), color: window.EcoCharts.C.crimson },
+              { label: 'Demais Grupos (Peso 64%)', value: demais, display: E.fmtPct(demais, 2), color: window.EcoCharts.C.slate },
+              { label: 'IPCA Ponderado Simulado', value: ipcaSim, display: E.fmtPct(ipcaSim, 2), color: window.EcoCharts.C.navy }
+            ], { labelWidth: 195 });
+          }
+          E.$('#p15-tri').addEventListener('click', () => { E.$('#a15-m1').value=1.0; E.$('#a15-m2').value=1.0; E.$('#a15-m3').value=1.0; calc(); });
+          E.$('#p15-l08').addEventListener('click', () => { E.$('#a15-m1').value=0.9; E.$('#a15-m2').value=1.1; E.$('#a15-m3').value=0.5; calc(); });
+          E.$('#p15-24').addEventListener('click', () => { E.$('#a15-ali').value=7.69; E.$('#a15-hab').value=3.06; calc(); });
+          E.$('#p15-25').addEventListener('click', () => { E.$('#a15-ali').value=2.95; E.$('#a15-hab').value=6.79; calc(); });
+          E.bindInputs(['a15-m1','a15-m2','a15-m3','a15-ali','a15-hab','a15-alu'], calc);
+        
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 16 · Copom, Taxa Selic, Equação de Fisher e Caso Real EC05 · Estudos de Economia e Mercado</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-lesson-id="aula-16">
+  <header class="topbar">
+    <div class="topbar-brand">
+      <a href="index.html" title="Voltar ao Hub de 20 Aulas">
+        <img src="assets/img/logo-academy-dark.svg" alt="O Prof. Antunes Academy" class="topbar-logo">
+      </a>
+      <div class="topbar-titles">
+        <div class="topbar-kicker">Aula 16 / 20 · Cap. 08 · Selic, Fisher e Giro (EC05) · Duração: 2h30 (150 min)</div>
+        <div class="topbar-title">Copom, Taxa Selic, Equação de Fisher e Caso Real EC05</div>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <div class="timer-box" title="Cronômetro da aula presencial de 150 minutos">
+        <span class="timer-display" id="timer-display">02:30:00</span>
+        <button id="timer-toggle" class="timer-mini-btn" type="button" aria-label="Iniciar ou pausar cronômetro">▶</button>
+        <button id="timer-reset" class="timer-mini-btn" type="button" aria-label="Reiniciar cronômetro">↺</button>
+      </div>
+      <a class="btn" href="index.html">Hub</a>
+      <a class="btn" href="aula-15.html">← 15</a>
+      <a class="btn" href="aula-17.html">17 →</a>
+      <button id="btn-focus-sim" class="btn" type="button" aria-pressed="false">Expandir Simulador</button>
+      <button id="btn-modo-docente" class="btn" type="button" aria-pressed="false">Modo Docente</button>
+      <button id="btn-done-lesson" class="btn btn-gold" type="button" aria-pressed="false">Marcar Concluída</button>
+    </div>
+  </header>
+
+  <main class="workspace-shell">
+    <div class="workspace-grid">
+      <section class="lesson-pane" aria-label="Roteiro Guiado da Aula">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Roteiro de Sala (5 Blocos · 150 min)</h2>
+            <span class="badge badge-navy">Trilha Modular 19–21</span>
+          </div>
+
+          <div class="callout" style="margin-top:0;">
+            <strong>Desafio do Pedro Júnior:</strong> Pedro comprova juro real de 10,30% a.a. (Selic 15,00% + IPCA 4,26%) e decide entre usar caixa próprio ou banco em desconto de fornecedor.
+          </div>
+
+          <div class="step-tabs" role="tablist">
+            <button class="step-tab active" type="button">1. Aquecimento<span>(0–20')</span></button>
+            <button class="step-tab" type="button">2. Conceitos<span>(20–60')</span></button>
+            <button class="step-tab" type="button">3. Simulação<span>(60–100')</span></button>
+            <button class="step-tab" type="button">4. Oficina<span>(100–135')</span></button>
+            <button class="step-tab" type="button">5. Síntese<span>(135–150')</span></button>
+          </div>
+
+          <div class="step-panel active"><h3>Desconto à vista do fornecedor vale a pena se precisar pegar empréstimo no banco?</h3><p>Lance o dilema central do caso <strong>EC05</strong> logo nos minutos iniciais: pagar R$ 115.800 hoje ou R$ 120.000 em 60 dias?</p></div>
+          <div class="step-panel"><h3>Equação Exata de Fisher & Transmissão Monetária</h3><ul><li><strong>Copom → Selic Meta → CDI/Crédito → Consumo/Investimento → IPCA.</strong></li><li><strong>Equação Exata de Fisher:</strong> <code>r = [(1 + i) ÷ (1 + π)] − 1</code>.</li><li><strong>Erro da Subtração:</strong> <code>(15% − 4,26% = 10,74%)</code> superestima o ganho real (<code>10,30%</code>).</li><li><strong>Custo de Carregamento de Estoque:</strong> caixa parado em mercadoria paga CDI implícito!</li></ul></div>
+          <div class="step-panel"><h3>Calculadora Fisher & Teste de Capital de Giro EC05</h3><p>Compare no painel ao lado o juro real exato da Selic e da linha bancária (26% a.a.) e veja na hora os dois cenários do EC05: <strong>Com Caixa Próprio (+R$ 1.471,75)</strong> vs. <strong>Tomando Banco (−R$ 348,62)</strong>!</p></div>
+          <div class="step-panel"><h3>Resolução EC05 (Copom Com. 43.359) + Lista L08 (Q06 e Q07)</h3><p>Em duplas, validem os números do <strong>EC05 (`estudo-de-caso/EC05-ipca-selic-e-capital-de-giro-empresarial.md`)</strong> e redijam a nota executiva para o diretor financeiro.</p></div>
+          <div class="step-panel"><h3>Fechamento Cap. 08</h3><p>Próximo passo: articular Política Fiscal, Política Monetária e Taxa de Câmbio no Capítulo 09!</p></div>
+
+          <div class="step-nav-footer">
+            <button id="btn-step-prev" class="btn btn-light" type="button">← Bloco Anterior</button>
+            <span style="font-size:0.78rem;color:var(--text-muted);">Dica: use as setas <strong>←</strong> / <strong>→</strong> do teclado</span>
+            <button id="btn-step-next" class="btn btn-primary" type="button">Próximo Bloco →</button>
+          </div>
+        </div>
+
+        <aside class="docente-panel" aria-label="Orientações Orais do Professor">
+          <h4>Guia Oral do Docente · Aula 16 (Uso em Projetor)</h4>
+          <ul>
+            <li>Peça aos alunos para repararem que a taxa anual implícita do fornecedor (3,5% em 60d ≈ 23,83% a.a.) fica exatamente ENTRE o custo de oportunidade do CDI (15%) e o custo do empréstimo bancário (26%) — por isso caixa próprio ganha e empréstimo perde!</li><li>Reforce que esse raciocínio separa um técnico em Administração estratégico de um pagador mecânico de boletos.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="sim-pane" aria-label="Laboratório Interativo">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Calculadora de Juro Real Fisher & Capital de Giro (EC05)</h2>
+            <span class="badge badge-gold">Juro Real & Caixa</span>
+          </div>
+          
+          <div class="preset-bar">
+            <button type="button" class="btn btn-light" id="p16-ec05">EC05: Selic 15,00% + IPCA 4,26%</button>
+            <button type="button" class="btn btn-light" id="p16-l08">L08-Q06: Giro 24% + IPCA 4,50%</button>
+          </div>
+          <div class="controls-grid">
+            <div class="control-group"><label for="a16-i">Taxa Nominal Operação (% a.a.) <span class="control-val" id="v16-i">15,00%</span></label><input id="a16-i" type="range" min="4" max="35" step="0.25" value="15.0"></div>
+            <div class="control-group"><label for="a16-pi">Inflação IPCA Anual (% a.a.) <span class="control-val" id="v16-pi">4,26%</span></label><input id="a16-pi" type="range" min="1" max="15" step="0.02" value="4.26"></div>
+            <div class="control-group"><label for="a16-fat">Fatura 60 dias (R$) <span class="control-val" id="v16-fat">R$ 120.000</span></label><input id="a16-fat" type="number" min="1000" step="5000" value="120000"></div>
+            <div class="control-group"><label for="a16-desc">Desconto à Vista (%) <span class="control-val" id="v16-desc">3,50%</span></label><input id="a16-desc" type="number" min="0" max="15" step="0.1" value="3.50"></div>
+            <div class="control-group"><label for="a16-bco">Taxa Banco Capital Giro (% a.a.) <span class="control-val" id="v16-bco">26,00%</span></label><input id="a16-bco" type="number" min="5" max="60" step="0.5" value="26.0"></div>
+          </div>
+          <div class="kpi-grid">
+            <div class="kpi-box"><div class="kpi-label">Juro Real Exato (Fisher)</div><div class="kpi-num" id="k16-r">—</div><div class="kpi-sub" id="k16-sub">—</div></div>
+            <div class="kpi-box ok" id="k16-cbox"><div class="kpi-label">Com Caixa Próprio (CDI = i)</div><div class="kpi-num" id="k16-own">—</div><div class="kpi-sub">Desconto − Custo Oportunidade CDI</div></div>
+            <div class="kpi-box warn" id="k16-bbox"><div class="kpi-label">Tomando Banco (60 dias)</div><div class="kpi-num" id="k16-bco">—</div><div class="kpi-sub">Fatura 60d − Montante Banco</div></div>
+          </div>
+          <div class="svg-stage" id="c16-bars"></div>
+        
+        </div>
+      </section>
+    </div>
+
+    <footer class="hub-footer">
+      <div>
+        <strong>Autoria:</strong> Prof. Marcos Antunes (<code>@oprofantunes</code>) · Curso Técnico em Administração · Uso 100% Offline
+      </div>
+      <div style="display:flex;align-items:center;gap:0.6rem;">
+        <img src="assets/img/cc-by-nc-sa.svg" alt="Creative Commons CC BY-NC-SA 4.0" style="height:26px;width:auto;">
+        <span>CC BY-NC-SA 4.0 · Material Didático Técnico Modular</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/charts.js"></script>
+  <script src="assets/engine.js"></script>
+  <script>
+    window.initLessonSim = function () {
+      
+          const E = window.EcoEngine;
+          function calc() {
+            const i = E.safeNum(E.$('#a16-i').value, 15) / 100;
+            const pi = Math.max(-0.5, E.safeNum(E.$('#a16-pi').value, 4.26) / 100);
+            const fat = Math.max(1000, E.safeNum(E.$('#a16-fat').value, 120000));
+            const desc = Math.max(0, E.safeNum(E.$('#a16-desc').value, 3.5)) / 100;
+            const bco = Math.max(0, E.safeNum(E.$('#a16-bco').value, 26)) / 100;
+            E.$('#v16-i').textContent = E.fmtPct(i*100, 2);
+            E.$('#v16-pi').textContent = E.fmtPct(pi*100, 2);
+            E.$('#v16-fat').textContent = E.fmtBRL(fat);
+            E.$('#v16-desc').textContent = E.fmtPct(desc*100, 2);
+            E.$('#v16-bco').textContent = E.fmtPct(bco*100, 2);
+            const rFisher = (E.safeDiv(1 + i, 1 + pi, 1) - 1) * 100;
+            const rIngenuo = (i - pi) * 100;
+            const avista = fat * (1 - desc);
+            const ecoNom = fat - avista;
+            const cdi60 = Math.pow(1 + i, 2 / 12) - 1;
+            const bco60 = Math.pow(1 + bco, 2 / 12) - 1;
+            const oppCdi = avista * cdi60;
+            const netOwn = ecoNom - oppCdi;
+            const payBco = avista * (1 + bco60);
+            const netBco = fat - payBco;
+            E.$('#k16-r').textContent = E.fmtPct(rFisher, 2) + ' a.a.';
+            E.$('#k16-sub').textContent = `Subtração simples erraria em +${E.fmtNum(rIngenuo-rFisher, 2)} p.p. (${E.fmtPct(rIngenuo,2)})`;
+            E.$('#k16-cbox').className = 'kpi-box ' + (netOwn >= 0 ? 'ok' : 'warn');
+            E.$('#k16-own').textContent = (netOwn >= 0 ? '+' : '') + E.fmtBRL(netOwn);
+            E.$('#k16-bbox').className = 'kpi-box ' + (netBco >= 0 ? 'ok' : 'warn');
+            E.$('#k16-bco').textContent = (netBco >= 0 ? '+' : '') + E.fmtBRL(netBco);
+            window.EcoCharts.renderBars(E.$('#c16-bars'), [
+              { label: 'Desconto À Vista Obtido', value: ecoNom, display: E.fmtBRL(ecoNom), color: window.EcoCharts.C.navy },
+              { label: 'Resultado Líquido (Caixa CDI)', value: netOwn, display: (netOwn>=0?'+':'') + E.fmtBRL(netOwn), color: netOwn >= 0 ? window.EcoCharts.C.teal : window.EcoCharts.C.crimson },
+              { label: 'Resultado Líquido (Banco)', value: netBco, display: (netBco>=0?'+':'') + E.fmtBRL(netBco), color: netBco >= 0 ? window.EcoCharts.C.teal : window.EcoCharts.C.crimson }
+            ], { labelWidth: 195 });
+          }
+          E.$('#p16-ec05').addEventListener('click', () => { E.$('#a16-i').value=15.0; E.$('#a16-pi').value=4.26; E.$('#a16-fat').value=120000; E.$('#a16-desc').value=3.5; E.$('#a16-bco').value=26; calc(); });
+          E.$('#p16-l08').addEventListener('click', () => { E.$('#a16-i').value=24.0; E.$('#a16-pi').value=4.50; calc(); });
+          E.bindInputs(['a16-i','a16-pi','a16-fat','a16-desc','a16-bco'], calc);
+        
+    };
+  </script>
+</body>
+</html>
