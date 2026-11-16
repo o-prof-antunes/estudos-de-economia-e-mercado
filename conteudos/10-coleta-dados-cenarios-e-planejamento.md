@@ -31,7 +31,7 @@ Como Pedro substitui esse palpite isolado por um processo profissional de **cole
 
 ### 2.1 Coleta e Auditoria de Fontes Econômicas Primárias no Brasil (Aula 19)
 
-O valor do trabalho de um técnico em Administração não está em repetir manchetes alarmistas de redes sociais, mas em **extrair dados econômicos verificáveis direto das fontes primárias oficiais** e traduzi-los em variáveis orçamentárias concretas (THOMÁZ, 2016; GONÇALVES et al., 2019).
+O valor do trabalho de um técnico em Administração não está em repetir manchetes alarmistas de redes sociais, mas em **extrair dados econômicos verificáveis direto das fontes primárias oficiais** e traduzi-los em variáveis orçamentárias concretas (ASSAF NETO, 2020; SILVA, 2016; GONÇALVES et al., 2019).
 
 ![Da Coleta de Dados ao Planejamento por Cenários](img/fig10-matriz-cenarios.svg)
 
@@ -134,6 +134,8 @@ Orientação docente (Aulas 19 e 20 — 150 min cada):
 
 ## 5. Referências
 
+ASSAF NETO, Alexandre. **Estrutura e análise de balanços**: um enfoque econômico-financeiro. 12. ed. São Paulo: Atlas, 2020.
+
 BANCO CENTRAL DO BRASIL (BCB). **Sistema Gerenciador de Séries Temporais (SGS) e Relatório Focus**. Brasília: BCB, 2026. Disponível em: https://www.bcb.gov.br/. Acesso em: 15 nov. 2026.
 
 GONÇALVES, Robson Ribeiro et al. **Cenários econômicos e tendências**. Rio de Janeiro: Editora FGV, 2019.
@@ -142,7 +144,7 @@ INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). **Sistema IBGE de Recup
 
 MOCHRIE, Robbie. **Como pensar como um economista**. São Paulo: Astral Cultural, 2025.
 
-THOMÁZ, André de Faria. **Indicadores econômicos e financeiros**. Indaial: UNIASSELVI, 2016.
+SILVA, José Pereira da. **Análise financeira das empresas**. 13. ed. São Paulo: Atlas, 2016.
 
 ---
 [← 09 · Política Econômica e Setor Externo](09-politica-economica-e-setor-externo.md) · [Voltar ao Índice da Disciplina →](../README.md)

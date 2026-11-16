@@ -31,7 +31,7 @@ Como Pedro utiliza a **Contabilidade Nacional** e a **Macroeconomia** para separ
 
 ### 2.1 Contabilidade Nacional: PIB, PNB e as Três Óticas de Mensuração (Aula 11)
 
-Enquanto a Microeconomia analisa empresas e mercados isolados, a **Macroeconomia** estuda o comportamento agregado da economia inteira — produção nacional, renda total, nível de emprego, inflação, taxas de juros e comércio exterior (SANDRONI, 2000; BOECHAT; BONI; PEDROSO, 2016). Para medir o tamanho e o ritmo dessa atividade econômica, os países adotam o sistema de **Contabilidade Nacional**.
+Enquanto a Microeconomia analisa empresas e mercados isolados, a **Macroeconomia** estuda o comportamento agregado da economia inteira — produção nacional, renda total, nível de emprego, inflação, taxas de juros e comércio exterior (SANDRONI, 2000; FEIJÓ; RAMOS, 2013). Para medir o tamanho e o ritmo dessa atividade econômica, os países adotam o sistema de **Contabilidade Nacional**.
 
 O indicador central dessa medição é o **Produto Interno Bruto (PIB)**: a **soma de todos os bens e serviços finais produzidos dentro das fronteiras geográficas de um país em determinado período** (trimestre ou ano), expressa em valores monetários de mercado. Atente para três palavras-chave dessa definição:
 - **Finais:** contam-se apenas produtos entregues ao uso final, evitando **dupla contagem** de matérias-primas já embutidas no preço do produto acabado.
@@ -144,7 +144,7 @@ Orientação docente (Aulas 11 e 12 — 150 min cada):
 
 ## 5. Referências
 
-BOECHAT, Andréia Moreira da Fonseca; BONI, Carlos Eduardo; PEDROSO, Fabiano Prado. **Economia do setor público e contabilidade social**. Londrina: Editora e Distribuidora Educacional, 2016.
+FEIJÓ, Carmem Aparecida; RAMOS, Roberto Luís Olinto (Orgs.). **Contabilidade social**: a nova referência das contas nacionais do Brasil. 4. ed. Rio de Janeiro: Elsevier, 2013.
 
 INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). **PIB cresce 3,4% em 2024 e fecha o ano em R$ 11,7 trilhões**. Rio de Janeiro: Agência de Notícias IBGE, 2025. Disponível em: https://agenciadenoticias.ibge.gov.br/agencia-noticias.html. Acesso em: 15 nov. 2026.
 

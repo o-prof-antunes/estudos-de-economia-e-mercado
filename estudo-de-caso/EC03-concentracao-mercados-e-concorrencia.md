@@ -61,7 +61,9 @@ CONSELHO ADMINISTRATIVO DE DEFESA ECONÔMICA (CADE). **Cade aplica mais de R$ 15
 
 CONSELHO ADMINISTRATIVO DE DEFESA ECONÔMICA (CADE). **Cade lança estudo sobre distribuição e revenda de combustíveis líquidos**. Brasília: CADE, 2025b. Disponível em: https://www.gov.br/cade/pt-br/assuntos/noticias/cade-lanca-estudo-sobre-distribuicao-e-revenda-de-combustiveis-liquidos. Acesso em: 15 nov. 2026.
 
-CORREA, Carla Eunice Gomes. **Microeconomia II**. Indaial: UNIASSELVI, 2016.
+PINDYCK, Robert S.; RUBINFELD, Daniel L. **Microeconomia**. 8. ed. São Paulo: Pearson, 2013.
+
+VASCONCELLOS, Marco Antônio Sandoval de; GARCIA, Manuel Enriquez. **Fundamentos de economia**. 6. ed. São Paulo: Saraiva, 2016.
 
 ---
 [← EC02 — Oferta, Demanda e Preços](EC02-oferta-demanda-e-dinamica-de-precos.md) · [Próximo: EC04 — PIB, Consumo e Ciclo Econômico →](EC04-pib-consumo-e-ciclo-economico-brasil.md)

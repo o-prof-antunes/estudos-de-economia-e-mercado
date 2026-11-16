@@ -31,7 +31,7 @@ Como Pedro identifica o **preço de equilíbrio** da linha social e demonstra po
 
 ### 2.1 Equilíbrio de Mercado, Excesso de Oferta e Escassez (Aula 07)
 
-Quando compradores (representados pela curva de Demanda **D**) e vendedores (representados pela curva de Oferta **S**) interagem livremente, os preços funcionam como um termômetro automático de escassez ou abundância. Chamamos de **Equilíbrio de Mercado** a situação exata em que a quantidade que os consumidores desejam comprar iguala a quantidade que as empresas desejam vender ao mesmo preço (`Qd = Qo`), não restando pressão espontânea para o preço subir nem cair (CORREA; VARGAS, 2015).
+Quando compradores (representados pela curva de Demanda **D**) e vendedores (representados pela curva de Oferta **S**) interagem livremente, os preços funcionam como um termômetro automático de escassez ou abundância. Chamamos de **Equilíbrio de Mercado** a situação exata em que a quantidade que os consumidores desejam comprar iguala a quantidade que as empresas desejam vender ao mesmo preço (`Qd = Qo`), não restando pressão espontânea para o preço subir nem cair (VASCONCELLOS; GARCIA, 2016; PINDYCK; RUBINFELD, 2013).
 
 ![Equilíbrio de Mercado e Desequilíbrios de Preço](img/fig05-equilibrio-mercado.svg)
 
@@ -142,13 +142,15 @@ Orientação docente (Aulas 07 e 08 — 150 min cada):
 
 ## 5. Referências
 
-CORREA, Carla Eunice Gomes; VARGAS, Diego Boehlke. **Microeconomia I**. Indaial: UNIASSELVI, 2015.
-
 INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). **IPCA em dezembro vai a 0,33% e acumula 4,26% em 2025**. Rio de Janeiro: Agência de Notícias IBGE, 2026. Disponível em: https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/43178-ipca-em-dezembro-vai-a-0-33-e-acumula-4-26-em-2025.html. Acesso em: 15 nov. 2026.
 
 MANKIW, N. Gregory. **Introdução à economia**. 8. ed. São Paulo: Cengage Learning, 2021.
 
+PINDYCK, Robert S.; RUBINFELD, Daniel L. **Microeconomia**. 8. ed. São Paulo: Pearson, 2013.
+
 VARIAN, Hal R. **Microeconomia**: uma abordagem moderna. 9. ed. Rio de Janeiro: Elsevier, 2015.
+
+VASCONCELLOS, Marco Antônio Sandoval de; GARCIA, Manuel Enriquez. **Fundamentos de economia**. 6. ed. São Paulo: Saraiva, 2016.
 
 ---
 [← 03 · Teoria da Firma, Custos e Oferta](03-teoria-da-firma-custos-e-oferta.md) · [Próximo: 05 · Estruturas e Falhas de Mercado →](05-estruturas-e-falhas-de-mercado.md)

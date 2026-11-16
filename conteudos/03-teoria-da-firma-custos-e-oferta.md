@@ -31,7 +31,7 @@ Será mesmo? Como Pedro utiliza o conceito microeconômico de **Custo Marginal**
 
 ### 2.1 Função de Produção e Rendimentos Marginais Decrescentes (Aula 05)
 
-A **Teoria da Firma** investiga como as organizações combinam fatores de produção (*inputs* — trabalho, capital, insumos e tecnologia) para transformá-los em bens e serviços (*outputs*), buscando maximizar o resultado líquido entre receita e custo econômico (CORREA; VARGAS, 2015). Formalmente, essa relação técnica descreve-se pela **Função de Produção**:
+A **Teoria da Firma** investiga como as organizações combinam fatores de produção (*inputs* — trabalho, capital, insumos e tecnologia) para transformá-los em bens e serviços (*outputs*), buscando maximizar o resultado líquido entre receita e custo econômico (PINDYCK; RUBINFELD, 2013; VASCONCELLOS; GARCIA, 2016). Formalmente, essa relação técnica descreve-se pela **Função de Produção**:
 
 `Q = f(K, L, T)`
 
@@ -142,13 +142,15 @@ Orientação docente (Aulas 05 e 06 — 150 min cada):
 
 ## 5. Referências
 
-CORREA, Carla Eunice Gomes; VARGAS, Diego Boehlke. **Microeconomia I**. Indaial: UNIASSELVI, 2015.
-
 INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). **IPCA fecha 2024 em 4,83% pressionado por alimentação e bebidas**. Rio de Janeiro: Agência de Notícias IBGE, 2025. Disponível em: https://agenciadenoticias.ibge.gov.br/agencia-noticias.html. Acesso em: 15 nov. 2026.
 
 INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). **IPCA em dezembro vai a 0,33% e acumula 4,26% em 2025**. Rio de Janeiro: Agência de Notícias IBGE, 2026. Disponível em: https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/43178-ipca-em-dezembro-vai-a-0-33-e-acumula-4-26-em-2025.html. Acesso em: 15 nov. 2026.
 
+PINDYCK, Robert S.; RUBINFELD, Daniel L. **Microeconomia**. 8. ed. São Paulo: Pearson, 2013.
+
 VARIAN, Hal R. **Microeconomia**: uma abordagem moderna. 9. ed. Rio de Janeiro: Elsevier, 2015.
+
+VASCONCELLOS, Marco Antônio Sandoval de; GARCIA, Manuel Enriquez. **Fundamentos de economia**. 6. ed. São Paulo: Saraiva, 2016.
 
 ---
 [← 02 · Microeconomia e Teoria do Consumidor](02-microeconomia-e-teoria-do-consumidor.md) · [Próximo: 04 · Equilíbrio de Mercado, Elasticidade e Preços →](04-equilibrio-elasticidade-e-precos.md)

@@ -31,7 +31,7 @@ Como Pedro enquadra tecnicamente essa estrutura de mercado, alerta a diretoria s
 
 ### 2.1 Concorrência Perfeita versus Estruturas Imperfeitas (Aula 09)
 
-Nem todo setor funciona como um mercado atomizado onde nenhuma empresa dita preços. Na Microeconomia aplicada à Administração, classificamos os mercados conforme quatro critérios estruturais: **número de ofertantes**, **diferenciação do produto**, **barreiras à entrada de concorrentes** e **poder de formação de preço** (CORREA, 2016).
+Nem todo setor funciona como um mercado atomizado onde nenhuma empresa dita preços. Na Microeconomia aplicada à Administração, classificamos os mercados conforme quatro critérios estruturais: **número de ofertantes**, **diferenciação do produto**, **barreiras à entrada de concorrentes** e **poder de formação de preço** (PINDYCK; RUBINFELD, 2013; VASCONCELLOS; GARCIA, 2016).
 
 ![Espectro das Estruturas de Mercado e Poder de Preço](img/fig06-estruturas-mercado.svg)
 
@@ -139,9 +139,11 @@ CONSELHO ADMINISTRATIVO DE DEFESA ECONÔMICA (CADE). **Cade aplica mais de R$ 15
 
 CONSELHO ADMINISTRATIVO DE DEFESA ECONÔMICA (CADE). **Cade lança estudo sobre distribuição e revenda de combustíveis líquidos**. Brasília: CADE, 2025b. Disponível em: https://www.gov.br/cade/pt-br/assuntos/noticias/cade-lanca-estudo-sobre-distribuicao-e-revenda-de-combustiveis-liquidos. Acesso em: 15 nov. 2026.
 
-CORREA, Carla Eunice Gomes. **Microeconomia II**. Indaial: UNIASSELVI, 2016.
+PINDYCK, Robert S.; RUBINFELD, Daniel L. **Microeconomia**. 8. ed. São Paulo: Pearson, 2013.
 
 ROTH, Alvin E. **Como funcionam os mercados**: a nova economia das combinações e do desenho de mercado. São Paulo: Portfolio-Penguin, 2016.
+
+VASCONCELLOS, Marco Antônio Sandoval de; GARCIA, Manuel Enriquez. **Fundamentos de economia**. 6. ed. São Paulo: Saraiva, 2016.
 
 ---
 [← 04 · Equilíbrio de Mercado, Elasticidade e Preços](04-equilibrio-elasticidade-e-precos.md) · [Próximo: 06 · Macroeconomia: PIB, Renda e Consumo →](06-macroeconomia-pib-renda-e-consumo.md)

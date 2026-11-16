@@ -33,7 +33,7 @@ Como Pedro quantifica o efeito oposto desse choque cambial sobre as duas linhas 
 
 ### 2.1 Política Fiscal e Política Monetária: Alavancas do Estado (Aula 17)
 
-Quando a economia cresce muito abaixo de seu potencial (desemprego elevado) ou aquece acima da capacidade produtiva gerando inflação, o Estado aciona instrumentos macroeconômicos de estabilização — divididos principalmente em **Política Fiscal** e **Política Monetária** (BOECHAT; BONI; PEDROSO, 2016; GONÇALVES et al., 2019).
+Quando a economia cresce muito abaixo de seu potencial (desemprego elevado) ou aquece acima da capacidade produtiva gerando inflação, o Estado aciona instrumentos macroeconômicos de estabilização — divididos principalmente em **Política Fiscal** e **Política Monetária** (GIAMBIAGI; ALÉM, 2011; GONÇALVES et al., 2019).
 
 #### A) Política Fiscal (Tesouro Nacional / Governo Federal)
 Consiste na gestão das **receitas públicas (tributos)** e dos **gastos públicos** (**G** e transferências), alterando diretamente a demanda agregada e o custo tributário das empresas:
@@ -128,7 +128,7 @@ Orientação docente (Aulas 17 e 18 — 150 min cada):
 
 ## 5. Referências
 
-BOECHAT, Andréia Moreira da Fonseca; BONI, Carlos Eduardo; PEDROSO, Fabiano Prado. **Economia do setor público e contabilidade social**. Londrina: Editora e Distribuidora Educacional, 2016.
+GIAMBIAGI, Fábio; ALÉM, Ana Cláudia. **Finanças públicas**: teoria e prática no Brasil. 4. ed. Rio de Janeiro: Elsevier, 2011.
 
 GONÇALVES, Robson Ribeiro et al. **Cenários econômicos e tendências**. Rio de Janeiro: Editora FGV, 2019.
 

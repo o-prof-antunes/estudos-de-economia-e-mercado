@@ -29,7 +29,7 @@ Como Pedro utiliza os instrumentos da **Microeconomia** e da **Teoria do Consumi
 
 ### 2.1 Escopo da Microeconomia, *Ceteris Paribus* e Escolha do Consumidor (Aula 03)
 
-A Ciência Econômica divide-se tradicionalmente em dois grandes campos complementares desde a década de 1930: a **Microeconomia** e a **Macroeconomia**. Enquanto a Macroeconomia observa os grandes agregados nacionais (PIB, nível geral de preços, taxa de juros básica e desemprego agregado), a **Microeconomia — também conhecida como Teoria dos Preços — analisa a conduta individual dos agentes econômicos**: consumidores, trabalhadores, proprietários de recursos e firmas atuando em mercados específicos (CORREA; VARGAS, 2015).
+A Ciência Econômica divide-se tradicionalmente em dois grandes campos complementares desde a década de 1930: a **Microeconomia** e a **Macroeconomia**. Enquanto a Macroeconomia observa os grandes agregados nacionais (PIB, nível geral de preços, taxa de juros básica e desemprego agregado), a **Microeconomia — também conhecida como Teoria dos Preços — analisa a conduta individual dos agentes econômicos**: consumidores, trabalhadores, proprietários de recursos e firmas atuando em mercados específicos (VASCONCELLOS; GARCIA, 2016; PINDYCK; RUBINFELD, 2013).
 
 Para isolar o efeito de uma variável econômica por vez sem confundir o raciocínio com dezenas de fatores mudando simultaneamente, a Microeconomia adota a hipótese metodológica do ***ceteris paribus*** (expressão latina que significa *"mantendo todas as outras condições constantes"*). Quando você analisa como uma redução de 10% no preço do pão afeta a procura semanal da padaria, você pressupõe *ceteris paribus* que a renda dos clientes, o preço da manteiga e os hábitos alimentares do bairro não se alteraram naquela mesma semana.
 
@@ -142,13 +142,15 @@ Orientação docente (Aulas 03 e 04 — 150 min cada):
 
 ## 5. Referências
 
-CORREA, Carla Eunice Gomes; VARGAS, Diego Boehlke. **Microeconomia I**. Indaial: UNIASSELVI, 2015.
-
 INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). **IPCA fecha 2024 em 4,83% pressionado por alimentação e bebidas**. Rio de Janeiro: Agência de Notícias IBGE, 2025. Disponível em: https://agenciadenoticias.ibge.gov.br/agencia-noticias.html. Acesso em: 15 nov. 2026.
 
 MOCHRIE, Robbie. **Como pensar como um economista**. São Paulo: Astral Cultural, 2025.
 
+PINDYCK, Robert S.; RUBINFELD, Daniel L. **Microeconomia**. 8. ed. São Paulo: Pearson, 2013.
+
 VARIAN, Hal R. **Microeconomia**: uma abordagem moderna. 9. ed. Rio de Janeiro: Elsevier, 2015.
+
+VASCONCELLOS, Marco Antônio Sandoval de; GARCIA, Manuel Enriquez. **Fundamentos de economia**. 6. ed. São Paulo: Saraiva, 2016.
 
 ---
 [← 01 · Fundamentos da Ciência Econômica](01-fundamentos-economia-e-escassez.md) · [Próximo: 03 · Teoria da Firma, Custos e Oferta →](03-teoria-da-firma-custos-e-oferta.md)

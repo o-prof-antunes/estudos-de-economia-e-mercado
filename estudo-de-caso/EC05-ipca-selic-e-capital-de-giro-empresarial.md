@@ -49,13 +49,15 @@ Execute os cálculos financeiros e econômicos exatos e redija a recomendação 
 
 ## 4. Referências
 
+ASSAF NETO, Alexandre. **Estrutura e análise de balanços**: um enfoque econômico-financeiro. 12. ed. São Paulo: Atlas, 2020.
+
 BANCO CENTRAL DO BRASIL (BCB). **Comunicado nº 43.359, de 18 de junho de 2025**: divulga decisão do Copom sobre taxa Selic em 15,00% a.a. Brasília: BCB, 2025a. Disponível em: https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Comunicado&numero=43359. Acesso em: 15 nov. 2026.
 
 BANCO CENTRAL DO BRASIL (BCB). **Histórico das taxas de juros fixadas pelo Copom**. Brasília: BCB, 2025b. Disponível em: https://www.bcb.gov.br/controleinflacao/historicotaxasjuros. Acesso em: 15 nov. 2026.
 
 INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). **IPCA em dezembro vai a 0,33% e acumula 4,26% em 2025**. Rio de Janeiro: Agência de Notícias IBGE, 2026. Disponível em: https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/43178-ipca-em-dezembro-vai-a-0-33-e-acumula-4-26-em-2025.html. Acesso em: 15 nov. 2026.
 
-THOMÁZ, André de Faria. **Indicadores econômicos e financeiros**. Indaial: UNIASSELVI, 2016.
+SILVA, José Pereira da. **Análise financeira das empresas**. 13. ed. São Paulo: Atlas, 2016.
 
 ---
 [← EC04 — PIB, Consumo e Ciclo Econômico](EC04-pib-consumo-e-ciclo-economico-brasil.md) · [Voltar aos Estudos de Caso →](README.md)

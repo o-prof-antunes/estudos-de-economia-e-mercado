@@ -55,7 +55,7 @@ Responda com base nos conceitos de **Contabilidade Nacional** e **Demanda Agrega
 
 ## 4. Referências
 
-BOECHAT, Andréia Moreira da Fonseca; BONI, Carlos Eduardo; PEDROSO, Fabiano Prado. **Economia do setor público e contabilidade social**. Londrina: Editora e Distribuidora Educacional, 2016.
+FEIJÓ, Carmem Aparecida; RAMOS, Roberto Luís Olinto (Orgs.). **Contabilidade social**: a nova referência das contas nacionais do Brasil. 4. ed. Rio de Janeiro: Elsevier, 2013.
 
 INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). **PIB cresce 3,4% em 2024 e fecha o ano em R$ 11,7 trilhões**. Rio de Janeiro: Agência de Notícias IBGE, 2025. Disponível em: https://agenciadenoticias.ibge.gov.br/agencia-noticias.html. Acesso em: 15 nov. 2026.
 
